@@ -1,5 +1,12 @@
 # Changelog
 
+### 0.0.1 (2024-01-17)
+
+
+### 🔧 Continuous Integration | CI 配置
+
+* 修改release-it配置 ([8b3e4b2](https://github.com/loclink/tianjie/commit/8b3e4b205cf687e77da39b42ed39e2a1560bedeb))
+
 ### [0.0.5](https://codeup.aliyun.com/5f855dfb1858a17210466fd0/wuhang-meimeng-development/wm-kit/compare/v0.0.4...v0.0.5) (2023-11-01)
 
 

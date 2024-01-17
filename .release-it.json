@@ -1,6 +1,6 @@
 {
   "github": {
-    "release": false,
+    "release": true,
     "releaseName": "Release v${version}"
   },
   "git": {
@@ -10,7 +10,7 @@
     "requireUpstream": false
   },
   "npm": {
-    "publish": false
+    "publish": true
   },
   "hooks": {
     "after:bump": "npm run build",

@@ -7,7 +7,7 @@ import type { ParamsObject } from './types';
  *
  * ### 示例
  * ``` ts
- * import { objectToQuery } from 'wm-kit'
+ * import { objectToQuery } from 'tianjie'
  * objectToQuery({name: 'loclink', age: 18}) // => name=loclink&age18
  * ```
  */

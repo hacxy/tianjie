@@ -1,6 +1,6 @@
 {
-  "name": "wm-kit",
-  "version": "0.0.5",
+  "name": "tianjie",
+  "version": "0.0.0",
   "description": "",
   "main": "./dist/index.min.js",
   "module": "./dist/index.js",
@@ -44,8 +44,5 @@
     "vue": "^3.3.4"
   },
   "dependencies": {
-    "currency.js": "^2.0.4",
-    "dayjs": "^1.11.9",
-    "lodash": "^4.17.21"
   }
 }

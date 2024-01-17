@@ -2,7 +2,6 @@
  * ### 随机从数组中取出一个元素
  * @group 随机函数
  * @param arr 任意数组
- * @author 高强
  * @returns
  * ### 示例：
  * ``` ts

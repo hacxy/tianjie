@@ -13,14 +13,14 @@ export default defineConfig({
       label: '简体中文',
       lang: 'zh',
       dir: '/',
-      title: 'WmKit',
+      title: 'TianJie',
       description: '一个开箱即用的 Javascript 工具库'
     }
   },
   themeConfig: {
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2023-present 武汉美萌'
+      copyright: 'Copyright © 2023-present loclink'
     },
     sidebar: { '/dist/': apidocConfig },
     search: {

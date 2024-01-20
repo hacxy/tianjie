@@ -46,6 +46,6 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }}
           password: ${{ secrets.SSH_PASSWORD }}
           script: |
-            rm -rf /root/Projects/tianjie-docs/*
-            cp -rf /root/Projects/.tianjie_temp/*  /root/Projects/tianjie-docs/
+            rm -rf /${{secrets.SSH_USERNAME}}/Projects/tianjie-docs/*
+            cp -rf /${{secrets.SSH_USERNAME}}/Projects/.tianjie_temp/*  /${{secrets.SSH_USERNAME}}/Projects/tianjie-docs/
       - run: echo "项目部署完成！"

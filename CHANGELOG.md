@@ -1,5 +1,26 @@
 # Changelog
 
+### [0.0.2](https://github.com/loclink/tianjie/compare/v0.0.1...v0.0.2) (2024-01-22)
+
+
+### 🔧 Continuous Integration | CI 配置
+
+* 新增github actions ([b071550](https://github.com/loclink/tianjie/commit/b0715501bea96c452c599b16b7c0003b49705b46))
+* 修改构建流程 ([4747c6d](https://github.com/loclink/tianjie/commit/4747c6da1124213d3b065c816bdf378946363cc0))
+* 修改构建流程 ([ff114b9](https://github.com/loclink/tianjie/commit/ff114b9040cc03eb9cbf3f79396513038e0cc377))
+* 修改构建流程 ([f676602](https://github.com/loclink/tianjie/commit/f6766027c6deed72e0ae0f57fb9d3682ec6078ea))
+* 修改构建流程 ([6c51b82](https://github.com/loclink/tianjie/commit/6c51b82cf7111b48715758d3ccb632b061d4db8c))
+
+
+### 📝 Documentation | 文档
+
+* 修改文档 ([79d1da3](https://github.com/loclink/tianjie/commit/79d1da33539a7082c41d2ac9a6da4caf4e0111db))
+
+
+### ✨ Features | 新功能
+
+* 新增获取特定范围随机数 ([df9627d](https://github.com/loclink/tianjie/commit/df9627d983247fb6df98f59c7759b8cfb02f1e46))
+
 ### 0.0.1 (2024-01-17)
 
 

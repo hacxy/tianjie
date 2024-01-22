@@ -1,8 +1,9 @@
 /**
  * ### 特定范围内取一个随机整数
+ * @group 随机函数
  * @param Min 范围最小值
  * @param Max 范围最大值
- * @returns 随机数
+ * @returns 返回值是一个随机整数
  *
  * ### 示例：
  * ``` ts

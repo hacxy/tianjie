@@ -14,15 +14,15 @@ import { ObjectType } from '@/modules/object/types';
  * mergeDeep({ a: 1, b: 'hello' }, {a: 2, c: 'loclink' }) // {a: 2, b: 'hello', c: 'loclink'}
  * ```
  */
-export const mergeDeep = (target: ObjectType, source: ObjectType) => {
-  const output = Object.assign({}, target); // 浅拷贝
+export const mergeDeep = <T = ObjectType, U = ObjectType>(target: T, source: U): T & U => {
+  const output = Object.assign({}, target) as T & U; // 浅拷贝
   if (isObject(target) && isObject(source)) {
     Object.keys(source).forEach((key) => {
-      if (isObject(source[key])) {
-        if (!(key in target)) Object.assign(output, { [key]: source[key] });
-        else output[key] = mergeDeep(target[key], source[key]);
+      if (isObject((source as any)[key])) {
+        if (!(key in target)) Object.assign(output as ObjectType, { [key]: (source as any)[key] });
+        else (output as any)[key] = mergeDeep((target as any)[key], (source as any)[key]);
       } else {
-        Object.assign(output, { [key]: source[key] });
+        Object.assign(output as ObjectType, { [key]: (source as any)[key] });
       }
     });
   }

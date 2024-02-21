@@ -1,5 +1,17 @@
 # Changelog
 
+### [0.0.3](https://github.com/loclink/tianjie/compare/v0.0.2...v0.0.3) (2024-02-21)
+
+
+### 📝 Documentation | 文档
+
+* 调整方法描述 ([b0707e1](https://github.com/loclink/tianjie/commit/b0707e1b75c13881e0deb067000d522e0f3309db))
+
+
+### ✨ Features | 新功能
+
+* 新增对象合并方法和获取时间戳方法 ([abe15c1](https://github.com/loclink/tianjie/commit/abe15c1d9fa9bbc31bde95430639d1f9839ad3e6))
+
 ### [0.0.2](https://github.com/loclink/tianjie/compare/v0.0.1...v0.0.2) (2024-01-22)
 
 

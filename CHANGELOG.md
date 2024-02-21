@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.0.4](https://github.com/loclink/tianjie/compare/v0.0.3...v0.0.4) (2024-02-21)
+
+
+### ♻ Code Refactoring | 代码重构
+
+* 给mergeDeep添加范型支持 ([5d3b7d4](https://github.com/loclink/tianjie/commit/5d3b7d4400bed79fcdae61be7badce7a8027d238))
+
 ### [0.0.3](https://github.com/loclink/tianjie/compare/v0.0.2...v0.0.3) (2024-02-21)
 
 

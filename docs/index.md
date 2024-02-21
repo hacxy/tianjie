@@ -22,6 +22,6 @@ features:
     title: 开箱即用
     details: 无外部依赖，开箱即用。
   - icon: ✨
-    title: 完整的类型推导
+    title: 类型推导
     details: 使用typescript开发，具备完整类型推导
 ---

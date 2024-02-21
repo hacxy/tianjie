@@ -8,9 +8,6 @@ devDependencies:
   '@release-it/conventional-changelog':
     specifier: ^5.1.1
     version: registry.npmmirror.com/@release-it/conventional-changelog@5.1.1(release-it@15.11.0)
-  '@types/lodash':
-    specifier: ^4.14.196
-    version: registry.npmmirror.com/@types/lodash@4.14.197
   '@typescript-eslint/eslint-plugin':
     specifier: ^6.3.0
     version: registry.npmmirror.com/@typescript-eslint/eslint-plugin@6.4.0(@typescript-eslint/parser@6.4.0)(eslint@8.47.0)(typescript@5.1.6)
@@ -1115,12 +1112,6 @@ packages:
     resolution: {integrity: sha512-Hr5Jfhc9eYOQNPYO5WLDq/n4jqijdHNlDXjuAQkkt+mWdQR+XJToOHrsD4cPaMXpn6KO7y2+wM8AZEs8VpBLVA==, registry: https://registry.npmjs.org/, tarball: https://registry.npmmirror.com/@types/json-schema/-/json-schema-7.0.12.tgz}
     name: '@types/json-schema'
     version: 7.0.12
-    dev: true
-
-  registry.npmmirror.com/@types/lodash@4.14.197:
-    resolution: {integrity: sha512-BMVOiWs0uNxHVlHBgzTIqJYmj+PgCo4euloGF+5m4okL3rEYzM2EEv78mw8zWSMM57dM7kVIgJ2QDvwHSoCI5g==, registry: https://registry.npmjs.org/, tarball: https://registry.npmmirror.com/@types/lodash/-/lodash-4.14.197.tgz}
-    name: '@types/lodash'
-    version: 4.14.197
     dev: true
 
   registry.npmmirror.com/@types/minimist@1.2.2:

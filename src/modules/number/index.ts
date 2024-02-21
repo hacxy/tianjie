@@ -7,6 +7,7 @@
  *
  * ### 示例：
  * ``` ts
+ * import { getRandomNum } from 'tianjie';
  * getRandomNum(5, 10)  // 可能输出 5 - 10之间的任意一个随机数, 包含5和10
  * ```
  */

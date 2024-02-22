@@ -145,49 +145,45 @@ async function main() {
     }
   };
 
+  // 处理汉化
+  const handleChinesize = (project) => {
+    project.children.map((projectItem) => {
+      projectItem.signatures?.map((signaturesItem) => {
+        signaturesItem.comment.blockTags?.map((tagItem, index, blockTagsArr) => {
+          if (tagItem.tag === '@name') {
+            tagItem.content.map((nameTagItem) => {
+              signaturesItem.comment.summary.push({ ...nameTagItem, text: `## ${nameTagItem.text}` });
+            });
+            blockTagsArr.splice(index, 1);
+          }
+        });
+
+        // signaturesItem.comment.blockTags?.map((tagItem) => {
+        //   if (tagItem.tag === '@returns') {
+        //     console.log(tagItem);
+        //   }
+        // });
+
+        signaturesItem.comment.blockTags?.map((tagItem, index, blockTagsArr) => {
+          if (tagItem.tag === '@example') {
+            tagItem.content.map((nameTagItem) => {
+              signaturesItem.comment.summary.push({ ...nameTagItem, text: `\n #### 示例:\n ${nameTagItem.text}` });
+            });
+            blockTagsArr.splice(index, 1);
+          }
+        });
+      });
+    });
+  };
   // 判断是否为监听模式
   if (process.argv.includes('-w') || process.argv.includes('--watch')) {
     app.convertAndWatch(async (project) => {
-      project.children.map((projectItem) => {
-        projectItem.signatures?.map((signaturesItem) => {
-          signaturesItem.comment.blockTags?.map((tagItem, index, blockTagsArr) => {
-            if (tagItem.tag === '@name') {
-              tagItem.content.map((nameTagItem) => {
-                signaturesItem.comment.summary.push({ ...nameTagItem, text: `## ${nameTagItem.text}` });
-              });
-              blockTagsArr.splice(index, 1);
-            }
-          });
-
-          // signaturesItem.comment.blockTags?.map((tagItem) => {
-          //   if (tagItem.tag === '@returns') {
-          //     console.log(tagItem);
-          //   }
-          // });
-
-          signaturesItem.comment.blockTags?.map((tagItem, index, blockTagsArr) => {
-            if (tagItem.tag === '@example') {
-              tagItem.content.map((nameTagItem) => {
-                signaturesItem.comment.summary.push({ ...nameTagItem, text: `\n #### 示例:\n ${nameTagItem.text}` });
-              });
-              blockTagsArr.splice(index, 1);
-            }
-          });
-        });
-      });
+      handleChinesize(project);
       handleDocForProject(project);
     });
   } else {
     const project = app.convert();
-    project.children.map((item) => {
-      // console.log(item);
-      item.signatures?.map((signaturesItem) => {
-        console.log();
-        signaturesItem.comment.blockTags?.map((tagItem) => {
-          if (tagItem.tag === '@example') tagItem.tag = '@示例';
-        });
-      });
-    });
+    handleChinesize(project);
     handleDocForProject(project);
   }
 }

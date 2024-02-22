@@ -1,4 +1,4 @@
-import { DebounceOptions } from './types';
+import { DebounceOptions, ThrottleOptions } from './types';
 
 /**
  * @name 防抖函数
@@ -6,7 +6,7 @@ import { DebounceOptions } from './types';
  * @param wait 等待时间, 单位毫秒, 默认值`0`
  * @param options 执行选项, 默认值 `{ leading = false, trailing = true }`
  * @param callback 回调函数, 用来拿到函数执行的返回值
- * @returns  返回新的函数由于在事件中执行
+ * @returns  返回新的函数用于在事件中执行
  * @example
  * ```ts
  * const foo = () => {
@@ -65,13 +65,13 @@ export const debounce = (
 
 /**
  * @name 节流函数
- * @param fn
- * @param interval
- * @param options
- * @param resultCallback
- * @returns
+ * @param fn  用于节流的函数
+ * @param interval 函数执行间隔时间单位为毫秒, 默认值: `0`
+ * @param options 节流函数执行的选项, 默认值: `{ leading: true, trailing: false }`
+ * @param callback 回调函数, 用于拿到函数执行的返回值
+ * @returns 返回一个节流函数, 该函数返回一个Promise, 可以在then方法中拿到函数执行的返回值
  */
-export const throttle = (fn, interval, options = { leading: true, trailing: false }, resultCallback) => {
+export const throttle = (fn, interval = 0, options: ThrottleOptions = {}, callback: (result: any) => void) => {
   const { leading, trailing } = options;
 
   let lastTime = 0; // 上次调用的时间，初始值为0
@@ -101,7 +101,7 @@ export const throttle = (fn, interval, options = { leading: true, trailing: fals
         const result = fn.apply(this, arg);
 
         // 方式一：执行结束后将结果传入回调函数并执行
-        resultCallback && resultCallback(result);
+        callback && callback(result);
 
         // 方式二：将结果resolve出去
         resolve(result);
@@ -124,7 +124,7 @@ export const throttle = (fn, interval, options = { leading: true, trailing: fals
           const result = fn.apply(this, arg);
 
           // 方式一：执行结束后将结果传入回调函数并执行
-          resultCallback && resultCallback(result);
+          callback && callback(result);
 
           // 方式二：将结果resolve出去
           resolve(result);

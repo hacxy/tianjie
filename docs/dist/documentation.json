@@ -1,0 +1,2054 @@
+{
+	"id": 0,
+	"name": "tianjie",
+	"variant": "project",
+	"kind": 1,
+	"flags": {},
+	"children": [
+		{
+			"id": 40,
+			"name": "DebounceOptions",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"comment": {
+				"summary": [
+					{
+						"kind": "text",
+						"text": "防抖函数执行选项类型"
+					}
+				]
+			},
+			"sources": [
+				{
+					"fileName": "modules/function/types.ts",
+					"line": 4,
+					"character": 12,
+					"url": "https://github.com/loclink/tianjie/blob/7741f6d/src/modules/function/types.ts#L4"
+				}
+			],
+			"type": {
+				"type": "reflection",
+				"declaration": {
+					"id": 41,
+					"name": "__type",
+					"variant": "declaration",
+					"kind": 65536,
+					"flags": {},
+					"children": [
+						{
+							"id": 42,
+							"name": "leading",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isOptional": true
+							},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "是否立即执行, 默认值: false"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "modules/function/types.ts",
+									"line": 8,
+									"character": 2,
+									"url": "https://github.com/loclink/tianjie/blob/7741f6d/src/modules/function/types.ts#L8"
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						},
+						{
+							"id": 43,
+							"name": "trailing",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isOptional": true
+							},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "等待时间结束后是否执行, 默认值: true"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "modules/function/types.ts",
+									"line": 12,
+									"character": 2,
+									"url": "https://github.com/loclink/tianjie/blob/7741f6d/src/modules/function/types.ts#L12"
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"children": [
+								42,
+								43
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/function/types.ts",
+							"line": 4,
+							"character": 30,
+							"url": "https://github.com/loclink/tianjie/blob/7741f6d/src/modules/function/types.ts#L4"
+						}
+					]
+				}
+			}
+		},
+		{
+			"id": 67,
+			"name": "ObjectType",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"comment": {
+				"summary": [
+					{
+						"kind": "text",
+						"text": "### 普通对象类型"
+					}
+				]
+			},
+			"sources": [
+				{
+					"fileName": "modules/object/types.ts",
+					"line": 4,
+					"character": 12,
+					"url": "https://github.com/loclink/tianjie/blob/7741f6d/src/modules/object/types.ts#L4"
+				}
+			],
+			"type": {
+				"type": "reference",
+				"target": {
+					"sourceFileName": "node_modules/.pnpm/registry.npmmirror.com+typescript@5.1.6/node_modules/typescript/lib/lib.es5.d.ts",
+					"qualifiedName": "Record"
+				},
+				"typeArguments": [
+					{
+						"type": "intrinsic",
+						"name": "string"
+					},
+					{
+						"type": "intrinsic",
+						"name": "any"
+					}
+				],
+				"name": "Record",
+				"package": "typescript"
+			}
+		},
+		{
+			"id": 44,
+			"name": "ThrottleOptions",
+			"variant": "declaration",
+			"kind": 4194304,
+			"flags": {},
+			"comment": {
+				"summary": [
+					{
+						"kind": "text",
+						"text": "节流函数执行选项类型"
+					}
+				]
+			},
+			"sources": [
+				{
+					"fileName": "modules/function/types.ts",
+					"line": 18,
+					"character": 12,
+					"url": "https://github.com/loclink/tianjie/blob/7741f6d/src/modules/function/types.ts#L18"
+				}
+			],
+			"type": {
+				"type": "reflection",
+				"declaration": {
+					"id": 45,
+					"name": "__type",
+					"variant": "declaration",
+					"kind": 65536,
+					"flags": {},
+					"children": [
+						{
+							"id": 46,
+							"name": "leading",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isOptional": true
+							},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "是否立即执行, 默认值: false"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "modules/function/types.ts",
+									"line": 22,
+									"character": 2,
+									"url": "https://github.com/loclink/tianjie/blob/7741f6d/src/modules/function/types.ts#L22"
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						},
+						{
+							"id": 47,
+							"name": "trailing",
+							"variant": "declaration",
+							"kind": 1024,
+							"flags": {
+								"isOptional": true
+							},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "等待时间结束后是否执行, 默认值: true"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "modules/function/types.ts",
+									"line": 26,
+									"character": 2,
+									"url": "https://github.com/loclink/tianjie/blob/7741f6d/src/modules/function/types.ts#L26"
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"children": [
+								46,
+								47
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "modules/function/types.ts",
+							"line": 18,
+							"character": 30,
+							"url": "https://github.com/loclink/tianjie/blob/7741f6d/src/modules/function/types.ts#L18"
+						}
+					]
+				}
+			}
+		},
+		{
+			"id": 9,
+			"name": "debounce",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "modules/function/index.ts",
+					"line": 20,
+					"character": 13,
+					"url": "https://github.com/loclink/tianjie/blob/7741f6d/src/modules/function/index.ts#L20"
+				}
+			],
+			"signatures": [
+				{
+					"id": 10,
+					"name": "debounce",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "## 防抖函数"
+							},
+							{
+								"kind": "code",
+								"text": "\n #### 示例\n ```ts\nconst foo = () => {\n  console.log('test');\n  return 'hello';\n};\nconst _foo = debounce(foo, 400);\n_foo()\n```"
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@returns",
+								"content": [
+									{
+										"kind": "text",
+										"text": "返回新的函数用于在事件中执行"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "modules/function/index.ts",
+							"line": 20,
+							"character": 24,
+							"url": "https://github.com/loclink/tianjie/blob/7741f6d/src/modules/function/index.ts#L20"
+						}
+					],
+					"parameters": [
+						{
+							"id": 11,
+							"name": "fn",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "需要防抖的函数"
+									}
+								]
+							},
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 12,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "modules/function/index.ts",
+											"line": 21,
+											"character": 6,
+											"url": "https://github.com/loclink/tianjie/blob/7741f6d/src/modules/function/index.ts#L21"
+										}
+									],
+									"signatures": [
+										{
+											"id": 13,
+											"name": "__type",
+											"variant": "signature",
+											"kind": 4096,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "modules/function/index.ts",
+													"line": 21,
+													"character": 6,
+													"url": "https://github.com/loclink/tianjie/blob/7741f6d/src/modules/function/index.ts#L21"
+												}
+											],
+											"parameters": [
+												{
+													"id": 14,
+													"name": "arg",
+													"variant": "param",
+													"kind": 32768,
+													"flags": {
+														"isRest": true
+													},
+													"type": {
+														"type": "intrinsic",
+														"name": "any"
+													}
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "void"
+											}
+										}
+									]
+								}
+							}
+						},
+						{
+							"id": 15,
+							"name": "wait",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "等待时间, 单位毫秒, 默认值"
+									},
+									{
+										"kind": "code",
+										"text": "`0`"
+									}
+								]
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							},
+							"defaultValue": "0"
+						},
+						{
+							"id": 16,
+							"name": "options",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "执行选项, 默认值 "
+									},
+									{
+										"kind": "code",
+										"text": "`{ leading = false, trailing = true }`"
+									}
+								]
+							},
+							"type": {
+								"type": "reference",
+								"target": 40,
+								"name": "DebounceOptions",
+								"package": "tianjie"
+							},
+							"defaultValue": "{}"
+						},
+						{
+							"id": 17,
+							"name": "callback",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {
+								"isOptional": true
+							},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "回调函数, 用来拿到函数执行的返回值"
+									}
+								]
+							},
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 18,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "modules/function/index.ts",
+											"line": 24,
+											"character": 13,
+											"url": "https://github.com/loclink/tianjie/blob/7741f6d/src/modules/function/index.ts#L24"
+										}
+									],
+									"signatures": [
+										{
+											"id": 19,
+											"name": "__type",
+											"variant": "signature",
+											"kind": 4096,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "modules/function/index.ts",
+													"line": 24,
+													"character": 13,
+													"url": "https://github.com/loclink/tianjie/blob/7741f6d/src/modules/function/index.ts#L24"
+												}
+											],
+											"parameters": [
+												{
+													"id": 20,
+													"name": "result",
+													"variant": "param",
+													"kind": 32768,
+													"flags": {},
+													"type": {
+														"type": "intrinsic",
+														"name": "any"
+													}
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "void"
+											}
+										}
+									]
+								}
+							}
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 21,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "modules/function/index.ts",
+									"line": 31,
+									"character": 11,
+									"url": "https://github.com/loclink/tianjie/blob/7741f6d/src/modules/function/index.ts#L31"
+								}
+							],
+							"signatures": [
+								{
+									"id": 22,
+									"name": "__type",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "modules/function/index.ts",
+											"line": 31,
+											"character": 2,
+											"url": "https://github.com/loclink/tianjie/blob/7741f6d/src/modules/function/index.ts#L31"
+										}
+									],
+									"parameters": [
+										{
+											"id": 23,
+											"name": "this",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										},
+										{
+											"id": 24,
+											"name": "arg",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {
+												"isRest": true
+											},
+											"type": {
+												"type": "array",
+												"elementType": {
+													"type": "intrinsic",
+													"name": "any"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": 68,
+			"name": "formatInitialCapital",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "modules/string/index.ts",
+					"line": 12,
+					"character": 13,
+					"url": "https://github.com/loclink/tianjie/blob/7741f6d/src/modules/string/index.ts#L12"
+				}
+			],
+			"signatures": [
+				{
+					"id": 69,
+					"name": "formatInitialCapital",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "## 将英文字符串格式化为首字母大写"
+							},
+							{
+								"kind": "code",
+								"text": "\n #### 示例\n ``` ts\nimport { formatInitialCapital } from 'tianjie'\nformatInitialCapital('javascript') // => Javascript\n````"
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@returns",
+								"content": []
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "modules/string/index.ts",
+							"line": 12,
+							"character": 36,
+							"url": "https://github.com/loclink/tianjie/blob/7741f6d/src/modules/string/index.ts#L12"
+						}
+					],
+					"parameters": [
+						{
+							"id": 70,
+							"name": "str",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "需要格式化的英文字符串"
+									}
+								]
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				}
+			]
+		},
+		{
+			"id": 1,
+			"name": "getRandomElement",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "modules/array/index.ts",
+					"line": 10,
+					"character": 13,
+					"url": "https://github.com/loclink/tianjie/blob/7741f6d/src/modules/array/index.ts#L10"
+				}
+			],
+			"signatures": [
+				{
+					"id": 2,
+					"name": "getRandomElement",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "## 随机从数组中取出一个元素"
+							},
+							{
+								"kind": "code",
+								"text": "\n #### 示例\n ``` ts\ngetRandomElement([1, 2, 3, 4, 5])  // 可能输出1,2,3,4,5中的任意一个\n```"
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "modules/array/index.ts",
+							"line": 10,
+							"character": 32,
+							"url": "https://github.com/loclink/tianjie/blob/7741f6d/src/modules/array/index.ts#L10"
+						}
+					],
+					"typeParameter": [
+						{
+							"id": 3,
+							"name": "T",
+							"variant": "typeParam",
+							"kind": 131072,
+							"flags": {}
+						}
+					],
+					"parameters": [
+						{
+							"id": 4,
+							"name": "arr",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "任意数组"
+									}
+								]
+							},
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "reference",
+									"target": -1,
+									"name": "T",
+									"refersToTypeParameter": true
+								}
+							}
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "undefined"
+							},
+							{
+								"type": "reference",
+								"target": -1,
+								"name": "T",
+								"refersToTypeParameter": true
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"id": 54,
+			"name": "getRandomNum",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "modules/number/index.ts",
+					"line": 13,
+					"character": 16,
+					"url": "https://github.com/loclink/tianjie/blob/7741f6d/src/modules/number/index.ts#L13"
+				}
+			],
+			"signatures": [
+				{
+					"id": 55,
+					"name": "getRandomNum",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "## 特定范围内取一个随机整数"
+							},
+							{
+								"kind": "code",
+								"text": "\n #### 示例\n ``` ts\nimport { getRandomNum } from 'tianjie';\ngetRandomNum(5, 10)  // 可能输出 5 - 10之间的任意一个随机数, 包含5和10\n```"
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@returns",
+								"content": [
+									{
+										"kind": "text",
+										"text": "返回值是一个随机整数"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "modules/number/index.ts",
+							"line": 13,
+							"character": 0,
+							"url": "https://github.com/loclink/tianjie/blob/7741f6d/src/modules/number/index.ts#L13"
+						}
+					],
+					"parameters": [
+						{
+							"id": 56,
+							"name": "Min",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "范围最小值"
+									}
+								]
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						},
+						{
+							"id": 57,
+							"name": "Max",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "范围最大值"
+									}
+								]
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				}
+			]
+		},
+		{
+			"id": 5,
+			"name": "getTimestamp",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "modules/date/index.ts",
+					"line": 11,
+					"character": 13,
+					"url": "https://github.com/loclink/tianjie/blob/7741f6d/src/modules/date/index.ts#L11"
+				}
+			],
+			"signatures": [
+				{
+					"id": 6,
+					"name": "getTimestamp",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "## 获取毫秒级时间戳\n获取当前时间戳, 单位为毫秒"
+							},
+							{
+								"kind": "code",
+								"text": "\n #### 示例\n ``` ts\nimport { getTimestamp } from 'tianjie';\ngetTimestamp()\n```"
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "modules/date/index.ts",
+							"line": 11,
+							"character": 28,
+							"url": "https://github.com/loclink/tianjie/blob/7741f6d/src/modules/date/index.ts#L11"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				}
+			]
+		},
+		{
+			"id": 7,
+			"name": "getTimestampInSeconds",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "modules/date/index.ts",
+					"line": 25,
+					"character": 13,
+					"url": "https://github.com/loclink/tianjie/blob/7741f6d/src/modules/date/index.ts#L25"
+				}
+			],
+			"signatures": [
+				{
+					"id": 8,
+					"name": "getTimestampInSeconds",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "## 获取秒级时间戳\n获取当前时间戳, 单位为秒"
+							},
+							{
+								"kind": "code",
+								"text": "\n #### 示例\n ``` ts\nimport { getTimestampInSeconds } from 'tianjie';\ngetTimestampInSeconds()\n```"
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "modules/date/index.ts",
+							"line": 25,
+							"character": 37,
+							"url": "https://github.com/loclink/tianjie/blob/7741f6d/src/modules/date/index.ts#L25"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				}
+			]
+		},
+		{
+			"id": 71,
+			"name": "getUUID",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "modules/string/index.ts",
+					"line": 28,
+					"character": 13,
+					"url": "https://github.com/loclink/tianjie/blob/7741f6d/src/modules/string/index.ts#L28"
+				}
+			],
+			"signatures": [
+				{
+					"id": 72,
+					"name": "getUUID",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "## 获取唯一的uuid"
+							},
+							{
+								"kind": "code",
+								"text": "\n #### 示例\n ``` ts\nimport { getUUID } from 'tianjie'\ngetUUID() // => a0c356fa-0edb-48f3-a70d-9004a19a0930\n````"
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@returns",
+								"content": [
+									{
+										"kind": "text",
+										"text": "返回唯一的uuid"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "modules/string/index.ts",
+							"line": 28,
+							"character": 23,
+							"url": "https://github.com/loclink/tianjie/blob/7741f6d/src/modules/string/index.ts#L28"
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				}
+			]
+		},
+		{
+			"id": 48,
+			"name": "isObject",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "modules/judgment/index.ts",
+					"line": 16,
+					"character": 13,
+					"url": "https://github.com/loclink/tianjie/blob/7741f6d/src/modules/judgment/index.ts#L16"
+				}
+			],
+			"signatures": [
+				{
+					"id": 49,
+					"name": "isObject",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "## 是否为普通对象\n判断一个值是否为普通对象, 不包含数组"
+							},
+							{
+								"kind": "code",
+								"text": "\n #### 示例\n ```ts\nimport { isObject } from 'tianjie';\nisObject('asd'); // false\nisObject({name: 'loclink'}); // true\n```"
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@returns",
+								"content": []
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "modules/judgment/index.ts",
+							"line": 16,
+							"character": 24,
+							"url": "https://github.com/loclink/tianjie/blob/7741f6d/src/modules/judgment/index.ts#L16"
+						}
+					],
+					"parameters": [
+						{
+							"id": 50,
+							"name": "value",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "任意值"
+									}
+								]
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						}
+					],
+					"type": {
+						"type": "predicate",
+						"name": "value",
+						"asserts": false,
+						"targetType": {
+							"type": "reference",
+							"target": 67,
+							"name": "ObjectType",
+							"package": "tianjie"
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": 51,
+			"name": "isString",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "modules/judgment/index.ts",
+					"line": 33,
+					"character": 13,
+					"url": "https://github.com/loclink/tianjie/blob/7741f6d/src/modules/judgment/index.ts#L33"
+				}
+			],
+			"signatures": [
+				{
+					"id": 52,
+					"name": "isString",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "## 是否为字符串\n判断一个值是否为字符串"
+							},
+							{
+								"kind": "code",
+								"text": "\n #### 示例\n ```ts\nimport { isString } from 'tianjie';\nisString({name: 'loclink'}); // false\nisString('hello'); // true\n```"
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@returns",
+								"content": []
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "modules/judgment/index.ts",
+							"line": 33,
+							"character": 24,
+							"url": "https://github.com/loclink/tianjie/blob/7741f6d/src/modules/judgment/index.ts#L33"
+						}
+					],
+					"parameters": [
+						{
+							"id": 53,
+							"name": "value",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "任意值"
+									}
+								]
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						}
+					],
+					"type": {
+						"type": "predicate",
+						"name": "value",
+						"asserts": false,
+						"targetType": {
+							"type": "intrinsic",
+							"name": "string"
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": 61,
+			"name": "mergeDeep",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "modules/object/index.ts",
+					"line": 18,
+					"character": 13,
+					"url": "https://github.com/loclink/tianjie/blob/7741f6d/src/modules/object/index.ts#L18"
+				}
+			],
+			"signatures": [
+				{
+					"id": 62,
+					"name": "mergeDeep",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "## 对象合并\n将对象递归合并. 对于数组和其他类型的值，它会直接覆盖, 该方法返回一个新的对象, 不会修改原始目标对象和源对象."
+							},
+							{
+								"kind": "code",
+								"text": "\n #### 示例\n ```ts\nimport { mergeDeep } from 'tianjie';\nmergeDeep({ a: 1, b: 'hello' }, {a: 2, c: 'loclink' }) // {a: 2, b: 'hello', c: 'loclink'}\n\n```"
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@returns",
+								"content": []
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "modules/object/index.ts",
+							"line": 18,
+							"character": 25,
+							"url": "https://github.com/loclink/tianjie/blob/7741f6d/src/modules/object/index.ts#L18"
+						}
+					],
+					"typeParameter": [
+						{
+							"id": 63,
+							"name": "T",
+							"variant": "typeParam",
+							"kind": 131072,
+							"flags": {},
+							"default": {
+								"type": "reference",
+								"target": 67,
+								"name": "ObjectType",
+								"package": "tianjie"
+							}
+						},
+						{
+							"id": 64,
+							"name": "U",
+							"variant": "typeParam",
+							"kind": 131072,
+							"flags": {},
+							"default": {
+								"type": "reference",
+								"target": 67,
+								"name": "ObjectType",
+								"package": "tianjie"
+							}
+						}
+					],
+					"parameters": [
+						{
+							"id": 65,
+							"name": "target",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": -1,
+								"name": "T",
+								"refersToTypeParameter": true
+							}
+						},
+						{
+							"id": 66,
+							"name": "source",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": -1,
+								"name": "U",
+								"refersToTypeParameter": true
+							}
+						}
+					],
+					"type": {
+						"type": "intersection",
+						"types": [
+							{
+								"type": "reference",
+								"target": -1,
+								"name": "T",
+								"refersToTypeParameter": true
+							},
+							{
+								"type": "reference",
+								"target": -1,
+								"name": "U",
+								"refersToTypeParameter": true
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"id": 58,
+			"name": "objectToQuery",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "modules/object/index.ts",
+					"line": 44,
+					"character": 16,
+					"url": "https://github.com/loclink/tianjie/blob/7741f6d/src/modules/object/index.ts#L44"
+				}
+			],
+			"signatures": [
+				{
+					"id": 59,
+					"name": "objectToQuery",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "## 将对象转为query字符串"
+							},
+							{
+								"kind": "code",
+								"text": "\n #### 示例\n ``` ts\nimport { objectToQuery } from 'tianjie'\nobjectToQuery({name: 'loclink', age: 18}) // => name=loclink&age18\n```"
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@returns",
+								"content": []
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "modules/object/index.ts",
+							"line": 44,
+							"character": 0,
+							"url": "https://github.com/loclink/tianjie/blob/7741f6d/src/modules/object/index.ts#L44"
+						}
+					],
+					"parameters": [
+						{
+							"id": 60,
+							"name": "obj",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "需要转换的对象"
+									}
+								]
+							},
+							"type": {
+								"type": "reference",
+								"target": 67,
+								"name": "ObjectType",
+								"package": "tianjie"
+							}
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				}
+			]
+		},
+		{
+			"id": 25,
+			"name": "throttle",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "modules/function/index.ts",
+					"line": 74,
+					"character": 13,
+					"url": "https://github.com/loclink/tianjie/blob/7741f6d/src/modules/function/index.ts#L74"
+				}
+			],
+			"signatures": [
+				{
+					"id": 26,
+					"name": "throttle",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "## 节流函数"
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@returns",
+								"content": [
+									{
+										"kind": "text",
+										"text": "返回一个节流函数, 该函数返回一个Promise, 可以在then方法中拿到函数执行的返回值"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "modules/function/index.ts",
+							"line": 74,
+							"character": 24,
+							"url": "https://github.com/loclink/tianjie/blob/7741f6d/src/modules/function/index.ts#L74"
+						}
+					],
+					"parameters": [
+						{
+							"id": 27,
+							"name": "fn",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "用于节流的函数"
+									}
+								]
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						},
+						{
+							"id": 28,
+							"name": "interval",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "函数执行间隔时间单位为毫秒, 默认值: "
+									},
+									{
+										"kind": "code",
+										"text": "`0`"
+									}
+								]
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							},
+							"defaultValue": "0"
+						},
+						{
+							"id": 29,
+							"name": "options",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "节流函数执行的选项, 默认值: "
+									},
+									{
+										"kind": "code",
+										"text": "`{ leading: true, trailing: false }`"
+									}
+								]
+							},
+							"type": {
+								"type": "reference",
+								"target": 44,
+								"name": "ThrottleOptions",
+								"package": "tianjie"
+							},
+							"defaultValue": "{}"
+						},
+						{
+							"id": 30,
+							"name": "callback",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "回调函数, 用于拿到函数执行的返回值"
+									}
+								]
+							},
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 31,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "modules/function/index.ts",
+											"line": 74,
+											"character": 84,
+											"url": "https://github.com/loclink/tianjie/blob/7741f6d/src/modules/function/index.ts#L74"
+										}
+									],
+									"signatures": [
+										{
+											"id": 32,
+											"name": "__type",
+											"variant": "signature",
+											"kind": 4096,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "modules/function/index.ts",
+													"line": 74,
+													"character": 84,
+													"url": "https://github.com/loclink/tianjie/blob/7741f6d/src/modules/function/index.ts#L74"
+												}
+											],
+											"parameters": [
+												{
+													"id": 33,
+													"name": "result",
+													"variant": "param",
+													"kind": 32768,
+													"flags": {},
+													"type": {
+														"type": "intrinsic",
+														"name": "any"
+													}
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "void"
+											}
+										}
+									]
+								}
+							}
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 34,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 35,
+									"name": "cancel",
+									"variant": "declaration",
+									"kind": 2048,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "modules/function/index.ts",
+											"line": 137,
+											"character": 12,
+											"url": "https://github.com/loclink/tianjie/blob/7741f6d/src/modules/function/index.ts#L137"
+										}
+									],
+									"signatures": [
+										{
+											"id": 36,
+											"name": "cancel",
+											"variant": "signature",
+											"kind": 4096,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "modules/function/index.ts",
+													"line": 137,
+													"character": 21,
+													"url": "https://github.com/loclink/tianjie/blob/7741f6d/src/modules/function/index.ts#L137"
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "void"
+											}
+										}
+									]
+								}
+							],
+							"groups": [
+								{
+									"title": "Methods",
+									"children": [
+										35
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "modules/function/index.ts",
+									"line": 82,
+									"character": 11,
+									"url": "https://github.com/loclink/tianjie/blob/7741f6d/src/modules/function/index.ts#L82"
+								}
+							],
+							"signatures": [
+								{
+									"id": 37,
+									"name": "__type",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "modules/function/index.ts",
+											"line": 82,
+											"character": 2,
+											"url": "https://github.com/loclink/tianjie/blob/7741f6d/src/modules/function/index.ts#L82"
+										}
+									],
+									"parameters": [
+										{
+											"id": 38,
+											"name": "this",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "unknown"
+											}
+										},
+										{
+											"id": 39,
+											"name": "arg",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {
+												"isRest": true
+											},
+											"type": {
+												"type": "array",
+												"elementType": {
+													"type": "intrinsic",
+													"name": "any"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "node_modules/.pnpm/registry.npmmirror.com+typescript@5.1.6/node_modules/typescript/lib/lib.es5.d.ts",
+											"qualifiedName": "Promise"
+										},
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "unknown"
+											}
+										],
+										"name": "Promise",
+										"package": "typescript"
+									}
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "类型",
+			"children": [
+				40,
+				67,
+				44
+			]
+		},
+		{
+			"title": "字符串",
+			"children": [
+				71
+			]
+		},
+		{
+			"title": "实用方法",
+			"children": [
+				58
+			]
+		},
+		{
+			"title": "对象",
+			"children": [
+				61
+			]
+		},
+		{
+			"title": "时间",
+			"children": [
+				5,
+				7
+			]
+		},
+		{
+			"title": "格式化",
+			"children": [
+				68
+			]
+		},
+		{
+			"title": "类型判断",
+			"children": [
+				48,
+				51
+			]
+		},
+		{
+			"title": "随机函数",
+			"children": [
+				1,
+				54
+			]
+		},
+		{
+			"title": "其他方法",
+			"children": [
+				9,
+				25
+			]
+		}
+	],
+	"packageName": "tianjie",
+	"readme": [
+		{
+			"kind": "text",
+			"text": "# TianJie\n\n## 概述：\n\n小而强大的 javascript 工具库\n\n## 安装 & 更新\n\n"
+		},
+		{
+			"kind": "code",
+			"text": "```sh\nnpm install tianjie@latest\n```"
+		},
+		{
+			"kind": "text",
+			"text": "\n\n## 快速开始\n\n阅读文档: [https://tianjie.loclink.cn](https://tianjie.loclink.cn)"
+		}
+	],
+	"symbolIdMap": {
+		"0": {
+			"sourceFileName": "src/index.ts",
+			"qualifiedName": ""
+		},
+		"1": {
+			"sourceFileName": "src/modules/array/index.ts",
+			"qualifiedName": "getRandomElement"
+		},
+		"2": {
+			"sourceFileName": "src/modules/array/index.ts",
+			"qualifiedName": "getRandomElement"
+		},
+		"3": {
+			"sourceFileName": "src/modules/array/index.ts",
+			"qualifiedName": "T"
+		},
+		"4": {
+			"sourceFileName": "src/modules/array/index.ts",
+			"qualifiedName": "arr"
+		},
+		"5": {
+			"sourceFileName": "src/modules/date/index.ts",
+			"qualifiedName": "getTimestamp"
+		},
+		"6": {
+			"sourceFileName": "src/modules/date/index.ts",
+			"qualifiedName": "getTimestamp"
+		},
+		"7": {
+			"sourceFileName": "src/modules/date/index.ts",
+			"qualifiedName": "getTimestampInSeconds"
+		},
+		"8": {
+			"sourceFileName": "src/modules/date/index.ts",
+			"qualifiedName": "getTimestampInSeconds"
+		},
+		"9": {
+			"sourceFileName": "src/modules/function/index.ts",
+			"qualifiedName": "debounce"
+		},
+		"10": {
+			"sourceFileName": "src/modules/function/index.ts",
+			"qualifiedName": "debounce"
+		},
+		"11": {
+			"sourceFileName": "src/modules/function/index.ts",
+			"qualifiedName": "fn"
+		},
+		"12": {
+			"sourceFileName": "src/modules/function/index.ts",
+			"qualifiedName": "__type"
+		},
+		"13": {
+			"sourceFileName": "src/modules/function/index.ts",
+			"qualifiedName": "__type"
+		},
+		"14": {
+			"sourceFileName": "src/modules/function/index.ts",
+			"qualifiedName": "arg"
+		},
+		"15": {
+			"sourceFileName": "src/modules/function/index.ts",
+			"qualifiedName": "wait"
+		},
+		"16": {
+			"sourceFileName": "src/modules/function/index.ts",
+			"qualifiedName": "options"
+		},
+		"17": {
+			"sourceFileName": "src/modules/function/index.ts",
+			"qualifiedName": "callback"
+		},
+		"18": {
+			"sourceFileName": "src/modules/function/index.ts",
+			"qualifiedName": "__type"
+		},
+		"19": {
+			"sourceFileName": "src/modules/function/index.ts",
+			"qualifiedName": "__type"
+		},
+		"20": {
+			"sourceFileName": "src/modules/function/index.ts",
+			"qualifiedName": "result"
+		},
+		"21": {
+			"sourceFileName": "src/modules/function/index.ts",
+			"qualifiedName": "_debounce"
+		},
+		"22": {
+			"sourceFileName": "src/modules/function/index.ts",
+			"qualifiedName": "_debounce"
+		},
+		"23": {
+			"sourceFileName": "src/modules/function/index.ts",
+			"qualifiedName": "this"
+		},
+		"24": {
+			"sourceFileName": "src/modules/function/index.ts",
+			"qualifiedName": "arg"
+		},
+		"25": {
+			"sourceFileName": "src/modules/function/index.ts",
+			"qualifiedName": "throttle"
+		},
+		"26": {
+			"sourceFileName": "src/modules/function/index.ts",
+			"qualifiedName": "throttle"
+		},
+		"27": {
+			"sourceFileName": "src/modules/function/index.ts",
+			"qualifiedName": "fn"
+		},
+		"28": {
+			"sourceFileName": "src/modules/function/index.ts",
+			"qualifiedName": "interval"
+		},
+		"29": {
+			"sourceFileName": "src/modules/function/index.ts",
+			"qualifiedName": "options"
+		},
+		"30": {
+			"sourceFileName": "src/modules/function/index.ts",
+			"qualifiedName": "callback"
+		},
+		"31": {
+			"sourceFileName": "src/modules/function/index.ts",
+			"qualifiedName": "__type"
+		},
+		"32": {
+			"sourceFileName": "src/modules/function/index.ts",
+			"qualifiedName": "__type"
+		},
+		"33": {
+			"sourceFileName": "src/modules/function/index.ts",
+			"qualifiedName": "result"
+		},
+		"34": {
+			"sourceFileName": "src/modules/function/index.ts",
+			"qualifiedName": "_throttle"
+		},
+		"35": {
+			"sourceFileName": "src/modules/function/index.ts",
+			"qualifiedName": "_throttle.cancel"
+		},
+		"36": {
+			"sourceFileName": "src/modules/function/index.ts",
+			"qualifiedName": "_throttle.cancel"
+		},
+		"37": {
+			"sourceFileName": "src/modules/function/index.ts",
+			"qualifiedName": "_throttle"
+		},
+		"38": {
+			"sourceFileName": "src/modules/function/index.ts",
+			"qualifiedName": "this"
+		},
+		"39": {
+			"sourceFileName": "src/modules/function/index.ts",
+			"qualifiedName": "arg"
+		},
+		"40": {
+			"sourceFileName": "src/modules/function/types.ts",
+			"qualifiedName": "DebounceOptions"
+		},
+		"41": {
+			"sourceFileName": "src/modules/function/types.ts",
+			"qualifiedName": "__type"
+		},
+		"42": {
+			"sourceFileName": "src/modules/function/types.ts",
+			"qualifiedName": "__type.leading"
+		},
+		"43": {
+			"sourceFileName": "src/modules/function/types.ts",
+			"qualifiedName": "__type.trailing"
+		},
+		"44": {
+			"sourceFileName": "src/modules/function/types.ts",
+			"qualifiedName": "ThrottleOptions"
+		},
+		"45": {
+			"sourceFileName": "src/modules/function/types.ts",
+			"qualifiedName": "__type"
+		},
+		"46": {
+			"sourceFileName": "src/modules/function/types.ts",
+			"qualifiedName": "__type.leading"
+		},
+		"47": {
+			"sourceFileName": "src/modules/function/types.ts",
+			"qualifiedName": "__type.trailing"
+		},
+		"48": {
+			"sourceFileName": "src/modules/judgment/index.ts",
+			"qualifiedName": "isObject"
+		},
+		"49": {
+			"sourceFileName": "src/modules/judgment/index.ts",
+			"qualifiedName": "isObject"
+		},
+		"50": {
+			"sourceFileName": "src/modules/judgment/index.ts",
+			"qualifiedName": "value"
+		},
+		"51": {
+			"sourceFileName": "src/modules/judgment/index.ts",
+			"qualifiedName": "isString"
+		},
+		"52": {
+			"sourceFileName": "src/modules/judgment/index.ts",
+			"qualifiedName": "isString"
+		},
+		"53": {
+			"sourceFileName": "src/modules/judgment/index.ts",
+			"qualifiedName": "value"
+		},
+		"54": {
+			"sourceFileName": "src/modules/number/index.ts",
+			"qualifiedName": "getRandomNum"
+		},
+		"55": {
+			"sourceFileName": "src/modules/number/index.ts",
+			"qualifiedName": "getRandomNum"
+		},
+		"56": {
+			"sourceFileName": "src/modules/number/index.ts",
+			"qualifiedName": "Min"
+		},
+		"57": {
+			"sourceFileName": "src/modules/number/index.ts",
+			"qualifiedName": "Max"
+		},
+		"58": {
+			"sourceFileName": "src/modules/object/index.ts",
+			"qualifiedName": "objectToQuery"
+		},
+		"59": {
+			"sourceFileName": "src/modules/object/index.ts",
+			"qualifiedName": "objectToQuery"
+		},
+		"60": {
+			"sourceFileName": "src/modules/object/index.ts",
+			"qualifiedName": "obj"
+		},
+		"61": {
+			"sourceFileName": "src/modules/object/index.ts",
+			"qualifiedName": "mergeDeep"
+		},
+		"62": {
+			"sourceFileName": "src/modules/object/index.ts",
+			"qualifiedName": "mergeDeep"
+		},
+		"63": {
+			"sourceFileName": "src/modules/object/index.ts",
+			"qualifiedName": "T"
+		},
+		"64": {
+			"sourceFileName": "src/modules/object/index.ts",
+			"qualifiedName": "U"
+		},
+		"65": {
+			"sourceFileName": "src/modules/object/index.ts",
+			"qualifiedName": "target"
+		},
+		"66": {
+			"sourceFileName": "src/modules/object/index.ts",
+			"qualifiedName": "source"
+		},
+		"67": {
+			"sourceFileName": "src/modules/object/types.ts",
+			"qualifiedName": "ObjectType"
+		},
+		"68": {
+			"sourceFileName": "src/modules/string/index.ts",
+			"qualifiedName": "formatInitialCapital"
+		},
+		"69": {
+			"sourceFileName": "src/modules/string/index.ts",
+			"qualifiedName": "formatInitialCapital"
+		},
+		"70": {
+			"sourceFileName": "src/modules/string/index.ts",
+			"qualifiedName": "str"
+		},
+		"71": {
+			"sourceFileName": "src/modules/string/index.ts",
+			"qualifiedName": "getUUID"
+		},
+		"72": {
+			"sourceFileName": "src/modules/string/index.ts",
+			"qualifiedName": "getUUID"
+		}
+	}
+}

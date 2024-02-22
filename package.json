@@ -6,7 +6,7 @@
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "dev": "vite",
+    "dev": "concurrently \"vite\"  \"node ./docs/typedoc.js -w\"  \"vitepress dev docs\"",
     "build": "tsc && vite build",
     "build:docs": "node ./docs/typedoc.js && vitepress build docs",
     "typedoc": "node ./docs/typedoc.js",

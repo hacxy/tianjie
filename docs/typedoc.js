@@ -161,17 +161,22 @@ async function main() {
         // signaturesItem.comment.blockTags?.map((tagItem) => {
         //   if (tagItem.tag === '@returns') {
         //     console.log(tagItem);
+        //     tagItem.tag = 'aaaaaaaaaaaaaaaaaa';
         //   }
         // });
 
         signaturesItem.comment.blockTags?.map((tagItem, index, blockTagsArr) => {
           if (tagItem.tag === '@example') {
             tagItem.content.map((nameTagItem) => {
-              signaturesItem.comment.summary.push({ ...nameTagItem, text: `\n #### 示例:\n ${nameTagItem.text}` });
+              signaturesItem.comment.summary.push({ ...nameTagItem, text: `\n #### 示例\n ${nameTagItem.text}` });
             });
             blockTagsArr.splice(index, 1);
           }
         });
+
+        // console.log(signaturesItem, '---------------');
+        // signaturesItem.parameters = []; // 参数
+        // console.log(signaturesItem.comment.summary);
       });
     });
   };

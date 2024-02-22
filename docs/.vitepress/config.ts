@@ -1,6 +1,5 @@
 import { defineConfig } from 'vitepress';
-import apidocConfig from '../apidocConfig.json';
-
+import pkg from '../../package.json';
 export default defineConfig({
   description: '一个开箱即用的 Javascript 工具库',
   base: '/',
@@ -17,12 +16,23 @@ export default defineConfig({
       description: '一个开箱即用的 Javascript 工具库'
     }
   },
+  lastUpdated: true,
+
   themeConfig: {
+    outline: {
+      level: [2, 4],
+      label: 'On this page'
+    },
     footer: {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2023-present loclink'
     },
-    sidebar: { '/dist/': apidocConfig },
+    nav: [
+      {
+        text: `v${pkg.version}`,
+        link: '/'
+      }
+    ],
     search: {
       provider: 'local',
       options: {

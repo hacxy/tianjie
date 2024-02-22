@@ -1,5 +1,22 @@
 # Changelog
 
+### [0.0.5](https://github.com/loclink/tianjie/compare/v0.0.4...v0.0.5) (2024-02-22)
+
+
+### 📝 Documentation | 文档
+
+* 更新readme ([b61de81](https://github.com/loclink/tianjie/commit/b61de81a724f88070a5bbd7b8ac77b2eda696d6b))
+
+
+### ♻ Code Refactoring | 代码重构
+
+* 全局命名空间名称修改为TJ ([a143b44](https://github.com/loclink/tianjie/commit/a143b44bd917e2fbc2561fc341fae5c18ba78821))
+
+
+### ✨ Features | 新功能
+
+* 新增防抖和节流函数 ([0242004](https://github.com/loclink/tianjie/commit/02420040371ed5aced0539f5d0d600b7bae4892b))
+
 ### [0.0.4](https://github.com/loclink/tianjie/compare/v0.0.3...v0.0.4) (2024-02-21)
 
 

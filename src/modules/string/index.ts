@@ -1,11 +1,9 @@
-
 /**
- * ### 将英文字符串格式化为首字母大写
+ * @name 将英文字符串格式化为首字母大写
  * @group 格式化
  * @param str 需要格式化的英文字符串
  * @returns
- *
- * ### 示例
+ * @example
  * ``` ts
  * import { formatInitialCapital } from 'tianjie'
  * formatInitialCapital('javascript') // => Javascript
@@ -17,13 +15,11 @@ export const formatInitialCapital = (str: string) => {
   return firstLetter + restOfStr;
 };
 
-
 /**
- * ### 获取唯一的uuid
+ * @name 获取唯一的uuid
  * @group 字符串
  * @returns 返回唯一的uuid
- *
- * ### 示例
+ * @example
  * ``` ts
  * import { getUUID } from 'tianjie'
  * getUUID() // => a0c356fa-0edb-48f3-a70d-9004a19a0930

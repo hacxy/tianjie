@@ -13,7 +13,6 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-
     /* Linting */
     "strict": true,
     "noImplicitAny": false,
@@ -25,5 +24,5 @@
     }
   },
   "include": ["src"],
-  "exclude": ["test"]
+  "exclude": ["test", "docs"]
 }

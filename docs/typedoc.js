@@ -2,7 +2,6 @@
 const TypeDoc = require('typedoc');
 const path = require('path');
 const fs = require('fs');
-
 // 根目录
 function rootPath(...args) {
   return path.join(__dirname, '..', ...args);
@@ -59,13 +58,13 @@ async function resolveConfig(jsonDir) {
   await fs.promises.writeFile(path.join(__dirname, 'apidocConfig.json'), JSON.stringify(result), 'utf8');
 }
 
-function transformModuleName(name) {
-  return name.replace(/\//g, '_');
-}
+// function transformModuleName(name) {
+//   return name.replace(/\//g, '_');
+// }
 
-function getModulePath(name) {
-  return path.join('/dist/modules', `${transformModuleName(name)}`).replace(/\\/g, '/');
-}
+// function getModulePath(name) {
+//   return path.join('/dist/modules', `${transformModuleName(name)}`).replace(/\\/g, '/');
+// }
 
 function getClassPath(className) {
   return path.join('/dist/classes', `${className}`).replace(/\\/g, '/');
@@ -104,24 +103,92 @@ async function main() {
     tsconfig: rootPath('tsconfig.json'),
     plugin: ['typedoc-plugin-markdown'],
     allReflectionsHaveOwnDocument: true,
+    hideBreadcrumbs: true
+    // namedAnchors: true,
+    // preserveAnchorCasing: true
     // readme: 'none'
   });
 
-  const project = app.convert();
+  const handleDocForProject = async (project) => {
+    if (project) {
+      let fnItem;
+      project.groups.map((item, index, arr) => {
+        // console.log(item.children[0].sources);
+        if (item.title === 'Interfaces') {
+          item.title = '接口';
+          arr[index] = item;
+        }
+        if (item.title === 'Functions') {
+          item.title = '其他方法';
+          fnItem = item;
+          arr.splice(index, 1);
+        }
+        if (item.title === 'Type Aliases') {
+          item.title = '类型';
+          arr[index] = item;
+        }
+      });
+      project.groups.push(fnItem);
 
-  if (project) {
-    // 输出产物位置
-    const outputDir = path.join(__dirname, 'dist');
+      // 输出产物位置
+      const outputDir = path.join(__dirname, 'dist');
 
-    // 生成文档内容
-    await app.generateDocs(project, outputDir);
+      // 生成文档内容
+      await app.generateDocs(project, outputDir);
 
-    // 生成文档数据结构
-    const jsonDir = path.join(outputDir, 'documentation.json');
-    await app.generateJson(project, jsonDir);
+      // 生成文档数据结构
+      const jsonDir = path.join(outputDir, 'documentation.json');
+      await app.generateJson(project, jsonDir);
 
-    // 解析数据结构，生成 VitePress Config 所需的 Sidebar 配置项
-    await resolveConfig(jsonDir);
+      // 解析数据结构，生成 VitePress Config 所需的 Sidebar 配置项
+      await resolveConfig(jsonDir);
+    }
+  };
+
+  // 判断是否为监听模式
+  if (process.argv.includes('-w') || process.argv.includes('--watch')) {
+    app.convertAndWatch(async (project) => {
+      project.children.map((projectItem) => {
+        projectItem.signatures?.map((signaturesItem) => {
+          signaturesItem.comment.blockTags?.map((tagItem, index, blockTagsArr) => {
+            if (tagItem.tag === '@name') {
+              tagItem.content.map((nameTagItem) => {
+                signaturesItem.comment.summary.push({ ...nameTagItem, text: `## ${nameTagItem.text}` });
+              });
+              blockTagsArr.splice(index, 1);
+            }
+          });
+
+          // signaturesItem.comment.blockTags?.map((tagItem) => {
+          //   if (tagItem.tag === '@returns') {
+          //     console.log(tagItem);
+          //   }
+          // });
+
+          signaturesItem.comment.blockTags?.map((tagItem, index, blockTagsArr) => {
+            if (tagItem.tag === '@example') {
+              tagItem.content.map((nameTagItem) => {
+                signaturesItem.comment.summary.push({ ...nameTagItem, text: `\n #### 示例:\n ${nameTagItem.text}` });
+              });
+              blockTagsArr.splice(index, 1);
+            }
+          });
+        });
+      });
+      handleDocForProject(project);
+    });
+  } else {
+    const project = app.convert();
+    project.children.map((item) => {
+      // console.log(item);
+      item.signatures?.map((signaturesItem) => {
+        console.log();
+        signaturesItem.comment.blockTags?.map((tagItem) => {
+          if (tagItem.tag === '@example') tagItem.tag = '@示例';
+        });
+      });
+    });
+    handleDocForProject(project);
   }
 }
 

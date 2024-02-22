@@ -1,9 +1,8 @@
 /**
- * ### 获取毫秒级时间戳
+ * @name 获取毫秒级时间戳
+ * 获取当前时间戳, 单位为毫秒
  * @group 时间
- * @returns 时间戳,单位是毫秒
- *
- * ### 示例
+ * @example
  * ``` ts
  * import { getTimestamp } from 'tianjie';
  * getTimestamp()
@@ -14,11 +13,10 @@ export const getTimestamp = () => {
 };
 
 /**
- * ### 获取秒级时间戳
+ * @name 获取秒级时间戳
+ * 获取当前时间戳, 单位为秒
  * @group 时间
- * @returns 时间戳,单位是秒
- *
- * ### 示例：
+ * @example
  * ``` ts
  * import { getTimestampInSeconds } from 'tianjie';
  * getTimestampInSeconds()

@@ -67,23 +67,23 @@ async function resolveConfig(jsonDir) {
 // }
 
 function getClassPath(className) {
-  return path.join('/dist/classes', `${className}`).replace(/\\/g, '/');
+  return path.join('/docs/classes', `${className}`).replace(/\\/g, '/');
 }
 
 function getInterfacePath(interfaceName) {
-  return path.join('/dist/interfaces', `${interfaceName}`).replace(/\\/g, '/');
+  return path.join('/docs/interfaces', `${interfaceName}`).replace(/\\/g, '/');
 }
 
 function getTypePath(typeName) {
-  return path.join('/dist/types', `${typeName}`).replace(/\\/g, '/');
+  return path.join('/docs/types', `${typeName}`).replace(/\\/g, '/');
 }
 
 function getFunctionPath(functionName) {
-  return path.join('/dist/functions', `${functionName}`).replace(/\\/g, '/');
+  return path.join('/docs/functions', `${functionName}`).replace(/\\/g, '/');
 }
 
 function getEnumPath(enumName) {
-  return path.join('/dist/enums', `${enumName}`).replace(/\\/g, '/');
+  return path.join('/docs/enums', `${enumName}`).replace(/\\/g, '/');
 }
 
 // 主函数
@@ -131,7 +131,7 @@ async function main() {
       project.groups.push(fnItem);
 
       // 输出产物位置
-      const outputDir = path.join(__dirname, 'dist');
+      const outputDir = path.join(__dirname, 'docs');
 
       // 生成文档内容
       await app.generateDocs(project, outputDir);

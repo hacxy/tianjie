@@ -7,11 +7,11 @@ hero:
   actions:
     - theme: brand
       text: 指南
-      link: /dist/README
+      link: /docs/README
 
     - theme: brand
       text: 文档速览
-      link: /dist/modules
+      link: /docs/modules
 
     - theme: alt
       text: Github

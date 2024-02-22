@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress';
 import pkg from '../../package.json';
+import sidebarConfig from '../apidocConfig.json';
 export default defineConfig({
   description: '一个开箱即用的 Javascript 工具库',
   base: '/',
@@ -17,8 +18,8 @@ export default defineConfig({
     }
   },
   lastUpdated: true,
-
   themeConfig: {
+    sidebar: { '/docs/': sidebarConfig },
     outline: {
       level: [2, 4],
       label: 'On this page'
@@ -31,6 +32,12 @@ export default defineConfig({
       {
         text: `v${pkg.version}`,
         link: '/'
+      }
+    ],
+    socialLinks: [
+      {
+        icon: 'github',
+        link: 'https://github.com/loclink/tianjie'
       }
     ],
     search: {

@@ -16,4 +16,4 @@ getTimestampInSeconds()
 
 #### Defined in
 
-[modules/date/index.ts:25](https://github.com/loclink/tianjie/blob/52d7010/src/modules/date/index.ts#L25)
+[modules/date/index.ts:25](https://github.com/loclink/tianjie/blob/fc91c50/src/modules/date/index.ts#L25)

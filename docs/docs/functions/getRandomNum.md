@@ -24,4 +24,4 @@ getRandomNum(5, 10)  // 可能输出 5 - 10之间的任意一个随机数, 包�
 
 #### Defined in
 
-[modules/number/index.ts:13](https://github.com/loclink/tianjie/blob/52d7010/src/modules/number/index.ts#L13)
+[modules/number/index.ts:13](https://github.com/loclink/tianjie/blob/fc91c50/src/modules/number/index.ts#L13)

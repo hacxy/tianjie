@@ -43,6 +43,12 @@ export default defineConfig({
     search: {
       provider: 'local',
       options: {
+        _render(src, env, md) {
+          const html = md.render(src, env);
+          if (env.frontmatter?.search === false) return '';
+          if (env.relativePath.startsWith('docs/modules')) return '';
+          return html;
+        },
         locales: {
           root: {
             translations: {

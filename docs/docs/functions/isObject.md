@@ -2,7 +2,7 @@
 
 ▸ **isObject**(`value`): value is ObjectType
 
-## 是否为普通对象
+## 是否为普通对象类型
 判断一个值是否为普通对象, 不包含数组
  #### 示例
  ```ts
@@ -23,4 +23,4 @@ value is ObjectType
 
 #### Defined in
 
-[modules/judgment/index.ts:16](https://github.com/loclink/tianjie/blob/d917073/src/modules/judgment/index.ts#L16)
+[modules/judgment/index.ts:16](https://github.com/loclink/tianjie/blob/52d7010/src/modules/judgment/index.ts#L16)

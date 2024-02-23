@@ -33,7 +33,7 @@ export const mergeDeep = <T = ObjectType, U = ObjectType>(target: T, source: U):
 /**
  * @name 将对象转为query字符串
  * @param obj 需要转换的对象
- * @group 实用方法
+ * @group 实用函数
  * @returns
  * @example
  * ``` ts

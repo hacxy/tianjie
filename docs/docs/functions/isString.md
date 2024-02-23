@@ -2,7 +2,7 @@
 
 ▸ **isString**(`value`): value is string
 
-## 是否为字符串
+## 是否为字符串类型
 判断一个值是否为字符串
  #### 示例
  ```ts
@@ -23,4 +23,4 @@ value is string
 
 #### Defined in
 
-[modules/judgment/index.ts:33](https://github.com/loclink/tianjie/blob/d917073/src/modules/judgment/index.ts#L33)
+[modules/judgment/index.ts:33](https://github.com/loclink/tianjie/blob/52d7010/src/modules/judgment/index.ts#L33)

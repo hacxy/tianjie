@@ -1,7 +1,9 @@
 // doc/typedoc.js
 const TypeDoc = require('typedoc');
 const path = require('path');
-const fs = require('fs');
+// const fs = require('fs');
+const json2md = require('json2md');
+const fs = require('fs-extra');
 // 根目录
 function rootPath(...args) {
   return path.join(__dirname, '..', ...args);
@@ -12,7 +14,7 @@ async function resolveConfig(jsonDir) {
   const result = [];
 
   // 读取文档数据结构的 json 文件
-  const buffer = await fs.promises.readFile(jsonDir, 'utf8');
+  const buffer = await fs.readFileSync(jsonDir, 'utf8');
   const data = JSON.parse(buffer.toString());
   if (!data.children || data.children.length <= 0) {
     return;
@@ -55,7 +57,9 @@ async function resolveConfig(jsonDir) {
   result.push(moduleConfig);
 
   // 转换成的导航数据输出到 doc/apidocConfig.json
-  await fs.promises.writeFile(path.join(__dirname, 'apidocConfig.json'), JSON.stringify(result), 'utf8');
+  await fs.writeFileSync(path.join(__dirname, 'apidocConfig.json'), JSON.stringify(result), 'utf8');
+
+  return sidebarData;
 }
 
 // function transformModuleName(name) {
@@ -103,38 +107,35 @@ async function main() {
     tsconfig: rootPath('tsconfig.json'),
     plugin: ['typedoc-plugin-markdown'],
     allReflectionsHaveOwnDocument: true,
+    hideInPageTOC: true,
     hideBreadcrumbs: true
     // namedAnchors: true,
     // preserveAnchorCasing: true
     // readme: 'none'
   });
 
-  const handleDocForProject = async (project) => {
+  // 处理文档内容生成
+  const handleGenerate = async (project) => {
     if (project) {
-      let fnItem;
-      project.groups.map((item, index, arr) => {
-        // console.log(item.children[0].sources);
-        if (item.title === 'Interfaces') {
-          item.title = '接口';
-          arr[index] = item;
-        }
-        if (item.title === 'Functions') {
-          item.title = '其他方法';
-          fnItem = item;
-          arr.splice(index, 1);
-        }
-        if (item.title === 'Type Aliases') {
-          item.title = '类型';
-          arr[index] = item;
-        }
-      });
-      project.groups.push(fnItem);
-
       // 输出产物位置
       const outputDir = path.join(__dirname, 'docs');
 
       // 生成文档内容
       await app.generateDocs(project, outputDir);
+
+      // 生成目录
+      const catalogueData = [];
+      json2md.converters.titleLink = (input) => {
+        return `- #### [${input.title}](${input.source})`;
+      };
+      project.groups.forEach((item) => {
+        catalogueData.push({ h3: item.title });
+        item.children.forEach((child) => {
+          catalogueData.push({ titleLink: { title: child.defineData?.name || child.name, source: child.url } });
+        });
+      });
+      const catalogueContent = json2md([{ h1: '目录' }, ...catalogueData]);
+      await fs.writeFileSync(path.join(outputDir, 'catalogue.md'), catalogueContent, 'utf8');
 
       // 生成文档数据结构
       const jsonDir = path.join(outputDir, 'documentation.json');
@@ -149,23 +150,18 @@ async function main() {
   const handleChinesize = (project) => {
     project.children.map((projectItem) => {
       projectItem.signatures?.map((signaturesItem) => {
-        signaturesItem.comment.blockTags?.map((tagItem, index, blockTagsArr) => {
+        signaturesItem.comment?.blockTags?.map((tagItem, index, blockTagsArr) => {
           if (tagItem.tag === '@name') {
             tagItem.content.map((nameTagItem) => {
+              const itemNameText = nameTagItem.text.split(/\r?\n/)[0] || '';
+              projectItem.defineData = { name: `${projectItem.name || ''} - ${itemNameText}` }; // 加入自己的数据, 方便以后使用
               signaturesItem.comment.summary.push({ ...nameTagItem, text: `## ${nameTagItem.text}` });
             });
             blockTagsArr.splice(index, 1);
           }
         });
 
-        // signaturesItem.comment.blockTags?.map((tagItem) => {
-        //   if (tagItem.tag === '@returns') {
-        //     console.log(tagItem);
-        //     tagItem.tag = 'aaaaaaaaaaaaaaaaaa';
-        //   }
-        // });
-
-        signaturesItem.comment.blockTags?.map((tagItem, index, blockTagsArr) => {
+        signaturesItem.comment?.blockTags?.map((tagItem, index, blockTagsArr) => {
           if (tagItem.tag === '@example') {
             tagItem.content.map((nameTagItem) => {
               signaturesItem.comment.summary.push({ ...nameTagItem, text: `\n #### 示例\n ${nameTagItem.text}` });
@@ -179,17 +175,37 @@ async function main() {
         // console.log(signaturesItem.comment.summary);
       });
     });
+
+    let fnItem;
+    project.groups.map((item, index, arr) => {
+      // console.log(item.children[0].sources);
+      if (item.title === 'Interfaces') {
+        item.title = '接口';
+        arr[index] = item;
+      }
+      if (item.title === 'Functions') {
+        item.title = '其他函数';
+        fnItem = item;
+        arr.splice(index, 1);
+      }
+      if (item.title === 'Type Aliases') {
+        item.title = '类型';
+        arr[index] = item;
+      }
+    });
+    project.groups.push(fnItem);
   };
+
   // 判断是否为监听模式
   if (process.argv.includes('-w') || process.argv.includes('--watch')) {
     app.convertAndWatch(async (project) => {
       handleChinesize(project);
-      handleDocForProject(project);
+      handleGenerate(project);
     });
   } else {
     const project = app.convert();
     handleChinesize(project);
-    handleDocForProject(project);
+    handleGenerate(project);
   }
 }
 

@@ -6,4 +6,4 @@
 
 #### Defined in
 
-[modules/object/types.ts:4](https://github.com/loclink/tianjie/blob/d917073/src/modules/object/types.ts#L4)
+[modules/object/types.ts:4](https://github.com/loclink/tianjie/blob/52d7010/src/modules/object/types.ts#L4)

@@ -11,7 +11,7 @@ hero:
 
     - theme: brand
       text: 文档速览
-      link: /docs/modules
+      link: /docs/catalogue
 
     - theme: alt
       text: Github

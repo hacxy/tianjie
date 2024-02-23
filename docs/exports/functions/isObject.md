@@ -23,4 +23,4 @@ value is ObjectType
 
 #### Defined in
 
-[modules/judgment/index.ts:16](https://github.com/loclink/tianjie/blob/fc91c50/src/modules/judgment/index.ts#L16)
+[modules/judgment/index.ts:16](https://github.com/loclink/tianjie/blob/d9251ce/src/modules/judgment/index.ts#L16)

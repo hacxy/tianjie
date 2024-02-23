@@ -16,4 +16,4 @@ getTimestamp()
 
 #### Defined in
 
-[modules/date/index.ts:11](https://github.com/loclink/tianjie/blob/fc91c50/src/modules/date/index.ts#L11)
+[modules/date/index.ts:11](https://github.com/loclink/tianjie/blob/d9251ce/src/modules/date/index.ts#L11)

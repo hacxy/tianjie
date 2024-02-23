@@ -8,7 +8,7 @@ const fs = require('fs-extra');
 function rootPath(...args) {
   return path.join(__dirname, '..', ...args);
 }
-
+const outputDirName = 'exports';
 /** 生成 sidebar 目录配置项 */
 async function resolveConfig(jsonDir) {
   const result = [];
@@ -71,23 +71,23 @@ async function resolveConfig(jsonDir) {
 // }
 
 function getClassPath(className) {
-  return path.join('/docs/classes', `${className}`).replace(/\\/g, '/');
+  return path.join(`/${outputDirName}/classes`, `${className}`).replace(/\\/g, '/');
 }
 
 function getInterfacePath(interfaceName) {
-  return path.join('/docs/interfaces', `${interfaceName}`).replace(/\\/g, '/');
+  return path.join(`/${outputDirName}/interfaces`, `${interfaceName}`).replace(/\\/g, '/');
 }
 
 function getTypePath(typeName) {
-  return path.join('/docs/types', `${typeName}`).replace(/\\/g, '/');
+  return path.join(`/${outputDirName}/types`, `${typeName}`).replace(/\\/g, '/');
 }
 
 function getFunctionPath(functionName) {
-  return path.join('/docs/functions', `${functionName}`).replace(/\\/g, '/');
+  return path.join(`/${outputDirName}/functions`, `${functionName}`).replace(/\\/g, '/');
 }
 
 function getEnumPath(enumName) {
-  return path.join('/docs/enums', `${enumName}`).replace(/\\/g, '/');
+  return path.join(`/${outputDirName}/enums`, `${enumName}`).replace(/\\/g, '/');
 }
 
 // 主函数
@@ -118,7 +118,7 @@ async function main() {
   const handleGenerate = async (project) => {
     if (project) {
       // 输出产物位置
-      const outputDir = path.join(__dirname, 'docs');
+      const outputDir = path.join(__dirname, outputDirName);
 
       // 生成文档内容
       await app.generateDocs(project, outputDir);

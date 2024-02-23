@@ -1,8 +1,8 @@
-# Type alias: DebounceOptions
+# Type alias: ThrottleOptions
 
-Ƭ **DebounceOptions**: `Object`
+Ƭ **ThrottleOptions**: `Object`
 
-防抖函数执行选项类型
+节流函数执行选项类型
 
 #### Type declaration
 
@@ -13,4 +13,4 @@
 
 #### Defined in
 
-[modules/function/types.ts:4](https://github.com/loclink/tianjie/blob/fc91c50/src/modules/function/types.ts#L4)
+[modules/function/types.ts:18](https://github.com/loclink/tianjie/blob/d9251ce/src/modules/function/types.ts#L18)

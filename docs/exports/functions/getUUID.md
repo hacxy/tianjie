@@ -17,4 +17,4 @@ getUUID() // => a0c356fa-0edb-48f3-a70d-9004a19a0930
 
 #### Defined in
 
-[modules/string/index.ts:28](https://github.com/loclink/tianjie/blob/d9251ce/src/modules/string/index.ts#L28)
+[modules/string/index.ts:28](https://github.com/loclink/tianjie/blob/e41a67e/src/modules/string/index.ts#L28)

@@ -19,7 +19,7 @@ export default defineConfig({
   },
   lastUpdated: true,
   themeConfig: {
-    sidebar: { '/docs/': sidebarConfig },
+    sidebar: { '/exports/': sidebarConfig },
     outline: {
       level: [2, 4],
       label: 'On this page'

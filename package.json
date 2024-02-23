@@ -12,7 +12,7 @@
     "typedoc": "node ./docs/typedoc.js",
     "dev:docs": "concurrently \"node ./docs/typedoc.js -w\"  \"vitepress dev docs\"",
     "release": "dotenv release-it",
-    "release:ci": "release-it --ci",
+    "release:ci": "dotenv release-it --ci",
     "test": "vitest",
     "test:ui": "vitest --ui"
   },

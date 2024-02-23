@@ -43,4 +43,4 @@ _foo()
 
 #### Defined in
 
-[modules/function/index.ts:20](https://github.com/loclink/tianjie/blob/d9251ce/src/modules/function/index.ts#L20)
+[modules/function/index.ts:20](https://github.com/loclink/tianjie/blob/e41a67e/src/modules/function/index.ts#L20)

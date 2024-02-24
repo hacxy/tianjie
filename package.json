@@ -1,6 +1,6 @@
 {
   "name": "tianjie",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "",
   "main": "./dist/index.min.js",
   "module": "./dist/index.js",

@@ -44,3 +44,14 @@ export const isString = (value: any): value is string => {
 export const isNumber = (value: any): value is number => {
   return typeof value === 'number' || value instanceof Number;
 };
+
+/**
+ * @name 是否为数组类型
+ * 判断一个值是否为数组类型
+ * @group 类型判断
+ * @param value 任意值
+ * @returns
+ */
+export const isArray = (value: any): value is Array<any> => {
+  return Array.isArray(value);
+};

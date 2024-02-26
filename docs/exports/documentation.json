@@ -1,12 +1,12 @@
 {
-	"id": 0,
+	"id": 576,
 	"name": "tianjie",
 	"variant": "project",
 	"kind": 1,
 	"flags": {},
 	"children": [
 		{
-			"id": 40,
+			"id": 630,
 			"name": "DebounceOptions",
 			"variant": "declaration",
 			"kind": 4194304,
@@ -24,20 +24,20 @@
 					"fileName": "modules/function/types.ts",
 					"line": 4,
 					"character": 12,
-					"url": "https://github.com/loclink/tianjie/blob/f0b1650/src/modules/function/types.ts#L4"
+					"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/function/types.ts#L4"
 				}
 			],
 			"type": {
 				"type": "reflection",
 				"declaration": {
-					"id": 41,
+					"id": 631,
 					"name": "__type",
 					"variant": "declaration",
 					"kind": 65536,
 					"flags": {},
 					"children": [
 						{
-							"id": 42,
+							"id": 632,
 							"name": "leading",
 							"variant": "declaration",
 							"kind": 1024,
@@ -57,7 +57,7 @@
 									"fileName": "modules/function/types.ts",
 									"line": 8,
 									"character": 2,
-									"url": "https://github.com/loclink/tianjie/blob/f0b1650/src/modules/function/types.ts#L8"
+									"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/function/types.ts#L8"
 								}
 							],
 							"type": {
@@ -66,7 +66,7 @@
 							}
 						},
 						{
-							"id": 43,
+							"id": 633,
 							"name": "trailing",
 							"variant": "declaration",
 							"kind": 1024,
@@ -86,7 +86,7 @@
 									"fileName": "modules/function/types.ts",
 									"line": 12,
 									"character": 2,
-									"url": "https://github.com/loclink/tianjie/blob/f0b1650/src/modules/function/types.ts#L12"
+									"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/function/types.ts#L12"
 								}
 							],
 							"type": {
@@ -99,8 +99,8 @@
 						{
 							"title": "Properties",
 							"children": [
-								42,
-								43
+								632,
+								633
 							]
 						}
 					],
@@ -109,14 +109,14 @@
 							"fileName": "modules/function/types.ts",
 							"line": 4,
 							"character": 30,
-							"url": "https://github.com/loclink/tianjie/blob/f0b1650/src/modules/function/types.ts#L4"
+							"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/function/types.ts#L4"
 						}
 					]
 				}
 			}
 		},
 		{
-			"id": 73,
+			"id": 666,
 			"name": "ObjectType",
 			"variant": "declaration",
 			"kind": 4194304,
@@ -134,7 +134,7 @@
 					"fileName": "modules/object/types.ts",
 					"line": 4,
 					"character": 12,
-					"url": "https://github.com/loclink/tianjie/blob/f0b1650/src/modules/object/types.ts#L4"
+					"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/object/types.ts#L4"
 				}
 			],
 			"type": {
@@ -158,7 +158,7 @@
 			}
 		},
 		{
-			"id": 44,
+			"id": 634,
 			"name": "ThrottleOptions",
 			"variant": "declaration",
 			"kind": 4194304,
@@ -176,20 +176,20 @@
 					"fileName": "modules/function/types.ts",
 					"line": 18,
 					"character": 12,
-					"url": "https://github.com/loclink/tianjie/blob/f0b1650/src/modules/function/types.ts#L18"
+					"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/function/types.ts#L18"
 				}
 			],
 			"type": {
 				"type": "reflection",
 				"declaration": {
-					"id": 45,
+					"id": 635,
 					"name": "__type",
 					"variant": "declaration",
 					"kind": 65536,
 					"flags": {},
 					"children": [
 						{
-							"id": 46,
+							"id": 636,
 							"name": "leading",
 							"variant": "declaration",
 							"kind": 1024,
@@ -209,7 +209,7 @@
 									"fileName": "modules/function/types.ts",
 									"line": 22,
 									"character": 2,
-									"url": "https://github.com/loclink/tianjie/blob/f0b1650/src/modules/function/types.ts#L22"
+									"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/function/types.ts#L22"
 								}
 							],
 							"type": {
@@ -218,7 +218,7 @@
 							}
 						},
 						{
-							"id": 47,
+							"id": 637,
 							"name": "trailing",
 							"variant": "declaration",
 							"kind": 1024,
@@ -238,7 +238,7 @@
 									"fileName": "modules/function/types.ts",
 									"line": 26,
 									"character": 2,
-									"url": "https://github.com/loclink/tianjie/blob/f0b1650/src/modules/function/types.ts#L26"
+									"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/function/types.ts#L26"
 								}
 							],
 							"type": {
@@ -251,8 +251,8 @@
 						{
 							"title": "Properties",
 							"children": [
-								46,
-								47
+								636,
+								637
 							]
 						}
 					],
@@ -261,14 +261,14 @@
 							"fileName": "modules/function/types.ts",
 							"line": 18,
 							"character": 30,
-							"url": "https://github.com/loclink/tianjie/blob/f0b1650/src/modules/function/types.ts#L18"
+							"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/function/types.ts#L18"
 						}
 					]
 				}
 			}
 		},
 		{
-			"id": 9,
+			"id": 585,
 			"name": "debounce",
 			"variant": "declaration",
 			"kind": 64,
@@ -278,12 +278,12 @@
 					"fileName": "modules/function/index.ts",
 					"line": 20,
 					"character": 13,
-					"url": "https://github.com/loclink/tianjie/blob/f0b1650/src/modules/function/index.ts#L20"
+					"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/function/index.ts#L20"
 				}
 			],
 			"signatures": [
 				{
-					"id": 10,
+					"id": 586,
 					"name": "debounce",
 					"variant": "signature",
 					"kind": 4096,
@@ -316,12 +316,12 @@
 							"fileName": "modules/function/index.ts",
 							"line": 20,
 							"character": 24,
-							"url": "https://github.com/loclink/tianjie/blob/f0b1650/src/modules/function/index.ts#L20"
+							"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/function/index.ts#L20"
 						}
 					],
 					"parameters": [
 						{
-							"id": 11,
+							"id": 587,
 							"name": "fn",
 							"variant": "param",
 							"kind": 32768,
@@ -337,7 +337,7 @@
 							"type": {
 								"type": "reflection",
 								"declaration": {
-									"id": 12,
+									"id": 588,
 									"name": "__type",
 									"variant": "declaration",
 									"kind": 65536,
@@ -347,12 +347,12 @@
 											"fileName": "modules/function/index.ts",
 											"line": 21,
 											"character": 6,
-											"url": "https://github.com/loclink/tianjie/blob/f0b1650/src/modules/function/index.ts#L21"
+											"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/function/index.ts#L21"
 										}
 									],
 									"signatures": [
 										{
-											"id": 13,
+											"id": 589,
 											"name": "__type",
 											"variant": "signature",
 											"kind": 4096,
@@ -362,12 +362,12 @@
 													"fileName": "modules/function/index.ts",
 													"line": 21,
 													"character": 6,
-													"url": "https://github.com/loclink/tianjie/blob/f0b1650/src/modules/function/index.ts#L21"
+													"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/function/index.ts#L21"
 												}
 											],
 											"parameters": [
 												{
-													"id": 14,
+													"id": 590,
 													"name": "arg",
 													"variant": "param",
 													"kind": 32768,
@@ -390,7 +390,7 @@
 							}
 						},
 						{
-							"id": 15,
+							"id": 591,
 							"name": "wait",
 							"variant": "param",
 							"kind": 32768,
@@ -414,7 +414,7 @@
 							"defaultValue": "0"
 						},
 						{
-							"id": 16,
+							"id": 592,
 							"name": "options",
 							"variant": "param",
 							"kind": 32768,
@@ -433,14 +433,14 @@
 							},
 							"type": {
 								"type": "reference",
-								"target": 40,
+								"target": 630,
 								"name": "DebounceOptions",
 								"package": "tianjie"
 							},
 							"defaultValue": "{}"
 						},
 						{
-							"id": 17,
+							"id": 593,
 							"name": "callback",
 							"variant": "param",
 							"kind": 32768,
@@ -458,7 +458,7 @@
 							"type": {
 								"type": "reflection",
 								"declaration": {
-									"id": 18,
+									"id": 594,
 									"name": "__type",
 									"variant": "declaration",
 									"kind": 65536,
@@ -468,12 +468,12 @@
 											"fileName": "modules/function/index.ts",
 											"line": 24,
 											"character": 13,
-											"url": "https://github.com/loclink/tianjie/blob/f0b1650/src/modules/function/index.ts#L24"
+											"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/function/index.ts#L24"
 										}
 									],
 									"signatures": [
 										{
-											"id": 19,
+											"id": 595,
 											"name": "__type",
 											"variant": "signature",
 											"kind": 4096,
@@ -483,12 +483,12 @@
 													"fileName": "modules/function/index.ts",
 													"line": 24,
 													"character": 13,
-													"url": "https://github.com/loclink/tianjie/blob/f0b1650/src/modules/function/index.ts#L24"
+													"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/function/index.ts#L24"
 												}
 											],
 											"parameters": [
 												{
-													"id": 20,
+													"id": 596,
 													"name": "result",
 													"variant": "param",
 													"kind": 32768,
@@ -512,7 +512,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 21,
+							"id": 597,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
@@ -522,12 +522,12 @@
 									"fileName": "modules/function/index.ts",
 									"line": 31,
 									"character": 11,
-									"url": "https://github.com/loclink/tianjie/blob/f0b1650/src/modules/function/index.ts#L31"
+									"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/function/index.ts#L31"
 								}
 							],
 							"signatures": [
 								{
-									"id": 22,
+									"id": 598,
 									"name": "__type",
 									"variant": "signature",
 									"kind": 4096,
@@ -537,12 +537,12 @@
 											"fileName": "modules/function/index.ts",
 											"line": 31,
 											"character": 2,
-											"url": "https://github.com/loclink/tianjie/blob/f0b1650/src/modules/function/index.ts#L31"
+											"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/function/index.ts#L31"
 										}
 									],
 									"parameters": [
 										{
-											"id": 23,
+											"id": 599,
 											"name": "this",
 											"variant": "param",
 											"kind": 32768,
@@ -553,7 +553,7 @@
 											}
 										},
 										{
-											"id": 24,
+											"id": 600,
 											"name": "arg",
 											"variant": "param",
 											"kind": 32768,
@@ -581,7 +581,7 @@
 			]
 		},
 		{
-			"id": 74,
+			"id": 667,
 			"name": "formatInitialCapital",
 			"variant": "declaration",
 			"kind": 64,
@@ -591,12 +591,12 @@
 					"fileName": "modules/string/index.ts",
 					"line": 12,
 					"character": 13,
-					"url": "https://github.com/loclink/tianjie/blob/f0b1650/src/modules/string/index.ts#L12"
+					"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/string/index.ts#L12"
 				}
 			],
 			"signatures": [
 				{
-					"id": 75,
+					"id": 668,
 					"name": "formatInitialCapital",
 					"variant": "signature",
 					"kind": 4096,
@@ -624,12 +624,12 @@
 							"fileName": "modules/string/index.ts",
 							"line": 12,
 							"character": 36,
-							"url": "https://github.com/loclink/tianjie/blob/f0b1650/src/modules/string/index.ts#L12"
+							"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/string/index.ts#L12"
 						}
 					],
 					"parameters": [
 						{
-							"id": 76,
+							"id": 669,
 							"name": "str",
 							"variant": "param",
 							"kind": 32768,
@@ -656,7 +656,7 @@
 			]
 		},
 		{
-			"id": 1,
+			"id": 577,
 			"name": "getRandomElement",
 			"variant": "declaration",
 			"kind": 64,
@@ -666,12 +666,12 @@
 					"fileName": "modules/array/index.ts",
 					"line": 10,
 					"character": 13,
-					"url": "https://github.com/loclink/tianjie/blob/f0b1650/src/modules/array/index.ts#L10"
+					"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/array/index.ts#L10"
 				}
 			],
 			"signatures": [
 				{
-					"id": 2,
+					"id": 578,
 					"name": "getRandomElement",
 					"variant": "signature",
 					"kind": 4096,
@@ -693,12 +693,12 @@
 							"fileName": "modules/array/index.ts",
 							"line": 10,
 							"character": 32,
-							"url": "https://github.com/loclink/tianjie/blob/f0b1650/src/modules/array/index.ts#L10"
+							"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/array/index.ts#L10"
 						}
 					],
 					"typeParameter": [
 						{
-							"id": 3,
+							"id": 579,
 							"name": "T",
 							"variant": "typeParam",
 							"kind": 131072,
@@ -707,7 +707,7 @@
 					],
 					"parameters": [
 						{
-							"id": 4,
+							"id": 580,
 							"name": "arr",
 							"variant": "param",
 							"kind": 32768,
@@ -750,7 +750,7 @@
 			]
 		},
 		{
-			"id": 60,
+			"id": 653,
 			"name": "getRandomNum",
 			"variant": "declaration",
 			"kind": 64,
@@ -760,12 +760,12 @@
 					"fileName": "modules/number/index.ts",
 					"line": 13,
 					"character": 16,
-					"url": "https://github.com/loclink/tianjie/blob/f0b1650/src/modules/number/index.ts#L13"
+					"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/number/index.ts#L13"
 				}
 			],
 			"signatures": [
 				{
-					"id": 61,
+					"id": 654,
 					"name": "getRandomNum",
 					"variant": "signature",
 					"kind": 4096,
@@ -798,12 +798,12 @@
 							"fileName": "modules/number/index.ts",
 							"line": 13,
 							"character": 0,
-							"url": "https://github.com/loclink/tianjie/blob/f0b1650/src/modules/number/index.ts#L13"
+							"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/number/index.ts#L13"
 						}
 					],
 					"parameters": [
 						{
-							"id": 62,
+							"id": 655,
 							"name": "Min",
 							"variant": "param",
 							"kind": 32768,
@@ -822,7 +822,7 @@
 							}
 						},
 						{
-							"id": 63,
+							"id": 656,
 							"name": "Max",
 							"variant": "param",
 							"kind": 32768,
@@ -849,7 +849,7 @@
 			]
 		},
 		{
-			"id": 5,
+			"id": 581,
 			"name": "getTimestamp",
 			"variant": "declaration",
 			"kind": 64,
@@ -859,12 +859,12 @@
 					"fileName": "modules/date/index.ts",
 					"line": 11,
 					"character": 13,
-					"url": "https://github.com/loclink/tianjie/blob/f0b1650/src/modules/date/index.ts#L11"
+					"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/date/index.ts#L11"
 				}
 			],
 			"signatures": [
 				{
-					"id": 6,
+					"id": 582,
 					"name": "getTimestamp",
 					"variant": "signature",
 					"kind": 4096,
@@ -886,7 +886,7 @@
 							"fileName": "modules/date/index.ts",
 							"line": 11,
 							"character": 28,
-							"url": "https://github.com/loclink/tianjie/blob/f0b1650/src/modules/date/index.ts#L11"
+							"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/date/index.ts#L11"
 						}
 					],
 					"type": {
@@ -897,7 +897,7 @@
 			]
 		},
 		{
-			"id": 7,
+			"id": 583,
 			"name": "getTimestampInSeconds",
 			"variant": "declaration",
 			"kind": 64,
@@ -907,12 +907,12 @@
 					"fileName": "modules/date/index.ts",
 					"line": 25,
 					"character": 13,
-					"url": "https://github.com/loclink/tianjie/blob/f0b1650/src/modules/date/index.ts#L25"
+					"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/date/index.ts#L25"
 				}
 			],
 			"signatures": [
 				{
-					"id": 8,
+					"id": 584,
 					"name": "getTimestampInSeconds",
 					"variant": "signature",
 					"kind": 4096,
@@ -934,7 +934,7 @@
 							"fileName": "modules/date/index.ts",
 							"line": 25,
 							"character": 37,
-							"url": "https://github.com/loclink/tianjie/blob/f0b1650/src/modules/date/index.ts#L25"
+							"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/date/index.ts#L25"
 						}
 					],
 					"type": {
@@ -945,7 +945,7 @@
 			]
 		},
 		{
-			"id": 77,
+			"id": 670,
 			"name": "getUUID",
 			"variant": "declaration",
 			"kind": 64,
@@ -955,12 +955,12 @@
 					"fileName": "modules/string/index.ts",
 					"line": 28,
 					"character": 13,
-					"url": "https://github.com/loclink/tianjie/blob/f0b1650/src/modules/string/index.ts#L28"
+					"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/string/index.ts#L28"
 				}
 			],
 			"signatures": [
 				{
-					"id": 78,
+					"id": 671,
 					"name": "getUUID",
 					"variant": "signature",
 					"kind": 4096,
@@ -993,7 +993,7 @@
 							"fileName": "modules/string/index.ts",
 							"line": 28,
 							"character": 23,
-							"url": "https://github.com/loclink/tianjie/blob/f0b1650/src/modules/string/index.ts#L28"
+							"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/string/index.ts#L28"
 						}
 					],
 					"type": {
@@ -1004,7 +1004,7 @@
 			]
 		},
 		{
-			"id": 57,
+			"id": 647,
 			"name": "isArray",
 			"variant": "declaration",
 			"kind": 64,
@@ -1014,12 +1014,12 @@
 					"fileName": "modules/judgment/index.ts",
 					"line": 55,
 					"character": 13,
-					"url": "https://github.com/loclink/tianjie/blob/f0b1650/src/modules/judgment/index.ts#L55"
+					"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/judgment/index.ts#L55"
 				}
 			],
 			"signatures": [
 				{
-					"id": 58,
+					"id": 648,
 					"name": "isArray",
 					"variant": "signature",
 					"kind": 4096,
@@ -1043,12 +1043,12 @@
 							"fileName": "modules/judgment/index.ts",
 							"line": 55,
 							"character": 23,
-							"url": "https://github.com/loclink/tianjie/blob/f0b1650/src/modules/judgment/index.ts#L55"
+							"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/judgment/index.ts#L55"
 						}
 					],
 					"parameters": [
 						{
-							"id": 59,
+							"id": 649,
 							"name": "value",
 							"variant": "param",
 							"kind": 32768,
@@ -1083,7 +1083,83 @@
 			]
 		},
 		{
-			"id": 54,
+			"id": 650,
+			"name": "isBoolean",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "modules/judgment/index.ts",
+					"line": 66,
+					"character": 13,
+					"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/judgment/index.ts#L66"
+				}
+			],
+			"signatures": [
+				{
+					"id": 651,
+					"name": "isBoolean",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "## 是否为布尔类型\n判断一个值是否为boolean类型"
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@returns",
+								"content": []
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "modules/judgment/index.ts",
+							"line": 66,
+							"character": 25,
+							"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/judgment/index.ts#L66"
+						}
+					],
+					"parameters": [
+						{
+							"id": 652,
+							"name": "value",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "任意值"
+									}
+								]
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						}
+					],
+					"type": {
+						"type": "predicate",
+						"name": "value",
+						"asserts": false,
+						"targetType": {
+							"type": "intrinsic",
+							"name": "boolean"
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": 644,
 			"name": "isNumber",
 			"variant": "declaration",
 			"kind": 64,
@@ -1093,12 +1169,12 @@
 					"fileName": "modules/judgment/index.ts",
 					"line": 44,
 					"character": 13,
-					"url": "https://github.com/loclink/tianjie/blob/f0b1650/src/modules/judgment/index.ts#L44"
+					"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/judgment/index.ts#L44"
 				}
 			],
 			"signatures": [
 				{
-					"id": 55,
+					"id": 645,
 					"name": "isNumber",
 					"variant": "signature",
 					"kind": 4096,
@@ -1122,12 +1198,12 @@
 							"fileName": "modules/judgment/index.ts",
 							"line": 44,
 							"character": 24,
-							"url": "https://github.com/loclink/tianjie/blob/f0b1650/src/modules/judgment/index.ts#L44"
+							"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/judgment/index.ts#L44"
 						}
 					],
 					"parameters": [
 						{
-							"id": 56,
+							"id": 646,
 							"name": "value",
 							"variant": "param",
 							"kind": 32768,
@@ -1151,7 +1227,7 @@
 			]
 		},
 		{
-			"id": 48,
+			"id": 638,
 			"name": "isObject",
 			"variant": "declaration",
 			"kind": 64,
@@ -1161,12 +1237,12 @@
 					"fileName": "modules/judgment/index.ts",
 					"line": 16,
 					"character": 13,
-					"url": "https://github.com/loclink/tianjie/blob/f0b1650/src/modules/judgment/index.ts#L16"
+					"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/judgment/index.ts#L16"
 				}
 			],
 			"signatures": [
 				{
-					"id": 49,
+					"id": 639,
 					"name": "isObject",
 					"variant": "signature",
 					"kind": 4096,
@@ -1194,12 +1270,12 @@
 							"fileName": "modules/judgment/index.ts",
 							"line": 16,
 							"character": 24,
-							"url": "https://github.com/loclink/tianjie/blob/f0b1650/src/modules/judgment/index.ts#L16"
+							"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/judgment/index.ts#L16"
 						}
 					],
 					"parameters": [
 						{
-							"id": 50,
+							"id": 640,
 							"name": "value",
 							"variant": "param",
 							"kind": 32768,
@@ -1224,7 +1300,7 @@
 						"asserts": false,
 						"targetType": {
 							"type": "reference",
-							"target": 73,
+							"target": 666,
 							"name": "ObjectType",
 							"package": "tianjie"
 						}
@@ -1233,7 +1309,7 @@
 			]
 		},
 		{
-			"id": 51,
+			"id": 641,
 			"name": "isString",
 			"variant": "declaration",
 			"kind": 64,
@@ -1243,12 +1319,12 @@
 					"fileName": "modules/judgment/index.ts",
 					"line": 33,
 					"character": 13,
-					"url": "https://github.com/loclink/tianjie/blob/f0b1650/src/modules/judgment/index.ts#L33"
+					"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/judgment/index.ts#L33"
 				}
 			],
 			"signatures": [
 				{
-					"id": 52,
+					"id": 642,
 					"name": "isString",
 					"variant": "signature",
 					"kind": 4096,
@@ -1276,12 +1352,12 @@
 							"fileName": "modules/judgment/index.ts",
 							"line": 33,
 							"character": 24,
-							"url": "https://github.com/loclink/tianjie/blob/f0b1650/src/modules/judgment/index.ts#L33"
+							"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/judgment/index.ts#L33"
 						}
 					],
 					"parameters": [
 						{
-							"id": 53,
+							"id": 643,
 							"name": "value",
 							"variant": "param",
 							"kind": 32768,
@@ -1313,7 +1389,7 @@
 			]
 		},
 		{
-			"id": 67,
+			"id": 660,
 			"name": "mergeDeep",
 			"variant": "declaration",
 			"kind": 64,
@@ -1323,12 +1399,12 @@
 					"fileName": "modules/object/index.ts",
 					"line": 18,
 					"character": 13,
-					"url": "https://github.com/loclink/tianjie/blob/f0b1650/src/modules/object/index.ts#L18"
+					"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/object/index.ts#L18"
 				}
 			],
 			"signatures": [
 				{
-					"id": 68,
+					"id": 661,
 					"name": "mergeDeep",
 					"variant": "signature",
 					"kind": 4096,
@@ -1356,32 +1432,32 @@
 							"fileName": "modules/object/index.ts",
 							"line": 18,
 							"character": 25,
-							"url": "https://github.com/loclink/tianjie/blob/f0b1650/src/modules/object/index.ts#L18"
+							"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/object/index.ts#L18"
 						}
 					],
 					"typeParameter": [
 						{
-							"id": 69,
+							"id": 662,
 							"name": "T",
 							"variant": "typeParam",
 							"kind": 131072,
 							"flags": {},
 							"default": {
 								"type": "reference",
-								"target": 73,
+								"target": 666,
 								"name": "ObjectType",
 								"package": "tianjie"
 							}
 						},
 						{
-							"id": 70,
+							"id": 663,
 							"name": "U",
 							"variant": "typeParam",
 							"kind": 131072,
 							"flags": {},
 							"default": {
 								"type": "reference",
-								"target": 73,
+								"target": 666,
 								"name": "ObjectType",
 								"package": "tianjie"
 							}
@@ -1389,7 +1465,7 @@
 					],
 					"parameters": [
 						{
-							"id": 71,
+							"id": 664,
 							"name": "target",
 							"variant": "param",
 							"kind": 32768,
@@ -1402,7 +1478,7 @@
 							}
 						},
 						{
-							"id": 72,
+							"id": 665,
 							"name": "source",
 							"variant": "param",
 							"kind": 32768,
@@ -1436,7 +1512,7 @@
 			]
 		},
 		{
-			"id": 64,
+			"id": 657,
 			"name": "objectToQuery",
 			"variant": "declaration",
 			"kind": 64,
@@ -1446,12 +1522,12 @@
 					"fileName": "modules/object/index.ts",
 					"line": 44,
 					"character": 16,
-					"url": "https://github.com/loclink/tianjie/blob/f0b1650/src/modules/object/index.ts#L44"
+					"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/object/index.ts#L44"
 				}
 			],
 			"signatures": [
 				{
-					"id": 65,
+					"id": 658,
 					"name": "objectToQuery",
 					"variant": "signature",
 					"kind": 4096,
@@ -1479,12 +1555,12 @@
 							"fileName": "modules/object/index.ts",
 							"line": 44,
 							"character": 0,
-							"url": "https://github.com/loclink/tianjie/blob/f0b1650/src/modules/object/index.ts#L44"
+							"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/object/index.ts#L44"
 						}
 					],
 					"parameters": [
 						{
-							"id": 66,
+							"id": 659,
 							"name": "obj",
 							"variant": "param",
 							"kind": 32768,
@@ -1499,7 +1575,7 @@
 							},
 							"type": {
 								"type": "reference",
-								"target": 73,
+								"target": 666,
 								"name": "ObjectType",
 								"package": "tianjie"
 							}
@@ -1513,7 +1589,317 @@
 			]
 		},
 		{
-			"id": 25,
+			"id": 616,
+			"name": "setIntervalAsync",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "modules/function/index.ts",
+					"line": 154,
+					"character": 13,
+					"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/function/index.ts#L154"
+				}
+			],
+			"signatures": [
+				{
+					"id": 617,
+					"name": "setIntervalAsync",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "## 可同步执行的定时器\nsetInterval的同步版, 需要执行的函数可以是一个Promise, 循环执行过程是同步的"
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@returns",
+								"content": [
+									{
+										"kind": "text",
+										"text": "返回一个播放器对象, 提供一个start方法和一个stop方法\n\n"
+									},
+									{
+										"kind": "code",
+										"text": "`start: () => Promise<void>`"
+									},
+									{
+										"kind": "text",
+										"text": " - 开始执行定时器\n\n"
+									},
+									{
+										"kind": "code",
+										"text": "`stop: () => void`"
+									},
+									{
+										"kind": "text",
+										"text": " - 停止定时器"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "modules/function/index.ts",
+							"line": 154,
+							"character": 32,
+							"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/function/index.ts#L154"
+						}
+					],
+					"parameters": [
+						{
+							"id": 618,
+							"name": "fn",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "需要定时执行的方法, 不丢失this"
+									}
+								]
+							},
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 619,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "modules/function/index.ts",
+											"line": 154,
+											"character": 37,
+											"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/function/index.ts#L154"
+										}
+									],
+									"signatures": [
+										{
+											"id": 620,
+											"name": "__type",
+											"variant": "signature",
+											"kind": 4096,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "modules/function/index.ts",
+													"line": 154,
+													"character": 37,
+													"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/function/index.ts#L154"
+												}
+											],
+											"parameters": [
+												{
+													"id": 621,
+													"name": "arg",
+													"variant": "param",
+													"kind": 32768,
+													"flags": {
+														"isRest": true
+													},
+													"type": {
+														"type": "array",
+														"elementType": {
+															"type": "intrinsic",
+															"name": "any"
+														}
+													}
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "void"
+											}
+										}
+									]
+								}
+							}
+						},
+						{
+							"id": 622,
+							"name": "interval",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "执行间隔时长 单位毫秒"
+									}
+								]
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 623,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 624,
+									"name": "start",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "modules/function/index.ts",
+											"line": 157,
+											"character": 4,
+											"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/function/index.ts#L157"
+										}
+									],
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 625,
+											"name": "__type",
+											"variant": "declaration",
+											"kind": 65536,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "modules/function/index.ts",
+													"line": 157,
+													"character": 11,
+													"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/function/index.ts#L157"
+												}
+											],
+											"signatures": [
+												{
+													"id": 626,
+													"name": "__type",
+													"variant": "signature",
+													"kind": 4096,
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "modules/function/index.ts",
+															"line": 157,
+															"character": 11,
+															"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/function/index.ts#L157"
+														}
+													],
+													"type": {
+														"type": "reference",
+														"target": {
+															"sourceFileName": "node_modules/.pnpm/registry.npmmirror.com+typescript@5.1.6/node_modules/typescript/lib/lib.es5.d.ts",
+															"qualifiedName": "Promise"
+														},
+														"typeArguments": [
+															{
+																"type": "intrinsic",
+																"name": "void"
+															}
+														],
+														"name": "Promise",
+														"package": "typescript"
+													}
+												}
+											]
+										}
+									},
+									"defaultValue": "..."
+								},
+								{
+									"id": 627,
+									"name": "stop",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "modules/function/index.ts",
+											"line": 169,
+											"character": 4,
+											"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/function/index.ts#L169"
+										}
+									],
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 628,
+											"name": "__type",
+											"variant": "declaration",
+											"kind": 65536,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "modules/function/index.ts",
+													"line": 169,
+													"character": 10,
+													"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/function/index.ts#L169"
+												}
+											],
+											"signatures": [
+												{
+													"id": 629,
+													"name": "__type",
+													"variant": "signature",
+													"kind": 4096,
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "modules/function/index.ts",
+															"line": 169,
+															"character": 10,
+															"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/function/index.ts#L169"
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "void"
+													}
+												}
+											]
+										}
+									},
+									"defaultValue": "..."
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										624,
+										627
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "modules/function/index.ts",
+									"line": 156,
+									"character": 9,
+									"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/function/index.ts#L156"
+								}
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": 601,
 			"name": "throttle",
 			"variant": "declaration",
 			"kind": 64,
@@ -1523,12 +1909,12 @@
 					"fileName": "modules/function/index.ts",
 					"line": 74,
 					"character": 13,
-					"url": "https://github.com/loclink/tianjie/blob/f0b1650/src/modules/function/index.ts#L74"
+					"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/function/index.ts#L74"
 				}
 			],
 			"signatures": [
 				{
-					"id": 26,
+					"id": 602,
 					"name": "throttle",
 					"variant": "signature",
 					"kind": 4096,
@@ -1557,12 +1943,12 @@
 							"fileName": "modules/function/index.ts",
 							"line": 74,
 							"character": 24,
-							"url": "https://github.com/loclink/tianjie/blob/f0b1650/src/modules/function/index.ts#L74"
+							"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/function/index.ts#L74"
 						}
 					],
 					"parameters": [
 						{
-							"id": 27,
+							"id": 603,
 							"name": "fn",
 							"variant": "param",
 							"kind": 32768,
@@ -1581,7 +1967,7 @@
 							}
 						},
 						{
-							"id": 28,
+							"id": 604,
 							"name": "interval",
 							"variant": "param",
 							"kind": 32768,
@@ -1605,7 +1991,7 @@
 							"defaultValue": "0"
 						},
 						{
-							"id": 29,
+							"id": 605,
 							"name": "options",
 							"variant": "param",
 							"kind": 32768,
@@ -1624,14 +2010,14 @@
 							},
 							"type": {
 								"type": "reference",
-								"target": 44,
+								"target": 634,
 								"name": "ThrottleOptions",
 								"package": "tianjie"
 							},
 							"defaultValue": "{}"
 						},
 						{
-							"id": 30,
+							"id": 606,
 							"name": "callback",
 							"variant": "param",
 							"kind": 32768,
@@ -1647,7 +2033,7 @@
 							"type": {
 								"type": "reflection",
 								"declaration": {
-									"id": 31,
+									"id": 607,
 									"name": "__type",
 									"variant": "declaration",
 									"kind": 65536,
@@ -1657,12 +2043,12 @@
 											"fileName": "modules/function/index.ts",
 											"line": 74,
 											"character": 84,
-											"url": "https://github.com/loclink/tianjie/blob/f0b1650/src/modules/function/index.ts#L74"
+											"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/function/index.ts#L74"
 										}
 									],
 									"signatures": [
 										{
-											"id": 32,
+											"id": 608,
 											"name": "__type",
 											"variant": "signature",
 											"kind": 4096,
@@ -1672,12 +2058,12 @@
 													"fileName": "modules/function/index.ts",
 													"line": 74,
 													"character": 84,
-													"url": "https://github.com/loclink/tianjie/blob/f0b1650/src/modules/function/index.ts#L74"
+													"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/function/index.ts#L74"
 												}
 											],
 											"parameters": [
 												{
-													"id": 33,
+													"id": 609,
 													"name": "result",
 													"variant": "param",
 													"kind": 32768,
@@ -1701,14 +2087,14 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 34,
+							"id": 610,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
 							"flags": {},
 							"children": [
 								{
-									"id": 35,
+									"id": 611,
 									"name": "cancel",
 									"variant": "declaration",
 									"kind": 2048,
@@ -1718,12 +2104,12 @@
 											"fileName": "modules/function/index.ts",
 											"line": 137,
 											"character": 12,
-											"url": "https://github.com/loclink/tianjie/blob/f0b1650/src/modules/function/index.ts#L137"
+											"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/function/index.ts#L137"
 										}
 									],
 									"signatures": [
 										{
-											"id": 36,
+											"id": 612,
 											"name": "cancel",
 											"variant": "signature",
 											"kind": 4096,
@@ -1733,7 +2119,7 @@
 													"fileName": "modules/function/index.ts",
 													"line": 137,
 													"character": 21,
-													"url": "https://github.com/loclink/tianjie/blob/f0b1650/src/modules/function/index.ts#L137"
+													"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/function/index.ts#L137"
 												}
 											],
 											"type": {
@@ -1748,7 +2134,7 @@
 								{
 									"title": "Methods",
 									"children": [
-										35
+										611
 									]
 								}
 							],
@@ -1757,12 +2143,12 @@
 									"fileName": "modules/function/index.ts",
 									"line": 82,
 									"character": 11,
-									"url": "https://github.com/loclink/tianjie/blob/f0b1650/src/modules/function/index.ts#L82"
+									"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/function/index.ts#L82"
 								}
 							],
 							"signatures": [
 								{
-									"id": 37,
+									"id": 613,
 									"name": "__type",
 									"variant": "signature",
 									"kind": 4096,
@@ -1772,12 +2158,12 @@
 											"fileName": "modules/function/index.ts",
 											"line": 82,
 											"character": 2,
-											"url": "https://github.com/loclink/tianjie/blob/f0b1650/src/modules/function/index.ts#L82"
+											"url": "https://github.com/loclink/tianjie/blob/30c59cc/src/modules/function/index.ts#L82"
 										}
 									],
 									"parameters": [
 										{
-											"id": 38,
+											"id": 614,
 											"name": "this",
 											"variant": "param",
 											"kind": 32768,
@@ -1788,7 +2174,7 @@
 											}
 										},
 										{
-											"id": 39,
+											"id": 615,
 											"name": "arg",
 											"variant": "param",
 											"kind": 32768,
@@ -1831,63 +2217,65 @@
 		{
 			"title": "类型",
 			"children": [
-				40,
-				73,
-				44
+				630,
+				666,
+				634
 			]
 		},
 		{
 			"title": "字符串",
 			"children": [
-				77
+				670
 			]
 		},
 		{
 			"title": "实用函数",
 			"children": [
-				64
+				657
 			]
 		},
 		{
 			"title": "对象",
 			"children": [
-				67
+				660
 			]
 		},
 		{
 			"title": "时间",
 			"children": [
-				5,
-				7
+				581,
+				583
 			]
 		},
 		{
 			"title": "格式化",
 			"children": [
-				74
+				667
 			]
 		},
 		{
 			"title": "类型判断",
 			"children": [
-				57,
-				54,
-				48,
-				51
+				647,
+				650,
+				644,
+				638,
+				641
 			]
 		},
 		{
 			"title": "随机函数",
 			"children": [
-				1,
-				60
+				577,
+				653
 			]
 		},
 		{
 			"title": "其他函数",
 			"children": [
-				9,
-				25
+				585,
+				616,
+				601
 			]
 		}
 	],
@@ -1907,319 +2295,387 @@
 		}
 	],
 	"symbolIdMap": {
-		"0": {
+		"576": {
 			"sourceFileName": "src/index.ts",
 			"qualifiedName": ""
 		},
-		"1": {
+		"577": {
 			"sourceFileName": "src/modules/array/index.ts",
 			"qualifiedName": "getRandomElement"
 		},
-		"2": {
+		"578": {
 			"sourceFileName": "src/modules/array/index.ts",
 			"qualifiedName": "getRandomElement"
 		},
-		"3": {
+		"579": {
 			"sourceFileName": "src/modules/array/index.ts",
 			"qualifiedName": "T"
 		},
-		"4": {
+		"580": {
 			"sourceFileName": "src/modules/array/index.ts",
 			"qualifiedName": "arr"
 		},
-		"5": {
+		"581": {
 			"sourceFileName": "src/modules/date/index.ts",
 			"qualifiedName": "getTimestamp"
 		},
-		"6": {
+		"582": {
 			"sourceFileName": "src/modules/date/index.ts",
 			"qualifiedName": "getTimestamp"
 		},
-		"7": {
+		"583": {
 			"sourceFileName": "src/modules/date/index.ts",
 			"qualifiedName": "getTimestampInSeconds"
 		},
-		"8": {
+		"584": {
 			"sourceFileName": "src/modules/date/index.ts",
 			"qualifiedName": "getTimestampInSeconds"
 		},
-		"9": {
+		"585": {
 			"sourceFileName": "src/modules/function/index.ts",
 			"qualifiedName": "debounce"
 		},
-		"10": {
+		"586": {
 			"sourceFileName": "src/modules/function/index.ts",
 			"qualifiedName": "debounce"
 		},
-		"11": {
+		"587": {
 			"sourceFileName": "src/modules/function/index.ts",
 			"qualifiedName": "fn"
 		},
-		"12": {
+		"588": {
 			"sourceFileName": "src/modules/function/index.ts",
 			"qualifiedName": "__type"
 		},
-		"13": {
+		"589": {
 			"sourceFileName": "src/modules/function/index.ts",
 			"qualifiedName": "__type"
 		},
-		"14": {
+		"590": {
 			"sourceFileName": "src/modules/function/index.ts",
 			"qualifiedName": "arg"
 		},
-		"15": {
+		"591": {
 			"sourceFileName": "src/modules/function/index.ts",
 			"qualifiedName": "wait"
 		},
-		"16": {
+		"592": {
 			"sourceFileName": "src/modules/function/index.ts",
 			"qualifiedName": "options"
 		},
-		"17": {
+		"593": {
 			"sourceFileName": "src/modules/function/index.ts",
 			"qualifiedName": "callback"
 		},
-		"18": {
+		"594": {
 			"sourceFileName": "src/modules/function/index.ts",
 			"qualifiedName": "__type"
 		},
-		"19": {
+		"595": {
 			"sourceFileName": "src/modules/function/index.ts",
 			"qualifiedName": "__type"
 		},
-		"20": {
+		"596": {
 			"sourceFileName": "src/modules/function/index.ts",
 			"qualifiedName": "result"
 		},
-		"21": {
+		"597": {
 			"sourceFileName": "src/modules/function/index.ts",
 			"qualifiedName": "_debounce"
 		},
-		"22": {
+		"598": {
 			"sourceFileName": "src/modules/function/index.ts",
 			"qualifiedName": "_debounce"
 		},
-		"23": {
+		"599": {
 			"sourceFileName": "src/modules/function/index.ts",
 			"qualifiedName": "this"
 		},
-		"24": {
+		"600": {
 			"sourceFileName": "src/modules/function/index.ts",
 			"qualifiedName": "arg"
 		},
-		"25": {
+		"601": {
 			"sourceFileName": "src/modules/function/index.ts",
 			"qualifiedName": "throttle"
 		},
-		"26": {
+		"602": {
 			"sourceFileName": "src/modules/function/index.ts",
 			"qualifiedName": "throttle"
 		},
-		"27": {
+		"603": {
 			"sourceFileName": "src/modules/function/index.ts",
 			"qualifiedName": "fn"
 		},
-		"28": {
+		"604": {
 			"sourceFileName": "src/modules/function/index.ts",
 			"qualifiedName": "interval"
 		},
-		"29": {
+		"605": {
 			"sourceFileName": "src/modules/function/index.ts",
 			"qualifiedName": "options"
 		},
-		"30": {
+		"606": {
 			"sourceFileName": "src/modules/function/index.ts",
 			"qualifiedName": "callback"
 		},
-		"31": {
+		"607": {
 			"sourceFileName": "src/modules/function/index.ts",
 			"qualifiedName": "__type"
 		},
-		"32": {
+		"608": {
 			"sourceFileName": "src/modules/function/index.ts",
 			"qualifiedName": "__type"
 		},
-		"33": {
+		"609": {
 			"sourceFileName": "src/modules/function/index.ts",
 			"qualifiedName": "result"
 		},
-		"34": {
+		"610": {
 			"sourceFileName": "src/modules/function/index.ts",
 			"qualifiedName": "_throttle"
 		},
-		"35": {
+		"611": {
 			"sourceFileName": "src/modules/function/index.ts",
 			"qualifiedName": "_throttle.cancel"
 		},
-		"36": {
+		"612": {
 			"sourceFileName": "src/modules/function/index.ts",
 			"qualifiedName": "_throttle.cancel"
 		},
-		"37": {
+		"613": {
 			"sourceFileName": "src/modules/function/index.ts",
 			"qualifiedName": "_throttle"
 		},
-		"38": {
+		"614": {
 			"sourceFileName": "src/modules/function/index.ts",
 			"qualifiedName": "this"
 		},
-		"39": {
+		"615": {
 			"sourceFileName": "src/modules/function/index.ts",
 			"qualifiedName": "arg"
 		},
-		"40": {
+		"616": {
+			"sourceFileName": "src/modules/function/index.ts",
+			"qualifiedName": "setIntervalAsync"
+		},
+		"617": {
+			"sourceFileName": "src/modules/function/index.ts",
+			"qualifiedName": "setIntervalAsync"
+		},
+		"618": {
+			"sourceFileName": "src/modules/function/index.ts",
+			"qualifiedName": "fn"
+		},
+		"619": {
+			"sourceFileName": "src/modules/function/index.ts",
+			"qualifiedName": "__type"
+		},
+		"620": {
+			"sourceFileName": "src/modules/function/index.ts",
+			"qualifiedName": "__type"
+		},
+		"621": {
+			"sourceFileName": "src/modules/function/index.ts",
+			"qualifiedName": "arg"
+		},
+		"622": {
+			"sourceFileName": "src/modules/function/index.ts",
+			"qualifiedName": "interval"
+		},
+		"623": {
+			"sourceFileName": "src/modules/function/index.ts",
+			"qualifiedName": "__object"
+		},
+		"624": {
+			"sourceFileName": "src/modules/function/index.ts",
+			"qualifiedName": "__object.start"
+		},
+		"625": {
+			"sourceFileName": "src/modules/function/index.ts",
+			"qualifiedName": "__function"
+		},
+		"626": {
+			"sourceFileName": "src/modules/function/index.ts",
+			"qualifiedName": "__function"
+		},
+		"627": {
+			"sourceFileName": "src/modules/function/index.ts",
+			"qualifiedName": "__object.stop"
+		},
+		"628": {
+			"sourceFileName": "src/modules/function/index.ts",
+			"qualifiedName": "__function"
+		},
+		"629": {
+			"sourceFileName": "src/modules/function/index.ts",
+			"qualifiedName": "__function"
+		},
+		"630": {
 			"sourceFileName": "src/modules/function/types.ts",
 			"qualifiedName": "DebounceOptions"
 		},
-		"41": {
+		"631": {
 			"sourceFileName": "src/modules/function/types.ts",
 			"qualifiedName": "__type"
 		},
-		"42": {
+		"632": {
 			"sourceFileName": "src/modules/function/types.ts",
 			"qualifiedName": "__type.leading"
 		},
-		"43": {
+		"633": {
 			"sourceFileName": "src/modules/function/types.ts",
 			"qualifiedName": "__type.trailing"
 		},
-		"44": {
+		"634": {
 			"sourceFileName": "src/modules/function/types.ts",
 			"qualifiedName": "ThrottleOptions"
 		},
-		"45": {
+		"635": {
 			"sourceFileName": "src/modules/function/types.ts",
 			"qualifiedName": "__type"
 		},
-		"46": {
+		"636": {
 			"sourceFileName": "src/modules/function/types.ts",
 			"qualifiedName": "__type.leading"
 		},
-		"47": {
+		"637": {
 			"sourceFileName": "src/modules/function/types.ts",
 			"qualifiedName": "__type.trailing"
 		},
-		"48": {
+		"638": {
 			"sourceFileName": "src/modules/judgment/index.ts",
 			"qualifiedName": "isObject"
 		},
-		"49": {
+		"639": {
 			"sourceFileName": "src/modules/judgment/index.ts",
 			"qualifiedName": "isObject"
 		},
-		"50": {
+		"640": {
 			"sourceFileName": "src/modules/judgment/index.ts",
 			"qualifiedName": "value"
 		},
-		"51": {
+		"641": {
 			"sourceFileName": "src/modules/judgment/index.ts",
 			"qualifiedName": "isString"
 		},
-		"52": {
+		"642": {
 			"sourceFileName": "src/modules/judgment/index.ts",
 			"qualifiedName": "isString"
 		},
-		"53": {
+		"643": {
 			"sourceFileName": "src/modules/judgment/index.ts",
 			"qualifiedName": "value"
 		},
-		"54": {
+		"644": {
 			"sourceFileName": "src/modules/judgment/index.ts",
 			"qualifiedName": "isNumber"
 		},
-		"55": {
+		"645": {
 			"sourceFileName": "src/modules/judgment/index.ts",
 			"qualifiedName": "isNumber"
 		},
-		"56": {
+		"646": {
 			"sourceFileName": "src/modules/judgment/index.ts",
 			"qualifiedName": "value"
 		},
-		"57": {
+		"647": {
 			"sourceFileName": "src/modules/judgment/index.ts",
 			"qualifiedName": "isArray"
 		},
-		"58": {
+		"648": {
 			"sourceFileName": "src/modules/judgment/index.ts",
 			"qualifiedName": "isArray"
 		},
-		"59": {
+		"649": {
 			"sourceFileName": "src/modules/judgment/index.ts",
 			"qualifiedName": "value"
 		},
-		"60": {
+		"650": {
+			"sourceFileName": "src/modules/judgment/index.ts",
+			"qualifiedName": "isBoolean"
+		},
+		"651": {
+			"sourceFileName": "src/modules/judgment/index.ts",
+			"qualifiedName": "isBoolean"
+		},
+		"652": {
+			"sourceFileName": "src/modules/judgment/index.ts",
+			"qualifiedName": "value"
+		},
+		"653": {
 			"sourceFileName": "src/modules/number/index.ts",
 			"qualifiedName": "getRandomNum"
 		},
-		"61": {
+		"654": {
 			"sourceFileName": "src/modules/number/index.ts",
 			"qualifiedName": "getRandomNum"
 		},
-		"62": {
+		"655": {
 			"sourceFileName": "src/modules/number/index.ts",
 			"qualifiedName": "Min"
 		},
-		"63": {
+		"656": {
 			"sourceFileName": "src/modules/number/index.ts",
 			"qualifiedName": "Max"
 		},
-		"64": {
+		"657": {
 			"sourceFileName": "src/modules/object/index.ts",
 			"qualifiedName": "objectToQuery"
 		},
-		"65": {
+		"658": {
 			"sourceFileName": "src/modules/object/index.ts",
 			"qualifiedName": "objectToQuery"
 		},
-		"66": {
+		"659": {
 			"sourceFileName": "src/modules/object/index.ts",
 			"qualifiedName": "obj"
 		},
-		"67": {
+		"660": {
 			"sourceFileName": "src/modules/object/index.ts",
 			"qualifiedName": "mergeDeep"
 		},
-		"68": {
+		"661": {
 			"sourceFileName": "src/modules/object/index.ts",
 			"qualifiedName": "mergeDeep"
 		},
-		"69": {
+		"662": {
 			"sourceFileName": "src/modules/object/index.ts",
 			"qualifiedName": "T"
 		},
-		"70": {
+		"663": {
 			"sourceFileName": "src/modules/object/index.ts",
 			"qualifiedName": "U"
 		},
-		"71": {
+		"664": {
 			"sourceFileName": "src/modules/object/index.ts",
 			"qualifiedName": "target"
 		},
-		"72": {
+		"665": {
 			"sourceFileName": "src/modules/object/index.ts",
 			"qualifiedName": "source"
 		},
-		"73": {
+		"666": {
 			"sourceFileName": "src/modules/object/types.ts",
 			"qualifiedName": "ObjectType"
 		},
-		"74": {
+		"667": {
 			"sourceFileName": "src/modules/string/index.ts",
 			"qualifiedName": "formatInitialCapital"
 		},
-		"75": {
+		"668": {
 			"sourceFileName": "src/modules/string/index.ts",
 			"qualifiedName": "formatInitialCapital"
 		},
-		"76": {
+		"669": {
 			"sourceFileName": "src/modules/string/index.ts",
 			"qualifiedName": "str"
 		},
-		"77": {
+		"670": {
 			"sourceFileName": "src/modules/string/index.ts",
 			"qualifiedName": "getUUID"
 		},
-		"78": {
+		"671": {
 			"sourceFileName": "src/modules/string/index.ts",
 			"qualifiedName": "getUUID"
 		}

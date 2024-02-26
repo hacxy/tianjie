@@ -34,6 +34,8 @@
 
 - #### [isArray - 是否为数组类型](functions/isArray.md)
 
+- #### [isBoolean - 是否为布尔类型](functions/isBoolean.md)
+
 - #### [isNumber - 是否为数字类型](functions/isNumber.md)
 
 - #### [isObject - 是否为普通对象类型](functions/isObject.md)
@@ -49,5 +51,7 @@
 ### 其他函数
 
 - #### [debounce - 防抖函数](functions/debounce.md)
+
+- #### [setIntervalAsync - 可同步执行的定时器](functions/setIntervalAsync.md)
 
 - #### [throttle - 节流函数](functions/throttle.md)

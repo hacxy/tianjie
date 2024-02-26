@@ -26,4 +26,4 @@ getRandomElement([1, 2, 3, 4, 5])  // 可能输出1,2,3,4,5中的任意一个
 
 #### Defined in
 
-[modules/array/index.ts:10](https://github.com/loclink/tianjie/blob/f0b1650/src/modules/array/index.ts#L10)
+[modules/array/index.ts:10](https://github.com/loclink/tianjie/blob/30c59cc/src/modules/array/index.ts#L10)

@@ -30,6 +30,7 @@
 ## 类型判断
 
 - [isArray](functions/isArray.md)
+- [isBoolean](functions/isBoolean.md)
 - [isNumber](functions/isNumber.md)
 - [isObject](functions/isObject.md)
 - [isString](functions/isString.md)
@@ -42,4 +43,5 @@
 ## 其他函数
 
 - [debounce](functions/debounce.md)
+- [setIntervalAsync](functions/setIntervalAsync.md)
 - [throttle](functions/throttle.md)

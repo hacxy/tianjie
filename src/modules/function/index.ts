@@ -1,4 +1,4 @@
-import { DebounceOptions, IntervalAsyncPlayer, ThrottleOptions } from './types';
+import { DebounceOptions, ThrottleOptions } from './types';
 
 /**
  * @name 防抖函数
@@ -146,8 +146,12 @@ export const throttle = (fn, interval = 0, options: ThrottleOptions = {}, callba
  * @param fn 需要定时执行的方法, 不丢失this
  * @param interval 执行间隔时长 单位毫秒
  * @returns 返回一个播放器对象, 提供一个start方法和一个stop方法
+ *
+ * `start: () => Promise<void>` - 开始执行定时器
+ *
+ * `stop: () => void` - 停止定时器
  */
-export const setIntervalAsync = (fn: (...arg: any[]) => void, interval: number): IntervalAsyncPlayer => {
+export const setIntervalAsync = (fn: (...arg: any[]) => void, interval: number) => {
   let timer: number | undefined = undefined;
   return {
     start: async function () {

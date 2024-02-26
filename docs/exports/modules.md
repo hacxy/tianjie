@@ -29,6 +29,7 @@
 
 ## 类型判断
 
+- [isArray](functions/isArray.md)
 - [isNumber](functions/isNumber.md)
 - [isObject](functions/isObject.md)
 - [isString](functions/isString.md)

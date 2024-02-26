@@ -139,4 +139,5 @@ export const throttle = (fn, interval = 0, options: ThrottleOptions = {}, callba
   };
   return _throttle;
 };
+
 export * from './types';

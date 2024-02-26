@@ -55,3 +55,14 @@ export const isNumber = (value: any): value is number => {
 export const isArray = (value: any): value is Array<any> => {
   return Array.isArray(value);
 };
+
+/**
+ * @name 是否为布尔类型
+ * 判断一个值是否为boolean类型
+ * @group 类型判断
+ * @param value 任意值
+ * @returns
+ */
+export const isBoolean = (value: any): value is boolean => {
+  return typeof value === 'boolean';
+};

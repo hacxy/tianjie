@@ -32,6 +32,8 @@
 
 ### 类型判断
 
+- #### [isArray - 是否为数组类型](functions/isArray.md)
+
 - #### [isNumber - 是否为数字类型](functions/isNumber.md)
 
 - #### [isObject - 是否为普通对象类型](functions/isObject.md)

@@ -1,4 +1,4 @@
-import { DebounceOptions, ThrottleOptions } from './types';
+import { DebounceOptions, IntervalAsyncPlayer, ThrottleOptions } from './types';
 
 /**
  * @name 防抖函数
@@ -140,4 +140,32 @@ export const throttle = (fn, interval = 0, options: ThrottleOptions = {}, callba
   return _throttle;
 };
 
+/**
+ * @name 可同步执行的定时器
+ * setInterval的同步版, 需要执行的函数可以是一个Promise, 循环执行过程是同步的
+ * @param fn 需要定时执行的方法, 不丢失this
+ * @param interval 执行间隔时长 单位毫秒
+ * @returns 返回一个播放器对象, 提供一个start方法和一个stop方法
+ */
+export const setIntervalAsync = (fn: (...arg: any[]) => void, interval: number): IntervalAsyncPlayer => {
+  let timer: number | undefined = undefined;
+  return {
+    start: async function () {
+      const runner = async () => {
+        if (!timer) return;
+        await fn();
+        clearTimeout(timer);
+        timer = setTimeout(runner, interval);
+      };
+      if (timer) return;
+      clearTimeout(timer);
+      timer = setTimeout(runner, interval);
+    },
+
+    stop: function () {
+      clearTimeout(timer);
+      timer = undefined;
+    }
+  };
+};
 export * from './types';

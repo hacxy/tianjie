@@ -25,3 +25,20 @@ export type ThrottleOptions = {
    */
   trailing?: boolean;
 };
+
+/**
+ * 同步定时器执行后返回的播放器对象
+ */
+export type IntervalAsyncPlayer = {
+  /**
+   *  开始执行定时器
+   * @returns
+   */
+  start: () => Promise<void>;
+
+  /**
+   * 停止定时器
+   * @returns
+   */
+  stop: () => void;
+};

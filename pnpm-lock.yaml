@@ -32,6 +32,9 @@ devDependencies:
   json2md:
     specifier: ^2.0.1
     version: 2.0.1
+  oh-my-live2d:
+    specifier: ^0.4.1
+    version: 0.4.1
   release-it:
     specifier: ^15.5.1
     version: registry.npmmirror.com/release-it@15.11.0
@@ -1180,14 +1183,6 @@ packages:
       universalify: registry.npmmirror.com/universalify@0.1.2
     dev: true
 
-  /fsevents@2.3.2:
-    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
-    engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
-    os: [darwin]
-    requiresBuild: true
-    dev: true
-    optional: true
-
   /fsevents@2.3.3:
     resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
@@ -1265,6 +1260,10 @@ packages:
     resolution: {integrity: sha512-eSRppjcPIatRIMC1U6UngP8XFcz8MQWGQdt1MTBQ7NaAmvXDfvNxbvWV3x2y6CdEUciCSsDHDQZbhYaB8QEo2g==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
+    dev: true
+
+  /oh-my-live2d@0.4.1:
+    resolution: {integrity: sha512-kFDo49/IxBsgxOsySKITyj+wEJBaKMT4Ikqo9SWwNnAwStpTN+rt7CaMD01zmq3vOzMtuIhtiS7TkmUbFXyrBQ==}
     dev: true
 
   /perfect-debounce@1.0.0:
@@ -6622,7 +6621,7 @@ packages:
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
   registry.npmmirror.com/run-applescript@5.0.0:
@@ -7631,7 +7630,7 @@ packages:
       postcss: registry.npmmirror.com/postcss@8.4.28
       rollup: registry.npmmirror.com/rollup@3.28.0
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
   registry.npmmirror.com/vitest@0.33.0(@vitest/ui@0.33.0):

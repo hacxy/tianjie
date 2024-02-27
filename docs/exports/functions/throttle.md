@@ -38,4 +38,4 @@
 
 #### Defined in
 
-[modules/function/index.ts:74](https://github.com/loclink/tianjie/blob/30c59cc/src/modules/function/index.ts#L74)
+[modules/function/index.ts:74](https://github.com/loclink/tianjie/blob/a2260de/src/modules/function/index.ts#L74)

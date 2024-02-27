@@ -21,4 +21,4 @@ formatInitialCapital('javascript') // => Javascript
 
 #### Defined in
 
-[modules/string/index.ts:12](https://github.com/loclink/tianjie/blob/30c59cc/src/modules/string/index.ts#L12)
+[modules/string/index.ts:12](https://github.com/loclink/tianjie/blob/a2260de/src/modules/string/index.ts#L12)

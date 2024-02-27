@@ -13,4 +13,4 @@
 
 #### Defined in
 
-[modules/function/types.ts:18](https://github.com/loclink/tianjie/blob/30c59cc/src/modules/function/types.ts#L18)
+[modules/function/types.ts:18](https://github.com/loclink/tianjie/blob/a2260de/src/modules/function/types.ts#L18)

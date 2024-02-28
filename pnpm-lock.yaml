@@ -33,8 +33,8 @@ devDependencies:
     specifier: ^2.0.1
     version: 2.0.1
   oh-my-live2d:
-    specifier: ^0.4.2
-    version: 0.4.2
+    specifier: ^0.4.3
+    version: 0.4.3
   release-it:
     specifier: ^15.5.1
     version: registry.npmmirror.com/release-it@15.11.0
@@ -1262,8 +1262,8 @@ packages:
     hasBin: true
     dev: true
 
-  /oh-my-live2d@0.4.2:
-    resolution: {integrity: sha512-dHpGY1Bax/TNRvzwg66OKGIcfLpLbxU4m3T3+xVXQKKTGQSD0FnEY4QlSSOEYpmg3xgkYEkNJUzoOxCPdbnRqQ==}
+  /oh-my-live2d@0.4.3:
+    resolution: {integrity: sha512-svpNpuQiQKdCUxT72bAVcx3V0oMFUYpxt+kZBnb1pXG6ibAeHHghmZnbkd44uZr1uIXBnxfTmCM+R03vB08Dhw==}
     dev: true
 
   /perfect-debounce@1.0.0:

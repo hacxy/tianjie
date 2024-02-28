@@ -17,4 +17,4 @@ value is any[]
 
 #### Defined in
 
-[modules/judgment/index.ts:55](https://github.com/loclink/tianjie/blob/a2260de/src/modules/judgment/index.ts#L55)
+[modules/judgment/index.ts:55](https://github.com/loclink/tianjie/blob/f81e541/src/modules/judgment/index.ts#L55)

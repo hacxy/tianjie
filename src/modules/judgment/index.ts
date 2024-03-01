@@ -66,3 +66,14 @@ export const isArray = (value: any): value is Array<any> => {
 export const isBoolean = (value: any): value is boolean => {
   return typeof value === 'boolean';
 };
+
+/**
+ * @name 是否为函数类型
+ * 判断一个值是否为Function类型
+ * @group 类型判断
+ * @param value 任意值
+ * @returns
+ */
+export const isFunction = (value: any): value is Function => {
+  return typeof value === 'function';
+};

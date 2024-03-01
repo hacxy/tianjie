@@ -31,4 +31,4 @@ mergeDeep({ a: 1, b: 'hello' }, {a: 2, c: 'loclink' }) // {a: 2, b: 'hello', c: 
 
 #### Defined in
 
-[modules/object/index.ts:18](https://github.com/loclink/tianjie/blob/f81e541/src/modules/object/index.ts#L18)
+[modules/object/index.ts:18](https://github.com/loclink/tianjie/blob/efd659d/src/modules/object/index.ts#L18)

@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.0.10](https://github.com/loclink/tianjie/compare/v0.0.9...v0.0.10) (2024-03-02)
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* 修复类型 ([1f49892](https://github.com/loclink/tianjie/commit/1f4989263b4d5d0c35c11e2249510dd3962617bc))
+
 ### [0.0.9](https://github.com/loclink/tianjie/compare/v0.0.8...v0.0.9) (2024-03-01)
 
 

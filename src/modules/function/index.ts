@@ -151,13 +151,7 @@ export const throttle = (fn, interval = 0, options: ThrottleOptions = {}, callba
  *
  * `stop: () => void` - 停止定时器
  */
-export const setIntervalAsync = (
-  fn: ((...arg: any[]) => void) | ((...arg: any[]) => Promise<void>),
-  interval: number
-): {
-  start: (() => void) | (() => Promise<void>);
-  stop: () => void;
-} => {
+export const setIntervalAsync = (fn: (...arg: any[]) => Promise<void>, interval: number) => {
   let timer: number | undefined = undefined;
   return {
     start: async function () {

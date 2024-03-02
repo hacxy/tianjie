@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.0.11](https://github.com/loclink/tianjie/compare/v0.0.10...v0.0.11) (2024-03-02)
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* 修复setIntervalAsync类型 ([6ad67c6](https://github.com/loclink/tianjie/commit/6ad67c6f27b20206a62e17a0aa437d9d88ed0c7f))
+
 ### [0.0.10](https://github.com/loclink/tianjie/compare/v0.0.9...v0.0.10) (2024-03-02)
 
 

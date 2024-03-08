@@ -31,13 +31,15 @@
 
 - [isArray](functions/isArray.md)
 - [isBoolean](functions/isBoolean.md)
+- [isFunction](functions/isFunction.md)
 - [isNumber](functions/isNumber.md)
 - [isObject](functions/isObject.md)
 - [isString](functions/isString.md)
 
 ## 随机函数
 
-- [getRandomElement](functions/getRandomElement.md)
+- [getRandomArrayIndex](functions/getRandomArrayIndex.md)
+- [getRandomArrayItem](functions/getRandomArrayItem.md)
 - [getRandomNum](functions/getRandomNum.md)
 
 ## 其他函数

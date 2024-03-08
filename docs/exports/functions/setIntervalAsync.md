@@ -9,7 +9,7 @@ setInterval的同步版, 需要执行的函数可以是一个Promise, 循环执�
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `fn` | (...`arg`: `any`[]) => `void` | 需要定时执行的方法, 不丢失this |
+| `fn` | (...`arg`: `any`[]) => `Promise`<`void`\> | 需要定时执行的方法, 不丢失this |
 | `interval` | `number` | 执行间隔时长 单位毫秒 |
 
 #### Returns
@@ -29,4 +29,4 @@ setInterval的同步版, 需要执行的函数可以是一个Promise, 循环执�
 
 #### Defined in
 
-[modules/function/index.ts:154](https://github.com/loclink/tianjie/blob/efd659d/src/modules/function/index.ts#L154)
+[modules/function/index.ts:154](https://github.com/hacxy/tianjie/blob/a7d5cc7/src/modules/function/index.ts#L154)

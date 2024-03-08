@@ -36,6 +36,8 @@
 
 - #### [isBoolean - 是否为布尔类型](functions/isBoolean.md)
 
+- #### [isFunction - 是否为函数类型](functions/isFunction.md)
+
 - #### [isNumber - 是否为数字类型](functions/isNumber.md)
 
 - #### [isObject - 是否为普通对象类型](functions/isObject.md)
@@ -44,7 +46,9 @@
 
 ### 随机函数
 
-- #### [getRandomElement - 随机从数组中取出一个元素](functions/getRandomElement.md)
+- #### [getRandomArrayIndex - 从数组中取出一个随机的索引](functions/getRandomArrayIndex.md)
+
+- #### [getRandomArrayItem - 从数组中随机取出一个元素](functions/getRandomArrayItem.md)
 
 - #### [getRandomNum - 特定范围内取一个随机整数](functions/getRandomNum.md)
 

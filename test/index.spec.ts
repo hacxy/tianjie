@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest';
-import { formatInitialCapital, objectToQuery, getRandomElement } from '../../../src';
+import { formatInitialCapital, objectToQuery, getRandomArrayItem } from '../src';
 
 test('formatInitialCapital', () => {
   expect(formatInitialCapital('javascript')).toBe('Javascript');
@@ -14,6 +14,6 @@ test('对象转query', () => {
 });
 
 test('从数组中取出随机一个值', () => {
-  expect(getRandomElement([1, 2, 3, 4, 5])).toEqual(expect.anything());
+  expect(getRandomArrayItem([1, 2, 3, 4, 5])).toEqual(expect.anything());
 });
 //  --

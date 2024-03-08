@@ -21,4 +21,4 @@ objectToQuery({name: 'loclink', age: 18}) // => name=loclink&age18
 
 #### Defined in
 
-[modules/object/index.ts:44](https://github.com/loclink/tianjie/blob/efd659d/src/modules/object/index.ts#L44)
+[modules/object/index.ts:44](https://github.com/hacxy/tianjie/blob/a7d5cc7/src/modules/object/index.ts#L44)

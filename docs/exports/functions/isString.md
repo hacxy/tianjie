@@ -23,4 +23,4 @@ value is string
 
 #### Defined in
 
-[modules/judgment/index.ts:33](https://github.com/loclink/tianjie/blob/efd659d/src/modules/judgment/index.ts#L33)
+[modules/judgment/index.ts:33](https://github.com/hacxy/tianjie/blob/a7d5cc7/src/modules/judgment/index.ts#L33)

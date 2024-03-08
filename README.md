@@ -1,15 +1,20 @@
 # TianJie
 
-## 概述：
+## Detail：
 
-小而强大的 javascript 工具库
+My javasciript library
 
-## 安装 & 更新
+## Install & Update
 
 ```sh
 npm install tianjie@latest
 ```
 
-## 快速开始
+## Use
 
-阅读文档: [https://tianjie.loclink.cn](https://tianjie.loclink.cn)
+```ts
+import { isNumber } from 'tianjie';
+console.log(isNumber(2));
+```
+
+see: <https://tianjie.loclink.cn>

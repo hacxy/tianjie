@@ -32,6 +32,8 @@
 
 ### 类型判断
 
+- #### [is - 判断一个值的类型](functions/is.md)
+
 - #### [isArray - 是否为数组类型](functions/isArray.md)
 
 - #### [isBoolean - 是否为布尔类型](functions/isBoolean.md)

@@ -17,4 +17,4 @@ value is boolean
 
 #### Defined in
 
-[modules/judgment/index.ts:66](https://github.com/hacxy/tianjie/blob/a7d5cc7/src/modules/judgment/index.ts#L66)
+[modules/judgment/index.ts:66](https://github.com/hacxy/tianjie/blob/4e0d707/src/modules/judgment/index.ts#L66)

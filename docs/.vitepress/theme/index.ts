@@ -7,27 +7,26 @@ export default {
     if (!(import.meta as any).env.SSR) {
       const { loadOml2d } = await import('oh-my-live2d');
       loadOml2d({
+        primaryColor: 'pink',
         models: [
           {
-            path: 'https://cdn.jsdelivr.net/gh/Eikanya/Live2d-model/Live2D/Senko_Normals/senko.model3.json',
-            scale: 0.12,
-            position: [-50, 50],
-            stageStyle: {
-              width: 320
-            }
+            path: 'https://registry.npmmirror.com/oml2d-models/latest/files/models/Senko_Normals/senko.model3.json',
+            position: [-10, 20]
           },
           {
-            path: 'https://cdn.jsdelivr.net/gh/Eikanya/Live2d-model/galgame%20live2d/Fox%20Hime%20Zero/mori_miko/mori_miko.model3.json',
-            position: [50, 100],
+            path: 'https://registry.npmmirror.com/oml2d-models/latest/files/models/Pio/model.json',
+            scale: 0.4,
+            position: [0, 50],
             stageStyle: {
-              width: 300,
-              height: 450
+              height: 300
             }
           }
         ],
         tips: {
-          style: {
-            offsetY: 40
+          idleTips: {
+            wordTheDay: (data) => {
+              return data.hitokoto;
+            }
           }
         }
       });

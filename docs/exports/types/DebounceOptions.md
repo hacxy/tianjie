@@ -13,4 +13,4 @@
 
 #### Defined in
 
-[modules/function/types.ts:4](https://github.com/hacxy/tianjie/blob/a7d5cc7/src/modules/function/types.ts#L4)
+[modules/function/types.ts:4](https://github.com/hacxy/tianjie/blob/4e0d707/src/modules/function/types.ts#L4)

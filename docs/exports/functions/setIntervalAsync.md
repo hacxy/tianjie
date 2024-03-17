@@ -29,4 +29,4 @@ setInterval的同步版, 需要执行的函数可以是一个Promise, 循环执�
 
 #### Defined in
 
-[modules/function/index.ts:154](https://github.com/hacxy/tianjie/blob/a7d5cc7/src/modules/function/index.ts#L154)
+[modules/function/index.ts:154](https://github.com/hacxy/tianjie/blob/4e0d707/src/modules/function/index.ts#L154)

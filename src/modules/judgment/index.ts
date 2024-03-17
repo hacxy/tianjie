@@ -77,3 +77,25 @@ export const isBoolean = (value: any): value is boolean => {
 export const isFunction = (value: any): value is Function => {
   return typeof value === 'function';
 };
+
+/**
+ * @name 判断一个值的类型
+ * 判断类型, 传入一个任意类型的值, 返回这个值的类型字符串值, 当判断不出这个值的类型时返回undefined
+ * @param value 任意值
+ * @group 类型判断
+ * @returns
+ */
+export const is = (value: any) => {
+  switch (typeof value) {
+    case 'function':
+      return 'function';
+    case 'boolean':
+      return 'boolean';
+    case 'string':
+      return 'string';
+  }
+
+  if (value !== null && typeof value === 'object' && !Array.isArray(value)) return 'object';
+  else if (Array.isArray(value)) return 'array';
+  else if (typeof value === 'number' || value instanceof Number) return 'number';
+};

@@ -2,7 +2,7 @@
 
 ## Detail：
 
-My javasciript library
+My javascript library
 
 ## Install & Update
 

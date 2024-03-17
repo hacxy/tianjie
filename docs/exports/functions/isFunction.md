@@ -17,4 +17,4 @@ value is Function
 
 #### Defined in
 
-[modules/judgment/index.ts:77](https://github.com/hacxy/tianjie/blob/a7d5cc7/src/modules/judgment/index.ts#L77)
+[modules/judgment/index.ts:77](https://github.com/hacxy/tianjie/blob/4e0d707/src/modules/judgment/index.ts#L77)

@@ -29,6 +29,7 @@
 
 ## 类型判断
 
+- [is](functions/is.md)
 - [isArray](functions/isArray.md)
 - [isBoolean](functions/isBoolean.md)
 - [isFunction](functions/isFunction.md)

@@ -21,4 +21,4 @@ getRandomArrayIndex(['aaa', 'bbb', 'ccc']) // 0 or 1 or 2
 
 #### Defined in
 
-[modules/array/index.ts:35](https://github.com/hacxy/tianjie/blob/a7d5cc7/src/modules/array/index.ts#L35)
+[modules/array/index.ts:35](https://github.com/hacxy/tianjie/blob/4e0d707/src/modules/array/index.ts#L35)

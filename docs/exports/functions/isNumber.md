@@ -17,4 +17,4 @@ value is number
 
 #### Defined in
 
-[modules/judgment/index.ts:44](https://github.com/hacxy/tianjie/blob/a7d5cc7/src/modules/judgment/index.ts#L44)
+[modules/judgment/index.ts:44](https://github.com/hacxy/tianjie/blob/4e0d707/src/modules/judgment/index.ts#L44)

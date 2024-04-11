@@ -1,27 +1,51 @@
-/**
- * 防抖函数执行选项类型
- */
-export type DebounceOptions = {
+export interface ThrottleSettings {
   /**
-   * 是否立即执行, 默认值: false
    */
-  leading?: boolean;
+  leading?: boolean | undefined;
   /**
-   * 等待时间结束后是否执行, 默认值: true
    */
-  trailing?: boolean;
-};
+  trailing?: boolean | undefined;
+}
 
-/**
- * 节流函数执行选项类型
- */
-export type ThrottleOptions = {
+export type ThrottleType = <T extends (...args: any) => any>(
+  func: T,
+  wait?: number,
+  options?: ThrottleSettings
+) => (...arg: any[]) => void;
+
+interface DebounceSettings {
   /**
-   * 是否立即执行, 默认值: false
    */
-  leading?: boolean;
+  leading?: boolean | undefined;
   /**
-   * 等待时间结束后是否执行, 默认值: true
    */
-  trailing?: boolean;
-};
+  // maxWait?: number | undefined;
+  /**
+   */
+  trailing?: boolean | undefined;
+}
+
+// interface DebouncedFunc<T extends (...args: any[]) => any> {
+//   (...args: Parameters<T>): ReturnType<T> | undefined;
+//   cancel(): void;
+//   flush(): ReturnType<T> | undefined;
+// }
+
+// interface DebouncedFuncLeading<T extends (...args: any[]) => any> extends DebouncedFunc<T> {
+//   (...args: Parameters<T>): ReturnType<T>;
+//   flush(): ReturnType<T>;
+// }
+export interface DebounceSettingsLeading extends DebounceSettings {
+  leading: true;
+}
+
+// export type DebounceType = <T extends (...args: any) => any>(
+//   func: T,
+//   wait: number | undefined,
+//   options: DebounceSettingsLeading
+// ) => DebouncedFuncLeading<T>;
+export type DebounceType = <T extends (...args: any) => any>(
+  func: T,
+  wait: number | undefined,
+  options: DebounceSettingsLeading
+) => (...arg: any[]) => void;

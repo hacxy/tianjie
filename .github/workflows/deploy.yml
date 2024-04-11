@@ -1,7 +1,7 @@
-name: DeployBlog# Actions名称
+name: DeployDocs # Actions名称
 on:
   push: # 监听调用时机为push事件
-    branches: ['master']
+    branches: ['main']
 
 jobs:
   build:

@@ -1,6 +1,8 @@
 import { defineConfig } from 'vitepress';
 import pkg from '../../package.json';
-import sidebarConfig from '../apidocConfig.json';
+// import { handleSidebar } from './handleSidebar.mjs';
+import navigation from './navigation.json';
+
 export default defineConfig({
   description: '一个开箱即用的 Javascript 工具库',
   base: '/',
@@ -19,7 +21,7 @@ export default defineConfig({
   },
   lastUpdated: true,
   themeConfig: {
-    sidebar: { '/exports/': sidebarConfig },
+    sidebar: { '/src/': navigation },
     outline: {
       level: [2, 4],
       label: 'On this page'

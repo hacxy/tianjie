@@ -1,77 +1,15 @@
-import { DebounceOptions, ThrottleOptions } from './types';
-
-/**
- * @name 防抖函数
- * @param fn 需要防抖的函数
- * @param wait 等待时间, 单位毫秒, 默认值`0`
- * @param options 执行选项, 默认值 `{ leading = false, trailing = true }`
- * @param callback 回调函数, 用来拿到函数执行的返回值
- * @returns  返回新的函数用于在事件中执行
- * @example
- * ```ts
- * const foo = () => {
- *   console.log('test');
- *   return 'hello';
- * };
- * const _foo = debounce(foo, 400);
- * _foo()
- * ```
- */
-export const debounce = (
-  fn: (...arg: any) => void,
-  wait: number = 0,
-  options: DebounceOptions = {},
-  callback?: (result: any) => void
-) => {
-  let timer: null | number = null; // 定时器id初始为null
-  let isExecute = false; // 记录是否立即执行过
-
-  const { leading = false, trailing = true } = options;
-  // 返回的函数接收参数
-  function _debounce(this: any, ...arg) {
-    // 如果timer有值则清除定时器
-    if (timer) {
-      clearTimeout(timer);
-      timer = null;
-    }
-
-    // 如果开启立即执行，且立即执行还未执行过，则执行fn
-    if (leading && !isExecute) {
-      const result = fn.call(this, ...arg);
-      callback && callback(result);
-      // resultCallback && resultCallback(result);
-      isExecute = true;
-    } else {
-      timer = setTimeout(() => {
-        // fn.apply(this, arg)
-        if (trailing) {
-          const result = fn.call(this, ...arg);
-          callback && callback(result);
-        }
-
-        // 重置状态
-        isExecute = false;
-        timer = null;
-      }, wait);
-    }
-  }
-
-  // // 取消方法
-  // _debounce.cancel = () => {
-  //   timer && clearInterval(timer);
-  // };
-  return _debounce;
-};
+// import { DebounceOptions, ThrottleOptions } from './types';
+import { DebounceType, ThrottleType } from '@/modules/function/types';
 
 /**
  * @name 节流函数
- * @param fn  用于节流的函数
- * @param interval 函数执行间隔时间单位为毫秒, 默认值: `0`
- * @param options 节流函数执行的选项, 默认值: `{ leading: true, trailing: false }`
- * @param callback 回调函数, 用于拿到函数执行的返回值
- * @returns 返回一个节流函数, 该函数返回一个Promise, 可以在then方法中拿到函数执行的返回值
+ * @group 高阶函数
+ * @param fn
+ * @param wait
+ * @param options
+ * @returns
  */
-export const throttle = (fn, interval = 0, options: ThrottleOptions = {}, callback: (result: any) => void) => {
+export const throttle: ThrottleType = (fn, wait = 0, options = {}) => {
   const { leading, trailing } = options;
 
   let lastTime = 0; // 上次调用的时间，初始值为0
@@ -89,7 +27,7 @@ export const throttle = (fn, interval = 0, options: ThrottleOptions = {}, callba
       // remainTime就会等于interval，大于零就不会执行函数
       if (!leading && !lastTime) lastTime = nowTime;
 
-      const remainTime = interval - (nowTime - lastTime);
+      const remainTime = wait - (nowTime - lastTime);
 
       if (remainTime <= 0) {
         if (timer) {
@@ -101,7 +39,7 @@ export const throttle = (fn, interval = 0, options: ThrottleOptions = {}, callba
         const result = fn.apply(this, arg);
 
         // 方式一：执行结束后将结果传入回调函数并执行
-        callback && callback(result);
+        // callback && callback(result);
 
         // 方式二：将结果resolve出去
         resolve(result);
@@ -124,7 +62,7 @@ export const throttle = (fn, interval = 0, options: ThrottleOptions = {}, callba
           const result = fn.apply(this, arg);
 
           // 方式一：执行结束后将结果传入回调函数并执行
-          callback && callback(result);
+          // callback && callback(result);
 
           // 方式二：将结果resolve出去
           resolve(result);
@@ -141,14 +79,58 @@ export const throttle = (fn, interval = 0, options: ThrottleOptions = {}, callba
 };
 
 /**
+ * @name 防抖函数
+ * @group 高阶函数
+ * @param fn
+ * @param wait
+ * @param options
+ * @returns
+ */
+export const debounce: DebounceType = (fn, wait, options) => {
+  let timer: null | number = null; // 定时器id初始为null
+  let isExecute = false; // 记录是否立即执行过
+
+  const { leading = false, trailing = true } = options;
+  // 返回的函数接收参数
+  function _debounce(this: any, ...arg) {
+    // 如果timer有值则清除定时器
+    if (timer) {
+      clearTimeout(timer);
+      timer = null;
+    }
+
+    // 如果开启立即执行，且立即执行还未执行过，则执行fn
+    if (leading && !isExecute) {
+      fn.call(this, ...arg);
+      // callback && callback(result);
+      // resultCallback && resultCallback(result);
+      isExecute = true;
+    } else {
+      timer = setTimeout(() => {
+        // fn.apply(this, arg)
+        if (trailing) {
+          fn.call(this, ...arg);
+          // callback && callback(result);
+        }
+
+        // 重置状态
+        isExecute = false;
+        timer = null;
+      }, wait);
+    }
+  }
+  return _debounce;
+};
+
+/**
  * @name 可同步执行的定时器
  * setInterval的同步版, 需要执行的函数可以是一个Promise, 循环执行过程是同步的
+ * @group 高阶函数
  * @param fn 需要定时执行的方法, 不丢失this
  * @param interval 执行间隔时长 单位毫秒
  * @returns 返回一个播放器对象, 提供一个start方法和一个stop方法
  *
  * `start: () => Promise<void>` - 开始执行定时器
- *
  * `stop: () => void` - 停止定时器
  */
 export const setIntervalAsync = (fn: (...arg: any[]) => Promise<void>, interval: number) => {

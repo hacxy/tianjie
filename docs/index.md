@@ -7,11 +7,11 @@ hero:
   actions:
     - theme: brand
       text: 指南
-      link: /exports/README
+      link: /src/README
 
     - theme: brand
       text: 文档速览
-      link: /exports/catalogue
+      link: /src/catalogue
 
     - theme: alt
       text: Github
@@ -21,10 +21,10 @@ features:
   - icon: 📦
     title: 开箱即用
     details: 无外部依赖，开箱即用。
-  - icon: ✨
-    title: 类型推导
-    details: 使用typescript开发，完整类型推导
-  - icon: ✨
+  - icon: 🌈
     title: 多种导入方式
-    details: 支持CDN、EMS、CommonJS三种导入方式, 无环境依赖, 浏览器与Nodejs环境中都可使用
+    details: 支持CDN、EMS、CommonJS三种导入方式
+  - icon: 😎
+    title: 平台无限制
+    details: 所有方法在浏览器以及 nodejs 中都可以正常工作
 ---

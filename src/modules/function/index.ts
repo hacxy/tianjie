@@ -48,7 +48,7 @@ export const throttle: ThrottleType = (fn, wait = 500, options = {}) => {
       // 判断末尾时刻是否执行
       if (!timer && remainTime > 0 && trailing) {
         // 如果条件达成则开启一个定时器来处理以下逻辑
-        timer = setTimeout(() => {
+        timer = window.setTimeout(() => {
           // 如果leading为true 则 lastTime 为当前时间戳 下次执行时将在起始时刻执行，否则lastTime = 0，下次执行时起始时刻将不会执行
           lastTime = !leading ? 0 : new Date().getTime();
 
@@ -104,7 +104,7 @@ export const debounce: DebounceType = (fn, wait = 500, options) => {
         resolve(result);
         isExecute = true;
       } else {
-        timer = setTimeout(() => {
+        timer = window.setTimeout(() => {
           // fn.apply(this, arg)
           if (trailing) {
             const result = fn.call(this, ...arg);
@@ -140,11 +140,11 @@ export const setIntervalAsync = (fn: (...arg: any[]) => Promise<void>, interval:
         if (!timer) return;
         await fn();
         clearTimeout(timer);
-        timer = setTimeout(runner, interval);
+        timer = window.setTimeout(runner, interval);
       };
       if (timer) return;
       clearTimeout(timer);
-      timer = setTimeout(runner, interval);
+      timer = window.setTimeout(runner, interval);
     },
 
     stop: function () {

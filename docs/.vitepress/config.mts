@@ -39,7 +39,7 @@ export default defineConfig({
     socialLinks: [
       {
         icon: 'github',
-        link: 'https://github.com/loclink/tianjie'
+        link: 'https://github.com/hacxy/tianjie'
       }
     ],
     search: {

@@ -15,7 +15,7 @@ hero:
 
     - theme: alt
       text: Github
-      link: https://github.com/loclink/tianjie
+      link: https://github.com/hacxy/tianjie
 
 features:
   - icon: 📦

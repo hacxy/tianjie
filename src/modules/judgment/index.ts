@@ -99,3 +99,13 @@ export const is = (value: any) => {
   else if (Array.isArray(value)) return 'array';
   else if (typeof value === 'number' || value instanceof Number) return 'number';
 };
+
+/**
+ * @name 判断一个值是否为Date类型
+ * @param value
+ * @returns
+ */
+export const isDate = (value: any): value is Date => {
+  if (value instanceof Date) return true;
+  else return false;
+};

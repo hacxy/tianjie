@@ -33,4 +33,4 @@ formatInitialCapital('javascript') // => Javascript
 
 ## 查看源码
 
-[modules/string/index.ts:12](https://github.com/hacxy/tianjie/blob/245b0df79651d6de91859938cd5e7b7a04797496/src/modules/string/index.ts#L12)
+[modules/string/index.ts:12](https://github.com/hacxy/tianjie/blob/32d17b0fb1c41747dfab8feb61e15c433f68f661/src/modules/string/index.ts#L12)

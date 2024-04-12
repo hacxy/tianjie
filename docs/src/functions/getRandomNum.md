@@ -36,4 +36,4 @@ getRandomNum(5, 10)  // 可能输出 5 - 10之间的任意一个随机数, 包�
 
 ## 查看源码
 
-[modules/number/index.ts:13](https://github.com/hacxy/tianjie/blob/245b0df79651d6de91859938cd5e7b7a04797496/src/modules/number/index.ts#L13)
+[modules/number/index.ts:13](https://github.com/hacxy/tianjie/blob/32d17b0fb1c41747dfab8feb61e15c433f68f661/src/modules/number/index.ts#L13)

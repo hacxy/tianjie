@@ -44,4 +44,4 @@ mergeDeep({ a: 1, b: 'hello' }, {a: 2, c: 'loclink' }) // {a: 2, b: 'hello', c: 
 
 ## 查看源码
 
-[modules/object/index.ts:18](https://github.com/hacxy/tianjie/blob/245b0df79651d6de91859938cd5e7b7a04797496/src/modules/object/index.ts#L18)
+[modules/object/index.ts:18](https://github.com/hacxy/tianjie/blob/32d17b0fb1c41747dfab8feb61e15c433f68f661/src/modules/object/index.ts#L18)

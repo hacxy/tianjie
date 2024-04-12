@@ -95,9 +95,10 @@ export const is = (value: any) => {
       return 'string';
   }
 
-  if (value !== null && typeof value === 'object' && !Array.isArray(value)) return 'object';
+  if (value !== null && typeof value === 'object' && !Array.isArray(value) && !(value instanceof Date)) return 'object';
   else if (Array.isArray(value)) return 'array';
   else if (typeof value === 'number' || value instanceof Number) return 'number';
+  else if (value instanceof Date) return 'date';
 };
 
 /**

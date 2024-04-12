@@ -1,7 +1,7 @@
 import { expect, test } from 'vitest';
-import { formatInitialCapital, objectToQuery, getRandomArrayItem, isDate } from '../dist';
+import { formatInitialCapital, objectToQuery, getRandomArrayItem, isDate, is } from '../dist';
 
-test('formatInitialCapital', () => {
+test('测试字符串格式化首字母大写', () => {
   expect(formatInitialCapital('javascript')).toBe('Javascript');
 });
 
@@ -23,4 +23,20 @@ test('测试Date类型,输入正确的Date类型,结果为true', () => {
 
 test('测试Date类型,输入错误的Date类型,结果为false', () => {
   expect(isDate(111)).toBe(false);
+});
+
+test('测试is方法, 输入Date 返回字符串 date', () => {
+  expect(is(new Date())).toBe('date');
+});
+
+test('测试is方法, 输入 new对象实例 返回字符串 object', () => {
+  expect(is(new Object())).toBe('object');
+});
+
+test('测试is方法, 输入 new数组实例 返回字符串 array', () => {
+  expect(is(new Array())).toBe('array');
+});
+
+test('测试is方法, 输入 数组 返回字符串 array', () => {
+  expect(is([])).toBe('array');
 });

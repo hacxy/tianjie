@@ -9,9 +9,3 @@ const _foo = debounce(foo, 400);
 _foo().then((res) => {
   console.log(res);
 });
-
-// setTimeout(() => {
-// }, 400);
-// setInterval(() => {
-//   _foo();
-// }, 200);

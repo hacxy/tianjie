@@ -14,6 +14,8 @@
     "docs:preview": "vitepress preview docs",
     "release": "dotenv release-it",
     "release:ci": "dotenv release-it --ci",
+    "demo:web": "vite",
+    "demo:node": "node test/demo.node.js",
     "test": "vitest",
     "test:ui": "vitest --ui"
   },
@@ -29,6 +31,7 @@
   "devDependencies": {
     "@eslint/js": "^9.0.0",
     "@release-it/conventional-changelog": "^5.1.1",
+    "@types/node": "^20.12.7",
     "@vitest/ui": "^1.5.0",
     "concurrently": "^8.2.2",
     "dotenv-cli": "^7.2.1",

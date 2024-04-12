@@ -103,6 +103,7 @@ export const is = (value: any) => {
 
 /**
  * @name 判断一个值是否为Date类型
+ * @group 类型判断
  * @param value
  * @returns
  */

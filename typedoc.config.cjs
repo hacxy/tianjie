@@ -8,7 +8,7 @@ module.exports = {
   parametersFormat: 'table',
   typeDeclarationFormat: 'table',
   textContentMappings: {
-    'label.returns': '返回值:',
+    'label.returns': '返回值类型',
     'label.name': '名称',
     'label.source': '查看源码',
     'label.extends': '继承',

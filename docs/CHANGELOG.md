@@ -1,5 +1,13 @@
 # Changelog
 
+### [0.2.1](https://github.com/hacxy/tianjie/compare/v0.2.0...v0.2.1) (2024-04-12)
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* 调整is方法, 返回值类型加上date ([8234576](https://github.com/hacxy/tianjie/commit/8234576e06f8a920ad1cc5ddaedc40c52b472027))
+* 修复类型错误 ([d9198aa](https://github.com/hacxy/tianjie/commit/d9198aa8b349ea041992ed99889cd0b57647497d))
+
 ## [0.2.0](https://github.com/hacxy/tianjie/compare/v0.1.0...v0.2.0) (2024-04-12)
 
 

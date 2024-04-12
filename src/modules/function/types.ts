@@ -11,7 +11,7 @@ export type ThrottleType = <T extends (...args: any) => any>(
   func: T,
   wait?: number,
   options?: ThrottleSettings
-) => (...arg: any[]) => void;
+) => ((...arg: any[]) => any) | ((...arg: any[]) => Promise<any>);
 
 interface DebounceSettings {
   /**
@@ -46,6 +46,6 @@ export interface DebounceSettingsLeading extends DebounceSettings {
 // ) => DebouncedFuncLeading<T>;
 export type DebounceType = <T extends (...args: any) => any>(
   func: T,
-  wait: number | undefined,
-  options: DebounceSettingsLeading
-) => (...arg: any[]) => void;
+  wait?: number | undefined,
+  options?: DebounceSettingsLeading
+) => ((...arg: any[]) => any) | ((...arg: any[]) => Promise<any>);

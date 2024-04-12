@@ -2,7 +2,7 @@
 
 ***
 
-# Interface: ThrottleSettings
+# 接口: ThrottleSettings
 
 ## Properties
 
@@ -12,9 +12,9 @@
 
 > **`optional`** **leading**: `boolean`
 
-#### Source
+#### 查看源码
 
-[modules/function/types.ts:4](https://github.com/hacxy/tianjie/blob/d8e0c69da942f3f57ac0eaed6b9408be5dbb0c36/src/modules/function/types.ts#L4)
+[modules/function/types.ts:4](https://github.com/hacxy/tianjie/blob/245b0df79651d6de91859938cd5e7b7a04797496/src/modules/function/types.ts#L4)
 
 ***
 
@@ -24,6 +24,6 @@
 
 > **`optional`** **trailing**: `boolean`
 
-#### Source
+#### 查看源码
 
-[modules/function/types.ts:7](https://github.com/hacxy/tianjie/blob/d8e0c69da942f3f57ac0eaed6b9408be5dbb0c36/src/modules/function/types.ts#L7)
+[modules/function/types.ts:7](https://github.com/hacxy/tianjie/blob/245b0df79651d6de91859938cd5e7b7a04797496/src/modules/function/types.ts#L7)

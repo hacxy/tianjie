@@ -32,11 +32,11 @@ setInterval的同步版, 需要执行的函数可以是一个Promise, 循环执�
 | `start` | () => `Promise`\<`void`\> | - |
 | `stop` | () => `void` | - |
 
-## Name
+## 方法名称
 
 可同步执行的定时器
 setInterval的同步版, 需要执行的函数可以是一个Promise, 循环执行过程是同步的
 
-## Source
+## 查看源码
 
-[modules/function/index.ts:136](https://github.com/hacxy/tianjie/blob/d8e0c69da942f3f57ac0eaed6b9408be5dbb0c36/src/modules/function/index.ts#L136)
+[modules/function/index.ts:135](https://github.com/hacxy/tianjie/blob/245b0df79651d6de91859938cd5e7b7a04797496/src/modules/function/index.ts#L135)

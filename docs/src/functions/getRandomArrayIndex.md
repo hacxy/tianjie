@@ -20,17 +20,17 @@
 
 `undefined` \| `number`
 
-## Name
+## 方法名称
 
 从数组中取出一个随机的索引
 
-## Example
+## 示例
 
 ``` ts
 import { getRandomArrayIndex } from 'tianjie';
 getRandomArrayIndex(['aaa', 'bbb', 'ccc']) // 0 or 1 or 2
 ```
 
-## Source
+## 查看源码
 
-[modules/array/index.ts:35](https://github.com/hacxy/tianjie/blob/d8e0c69da942f3f57ac0eaed6b9408be5dbb0c36/src/modules/array/index.ts#L35)
+[modules/array/index.ts:35](https://github.com/hacxy/tianjie/blob/245b0df79651d6de91859938cd5e7b7a04797496/src/modules/array/index.ts#L35)

@@ -16,17 +16,17 @@
 
 返回唯一的uuid
 
-## Name
+## 方法名称
 
 获取唯一的uuid
 
-## Example
+## 示例
 
 ``` ts
 import { getUUID } from 'tianjie'
 getUUID() // => a0c356fa-0edb-48f3-a70d-9004a19a0930
 ````
 
-## Source
+## 查看源码
 
-[modules/string/index.ts:28](https://github.com/hacxy/tianjie/blob/d8e0c69da942f3f57ac0eaed6b9408be5dbb0c36/src/modules/string/index.ts#L28)
+[modules/string/index.ts:28](https://github.com/hacxy/tianjie/blob/245b0df79651d6de91859938cd5e7b7a04797496/src/modules/string/index.ts#L28)

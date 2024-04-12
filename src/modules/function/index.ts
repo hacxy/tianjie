@@ -9,7 +9,7 @@ import { DebounceType, ThrottleType } from '@/modules/function/types';
  * @param options
  * @returns
  */
-export const throttle: ThrottleType = (fn, wait = 0, options = {}) => {
+export const throttle: ThrottleType = (fn, wait = 500, options = {}) => {
   const { leading, trailing } = options;
 
   let lastTime = 0; // 上次调用的时间，初始值为0
@@ -37,9 +37,6 @@ export const throttle: ThrottleType = (fn, wait = 0, options = {}) => {
 
         // 显示绑定this，将参数传入函数并执行，并拿到执行结果
         const result = fn.apply(this, arg);
-
-        // 方式一：执行结束后将结果传入回调函数并执行
-        // callback && callback(result);
 
         // 方式二：将结果resolve出去
         resolve(result);
@@ -81,43 +78,45 @@ export const throttle: ThrottleType = (fn, wait = 0, options = {}) => {
 /**
  * @name 防抖函数
  * @group 高阶函数
- * @param fn
+ * @param fn 需要防抖的函数
  * @param wait
  * @param options
  * @returns
  */
-export const debounce: DebounceType = (fn, wait, options) => {
+export const debounce: DebounceType = (fn, wait = 500, options) => {
   let timer: null | number = null; // 定时器id初始为null
   let isExecute = false; // 记录是否立即执行过
 
-  const { leading = false, trailing = true } = options;
+  const { leading = false, trailing = true } = options || {};
   // 返回的函数接收参数
   function _debounce(this: any, ...arg) {
-    // 如果timer有值则清除定时器
-    if (timer) {
-      clearTimeout(timer);
-      timer = null;
-    }
-
-    // 如果开启立即执行，且立即执行还未执行过，则执行fn
-    if (leading && !isExecute) {
-      fn.call(this, ...arg);
-      // callback && callback(result);
-      // resultCallback && resultCallback(result);
-      isExecute = true;
-    } else {
-      timer = setTimeout(() => {
-        // fn.apply(this, arg)
-        if (trailing) {
-          fn.call(this, ...arg);
-          // callback && callback(result);
-        }
-
-        // 重置状态
-        isExecute = false;
+    return new Promise((resolve) => {
+      // 如果timer有值则清除定时器
+      if (timer) {
+        clearTimeout(timer);
         timer = null;
-      }, wait);
-    }
+      }
+
+      // 如果开启立即执行，且立即执行还未执行过，则执行fn
+      if (leading && !isExecute) {
+        const result = fn.call(this, ...arg);
+        // callback && callback(result);
+        resolve(result);
+        isExecute = true;
+      } else {
+        timer = setTimeout(() => {
+          // fn.apply(this, arg)
+          if (trailing) {
+            const result = fn.call(this, ...arg);
+            resolve(result);
+          }
+
+          // 重置状态
+          isExecute = false;
+          timer = null;
+        }, wait);
+      }
+    });
   }
   return _debounce;
 };

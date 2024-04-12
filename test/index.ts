@@ -1,4 +1,4 @@
-import { debounce } from '../src/modules/function';
+import { debounce } from '../dist';
 
 const foo = () => {
   console.log('test');
@@ -6,10 +6,12 @@ const foo = () => {
 };
 const _foo = debounce(foo, 400);
 
-const res = _foo();
+_foo().then((res) => {
+  console.log(res);
+});
+
 // setTimeout(() => {
 // }, 400);
 // setInterval(() => {
 //   _foo();
 // }, 200);
-console.log(res);

@@ -21,12 +21,12 @@
 
 `value is string`
 
-## Name
+## 方法名称
 
 是否为字符串类型
 判断一个值是否为字符串
 
-## Example
+## 示例
 
 ```ts
 import { isString } from 'tianjie';
@@ -34,6 +34,6 @@ isString({name: 'loclink'}); // false
 isString('hello'); // true
 ```
 
-## Source
+## 查看源码
 
-[modules/judgment/index.ts:33](https://github.com/hacxy/tianjie/blob/d8e0c69da942f3f57ac0eaed6b9408be5dbb0c36/src/modules/judgment/index.ts#L33)
+[modules/judgment/index.ts:33](https://github.com/hacxy/tianjie/blob/245b0df79651d6de91859938cd5e7b7a04797496/src/modules/judgment/index.ts#L33)

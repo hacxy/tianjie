@@ -10,9 +10,9 @@
 
 > **getRandomArrayItem**\<`T`\>(`arr`): `undefined` \| `T`
 
-## Type parameters
+## 类型参数
 
-| Type parameter |
+| 类型参数 |
 | :------ |
 | `T` |
 
@@ -26,17 +26,17 @@
 
 `undefined` \| `T`
 
-## Name
+## 方法名称
 
 从数组中随机取出一个元素
 
-## Example
+## 示例
 
 ``` ts
 import { getRandomArrayItem } from 'tianjie';
 getRandomArrayItem([1, 2, 3, 4, 5])  // 可能输出1,2,3,4,5中的任意一个
 ```
 
-## Source
+## 查看源码
 
-[modules/array/index.ts:11](https://github.com/hacxy/tianjie/blob/d8e0c69da942f3f57ac0eaed6b9408be5dbb0c36/src/modules/array/index.ts#L11)
+[modules/array/index.ts:11](https://github.com/hacxy/tianjie/blob/245b0df79651d6de91859938cd5e7b7a04797496/src/modules/array/index.ts#L11)

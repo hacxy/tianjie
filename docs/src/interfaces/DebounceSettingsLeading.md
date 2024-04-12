@@ -2,9 +2,9 @@
 
 ***
 
-# Interface: DebounceSettingsLeading
+# 接口: DebounceSettingsLeading
 
-## Extends
+## 继承
 
 - `DebounceSettings`
 
@@ -20,9 +20,9 @@
 
 `DebounceSettings.leading`
 
-#### Source
+#### 查看源码
 
-[modules/function/types.ts:39](https://github.com/hacxy/tianjie/blob/d8e0c69da942f3f57ac0eaed6b9408be5dbb0c36/src/modules/function/types.ts#L39)
+[modules/function/types.ts:39](https://github.com/hacxy/tianjie/blob/245b0df79651d6de91859938cd5e7b7a04797496/src/modules/function/types.ts#L39)
 
 ***
 
@@ -36,6 +36,6 @@
 
 `DebounceSettings.trailing`
 
-#### Source
+#### 查看源码
 
-[modules/function/types.ts:25](https://github.com/hacxy/tianjie/blob/d8e0c69da942f3f57ac0eaed6b9408be5dbb0c36/src/modules/function/types.ts#L25)
+[modules/function/types.ts:25](https://github.com/hacxy/tianjie/blob/245b0df79651d6de91859938cd5e7b7a04797496/src/modules/function/types.ts#L25)

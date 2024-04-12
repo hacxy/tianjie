@@ -4,12 +4,12 @@
 
 # tianjie
 
-## Interfaces
+## 接口
 
 - [DebounceSettingsLeading](interfaces/DebounceSettingsLeading.md)
 - [ThrottleSettings](interfaces/ThrottleSettings.md)
 
-## Type Aliases
+## 类型别名
 
 - [DebounceType](type-aliases/DebounceType.md)
 - [ObjectType](type-aliases/ObjectType.md)

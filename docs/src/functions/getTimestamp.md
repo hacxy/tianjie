@@ -15,18 +15,18 @@
 
 `number`
 
-## Name
+## 方法名称
 
 获取毫秒级时间戳
 获取当前时间戳, 单位为毫秒
 
-## Example
+## 示例
 
 ``` ts
 import { getTimestamp } from 'tianjie';
 getTimestamp()
 ```
 
-## Source
+## 查看源码
 
-[modules/date/index.ts:11](https://github.com/hacxy/tianjie/blob/d8e0c69da942f3f57ac0eaed6b9408be5dbb0c36/src/modules/date/index.ts#L11)
+[modules/date/index.ts:11](https://github.com/hacxy/tianjie/blob/245b0df79651d6de91859938cd5e7b7a04797496/src/modules/date/index.ts#L11)

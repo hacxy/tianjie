@@ -20,17 +20,17 @@
 
 `string`
 
-## Name
+## 方法名称
 
 将对象转为query字符串
 
-## Example
+## 示例
 
 ``` ts
 import { objectToQuery } from 'tianjie'
 objectToQuery({name: 'loclink', age: 18}) // => name=loclink&age18
 ```
 
-## Source
+## 查看源码
 
-[modules/object/index.ts:44](https://github.com/hacxy/tianjie/blob/d8e0c69da942f3f57ac0eaed6b9408be5dbb0c36/src/modules/object/index.ts#L44)
+[modules/object/index.ts:44](https://github.com/hacxy/tianjie/blob/245b0df79651d6de91859938cd5e7b7a04797496/src/modules/object/index.ts#L44)

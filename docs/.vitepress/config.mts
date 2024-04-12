@@ -24,16 +24,16 @@ export default defineConfig({
     sidebar: { '/src/': navigation },
     outline: {
       level: [2, 4],
-      label: 'On this page'
+      label: '本页目录'
     },
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2023-present loclink'
+      copyright: 'Copyright © 2023-present hacxy'
     },
     nav: [
       {
         text: `v${pkg.version}`,
-        link: '/'
+        items: [{ text: '更新日志', link: 'CHANGELOG' }]
       }
     ],
     socialLinks: [

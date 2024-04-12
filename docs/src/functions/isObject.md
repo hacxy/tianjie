@@ -21,12 +21,12 @@
 
 `value is ObjectType`
 
-## Name
+## 方法名称
 
 是否为普通对象类型
 判断一个值是否为普通对象, 不包含数组
 
-## Example
+## 示例
 
 ```ts
 import { isObject } from 'tianjie';
@@ -34,6 +34,6 @@ isObject('asd'); // false
 isObject({name: 'loclink'}); // true
 ```
 
-## Source
+## 查看源码
 
-[modules/judgment/index.ts:16](https://github.com/hacxy/tianjie/blob/d8e0c69da942f3f57ac0eaed6b9408be5dbb0c36/src/modules/judgment/index.ts#L16)
+[modules/judgment/index.ts:16](https://github.com/hacxy/tianjie/blob/245b0df79651d6de91859938cd5e7b7a04797496/src/modules/judgment/index.ts#L16)

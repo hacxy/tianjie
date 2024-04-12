@@ -8,9 +8,9 @@
   "scripts": {
     "dev": "vite build --watch",
     "build": "vite build",
-    "build:docs": "typedoc && vitepress build docs",
     "docs:dev": "concurrently \"typedoc -watch\" \"vitepress dev docs\" ",
-    "preview": "vitepress preview docs",
+    "docs:build": "typedoc && vitepress build docs",
+    "docs:preview": "vitepress preview docs",
     "release": "dotenv release-it",
     "release:ci": "dotenv release-it --ci",
     "test": "vitest",
@@ -36,7 +36,7 @@
     "eslint": "^8.44.0",
     "fs-extra": "^11.2.0",
     "json2md": "^2.0.1",
-    "oh-my-live2d": "^0.12.0",
+    "oh-my-live2d": "^0.16.1",
     "release-it": "^15.5.1",
     "typedoc": "0.25.13",
     "typedoc-plugin-markdown": "4.0.0-next.55",
@@ -45,9 +45,7 @@
     "vite-plugin-dts": "^3.3.1",
     "vitepress": "1.0.0-rc.44",
     "vitest": "^0.33.0",
-    "vue": "^3.3.4"
-  },
-  "dependencies": {
+    "vue": "^3.3.4",
     "lodash": "^4.17.21"
   }
 }

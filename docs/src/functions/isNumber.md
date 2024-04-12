@@ -21,11 +21,11 @@
 
 `value is number`
 
-## Name
+## 方法名称
 
 是否为数字类型
 判断一个值是否为数字类型, 包含infinity(无穷大)和-infinity(负无穷大)以及NaN
 
-## Source
+## 查看源码
 
-[modules/judgment/index.ts:44](https://github.com/hacxy/tianjie/blob/d8e0c69da942f3f57ac0eaed6b9408be5dbb0c36/src/modules/judgment/index.ts#L44)
+[modules/judgment/index.ts:44](https://github.com/hacxy/tianjie/blob/245b0df79651d6de91859938cd5e7b7a04797496/src/modules/judgment/index.ts#L44)

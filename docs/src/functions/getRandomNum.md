@@ -23,17 +23,17 @@
 
 返回值是一个随机整数
 
-## Name
+## 方法名称
 
 特定范围内取一个随机整数
 
-## Example
+## 示例
 
 ``` ts
 import { getRandomNum } from 'tianjie';
 getRandomNum(5, 10)  // 可能输出 5 - 10之间的任意一个随机数, 包含5和10
 ```
 
-## Source
+## 查看源码
 
-[modules/number/index.ts:13](https://github.com/hacxy/tianjie/blob/d8e0c69da942f3f57ac0eaed6b9408be5dbb0c36/src/modules/number/index.ts#L13)
+[modules/number/index.ts:13](https://github.com/hacxy/tianjie/blob/245b0df79651d6de91859938cd5e7b7a04797496/src/modules/number/index.ts#L13)

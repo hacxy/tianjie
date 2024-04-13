@@ -17,7 +17,7 @@
 | :------ | :------ | :------ |
 | `value` | `any` | 任意值 |
 
-## 返回值:
+## 返回值类型
 
 `value is ObjectType`
 
@@ -36,4 +36,4 @@ isObject({name: 'loclink'}); // true
 
 ## 查看源码
 
-[modules/judgment/index.ts:16](https://github.com/hacxy/tianjie/blob/32d17b0fb1c41747dfab8feb61e15c433f68f661/src/modules/judgment/index.ts#L16)
+[modules/judgment/index.ts:16](https://github.com/hacxy/tianjie/blob/ab406b252bd727d89583a2bd8e45e8529cb4dbc5/src/modules/judgment/index.ts#L16)

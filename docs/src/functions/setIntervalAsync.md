@@ -18,7 +18,7 @@ setInterval的同步版, 需要执行的函数可以是一个Promise, 循环执�
 | `fn` | (...`arg`) => `Promise`\<`void`\> | 需要定时执行的方法, 不丢失this |
 | `interval` | `number` | 执行间隔时长 单位毫秒 |
 
-## 返回值:
+## 返回值类型
 
 `object`
 
@@ -39,4 +39,4 @@ setInterval的同步版, 需要执行的函数可以是一个Promise, 循环执�
 
 ## 查看源码
 
-[modules/function/index.ts:135](https://github.com/hacxy/tianjie/blob/32d17b0fb1c41747dfab8feb61e15c433f68f661/src/modules/function/index.ts#L135)
+[modules/function/index.ts:135](https://github.com/hacxy/tianjie/blob/ab406b252bd727d89583a2bd8e45e8529cb4dbc5/src/modules/function/index.ts#L135)

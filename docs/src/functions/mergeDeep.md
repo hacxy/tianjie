@@ -25,7 +25,7 @@
 | `target` | `T` |  |
 | `source` | `U` |  |
 
-## 返回值:
+## 返回值类型
 
 `T` & `U`
 
@@ -44,4 +44,4 @@ mergeDeep({ a: 1, b: 'hello' }, {a: 2, c: 'loclink' }) // {a: 2, b: 'hello', c: 
 
 ## 查看源码
 
-[modules/object/index.ts:18](https://github.com/hacxy/tianjie/blob/32d17b0fb1c41747dfab8feb61e15c433f68f661/src/modules/object/index.ts#L18)
+[modules/object/index.ts:18](https://github.com/hacxy/tianjie/blob/ab406b252bd727d89583a2bd8e45e8529cb4dbc5/src/modules/object/index.ts#L18)

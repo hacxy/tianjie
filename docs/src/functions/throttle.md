@@ -24,7 +24,7 @@
 | `wait`? | `number` |  |
 | `options`? | [`ThrottleSettings`](../interfaces/ThrottleSettings.md) |  |
 
-## 返回值:
+## 返回值类型
 
 (...`arg`) => `any` \| (...`arg`) => `Promise`\<`any`\>
 
@@ -34,4 +34,4 @@
 
 ## 查看源码
 
-[modules/function/index.ts:12](https://github.com/hacxy/tianjie/blob/32d17b0fb1c41747dfab8feb61e15c433f68f661/src/modules/function/index.ts#L12)
+[modules/function/index.ts:12](https://github.com/hacxy/tianjie/blob/ab406b252bd727d89583a2bd8e45e8529cb4dbc5/src/modules/function/index.ts#L12)

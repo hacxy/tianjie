@@ -22,7 +22,7 @@
 | :------ | :------ | :------ |
 | `arr` | `T`[] | 任意数组 |
 
-## 返回值:
+## 返回值类型
 
 `undefined` \| `T`
 
@@ -39,4 +39,4 @@ getRandomArrayItem([1, 2, 3, 4, 5])  // 可能输出1,2,3,4,5中的任意一个
 
 ## 查看源码
 
-[modules/array/index.ts:11](https://github.com/hacxy/tianjie/blob/32d17b0fb1c41747dfab8feb61e15c433f68f661/src/modules/array/index.ts#L11)
+[modules/array/index.ts:11](https://github.com/hacxy/tianjie/blob/ab406b252bd727d89583a2bd8e45e8529cb4dbc5/src/modules/array/index.ts#L11)

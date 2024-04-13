@@ -9,7 +9,7 @@
 
 <a id="undefined" name="undefined"></a>
 
-> **is**(`value`): `undefined` \| `"object"` \| `"string"` \| `"number"` \| `"boolean"` \| `"function"` \| `"array"`
+> **is**(`value`): `undefined` \| `"object"` \| `"string"` \| `"number"` \| `"boolean"` \| `"function"` \| `"array"` \| `"date"`
 
 ## 参数
 
@@ -17,9 +17,9 @@
 | :------ | :------ | :------ |
 | `value` | `any` | 任意值 |
 
-## 返回值:
+## 返回值类型
 
-`undefined` \| `"object"` \| `"string"` \| `"number"` \| `"boolean"` \| `"function"` \| `"array"`
+`undefined` \| `"object"` \| `"string"` \| `"number"` \| `"boolean"` \| `"function"` \| `"array"` \| `"date"`
 
 ## 方法名称
 
@@ -28,4 +28,4 @@
 
 ## 查看源码
 
-[modules/judgment/index.ts:88](https://github.com/hacxy/tianjie/blob/32d17b0fb1c41747dfab8feb61e15c433f68f661/src/modules/judgment/index.ts#L88)
+[modules/judgment/index.ts:88](https://github.com/hacxy/tianjie/blob/ab406b252bd727d89583a2bd8e45e8529cb4dbc5/src/modules/judgment/index.ts#L88)

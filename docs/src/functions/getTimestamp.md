@@ -11,7 +11,7 @@
 
 > **getTimestamp**(): `number`
 
-## 返回值:
+## 返回值类型
 
 `number`
 
@@ -29,4 +29,4 @@ getTimestamp()
 
 ## 查看源码
 
-[modules/date/index.ts:11](https://github.com/hacxy/tianjie/blob/32d17b0fb1c41747dfab8feb61e15c433f68f661/src/modules/date/index.ts#L11)
+[modules/date/index.ts:11](https://github.com/hacxy/tianjie/blob/ab406b252bd727d89583a2bd8e45e8529cb4dbc5/src/modules/date/index.ts#L11)

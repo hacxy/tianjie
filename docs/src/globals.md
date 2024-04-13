@@ -41,6 +41,7 @@
 - [is](functions/is.md)
 - [isArray](functions/isArray.md)
 - [isBoolean](functions/isBoolean.md)
+- [isDate](functions/isDate.md)
 - [isFunction](functions/isFunction.md)
 - [isNumber](functions/isNumber.md)
 - [isObject](functions/isObject.md)

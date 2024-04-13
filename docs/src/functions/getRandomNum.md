@@ -17,7 +17,7 @@
 | `Min` | `number` | 范围最小值 |
 | `Max` | `number` | 范围最大值 |
 
-## 返回值:
+## 返回值类型
 
 `number`
 
@@ -36,4 +36,4 @@ getRandomNum(5, 10)  // 可能输出 5 - 10之间的任意一个随机数, 包�
 
 ## 查看源码
 
-[modules/number/index.ts:13](https://github.com/hacxy/tianjie/blob/32d17b0fb1c41747dfab8feb61e15c433f68f661/src/modules/number/index.ts#L13)
+[modules/number/index.ts:13](https://github.com/hacxy/tianjie/blob/ab406b252bd727d89583a2bd8e45e8529cb4dbc5/src/modules/number/index.ts#L13)

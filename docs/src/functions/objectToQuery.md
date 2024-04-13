@@ -16,7 +16,7 @@
 | :------ | :------ | :------ |
 | `obj` | [`ObjectType`](../type-aliases/ObjectType.md) | 需要转换的对象 |
 
-## 返回值:
+## 返回值类型
 
 `string`
 
@@ -33,4 +33,4 @@ objectToQuery({name: 'loclink', age: 18}) // => name=loclink&age18
 
 ## 查看源码
 
-[modules/object/index.ts:44](https://github.com/hacxy/tianjie/blob/32d17b0fb1c41747dfab8feb61e15c433f68f661/src/modules/object/index.ts#L44)
+[modules/object/index.ts:44](https://github.com/hacxy/tianjie/blob/ab406b252bd727d89583a2bd8e45e8529cb4dbc5/src/modules/object/index.ts#L44)

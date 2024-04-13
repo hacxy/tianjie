@@ -14,7 +14,7 @@
 
 #### 查看源码
 
-[modules/function/types.ts:4](https://github.com/hacxy/tianjie/blob/32d17b0fb1c41747dfab8feb61e15c433f68f661/src/modules/function/types.ts#L4)
+[modules/function/types.ts:4](https://github.com/hacxy/tianjie/blob/ab406b252bd727d89583a2bd8e45e8529cb4dbc5/src/modules/function/types.ts#L4)
 
 ***
 
@@ -26,4 +26,4 @@
 
 #### 查看源码
 
-[modules/function/types.ts:7](https://github.com/hacxy/tianjie/blob/32d17b0fb1c41747dfab8feb61e15c433f68f661/src/modules/function/types.ts#L7)
+[modules/function/types.ts:7](https://github.com/hacxy/tianjie/blob/ab406b252bd727d89583a2bd8e45e8529cb4dbc5/src/modules/function/types.ts#L7)

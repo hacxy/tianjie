@@ -36,3 +36,19 @@ export const getUUID = () => {
     return (c == 'x' ? r : (r & 0x3) | 0x8).toString(16);
   });
 };
+
+/**
+ *
+ * @name 示例方法,说hello
+ * @group 字符串
+ * @param name 名称
+ * @returns
+ * @example
+ * ``` ts
+ * import { sayHello } from 'tianjie'
+ * sayHello('Hacxy') // => Hello, Hacxy!
+ * ```
+ */
+export const sayHello = (name: string) => {
+  return `Hello, ${name}!`;
+};

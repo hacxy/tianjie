@@ -16,7 +16,7 @@
 | :------ | :------ | :------ |
 | `str` | `string` | 需要格式化的英文字符串 |
 
-## 返回值:
+## 返回值类型
 
 `string`
 
@@ -33,4 +33,4 @@ formatInitialCapital('javascript') // => Javascript
 
 ## 查看源码
 
-[modules/string/index.ts:12](https://github.com/hacxy/tianjie/blob/32d17b0fb1c41747dfab8feb61e15c433f68f661/src/modules/string/index.ts#L12)
+[modules/string/index.ts:12](https://github.com/hacxy/tianjie/blob/ab406b252bd727d89583a2bd8e45e8529cb4dbc5/src/modules/string/index.ts#L12)

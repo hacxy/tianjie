@@ -108,6 +108,5 @@ export const is = (value: any) => {
  * @returns
  */
 export const isDate = (value: any): value is Date => {
-  if (value instanceof Date) return true;
-  else return false;
+  return value instanceof Date;
 };

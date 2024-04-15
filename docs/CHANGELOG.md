@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.3.1](https://github.com/hacxy/tianjie/compare/v0.3.0...v0.3.1) (2024-04-15)
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* 修改isDate方法 ([9772314](https://github.com/hacxy/tianjie/commit/9772314c4b1a625062e112130949b228c95fd033))
+
 ## [0.3.0](https://github.com/hacxy/tianjie/compare/v0.2.1...v0.3.0) (2024-04-13)
 
 

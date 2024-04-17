@@ -52,3 +52,19 @@ export const getUUID = () => {
 export const sayHello = (name: string) => {
   return `Hello, ${name}!`;
 };
+
+/**
+ * @name 将空格分割的英文字符串转换为小驼峰
+ * @group 字符串
+ * @param str
+ * @returns
+ */
+export const formatSmallHump = (str: string) => {
+  let camelCaseStr = str
+    .split(' ')
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+    .join('');
+  camelCaseStr = camelCaseStr.charAt(0).toLowerCase() + camelCaseStr.slice(1);
+
+  return camelCaseStr;
+};

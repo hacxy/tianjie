@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.4.0](https://github.com/hacxy/tianjie/compare/v0.3.1...v0.4.0) (2024-04-17)
+
+
+### 📝 Documentation | 文档
+
+* update readme ([f97487c](https://github.com/hacxy/tianjie/commit/f97487cf5f1ec33b60db281a433f91b44775a0ac))
+
+
+### ✨ Features | 新功能
+
+* 新增英文字符串转小驼峰方法 ([d53e56d](https://github.com/hacxy/tianjie/commit/d53e56d975e7783a6259472636717652ac1e0cc6))
+
 ### [0.3.1](https://github.com/hacxy/tianjie/compare/v0.3.0...v0.3.1) (2024-04-15)
 
 

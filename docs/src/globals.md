@@ -17,7 +17,9 @@
 
 ## 字符串
 
+- [formatSmallHump](functions/formatSmallHump.md)
 - [getUUID](functions/getUUID.md)
+- [sayHello](functions/sayHello.md)
 
 ## 实用函数
 

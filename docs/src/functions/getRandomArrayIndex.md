@@ -33,4 +33,4 @@ getRandomArrayIndex(['aaa', 'bbb', 'ccc']) // 0 or 1 or 2
 
 ## 查看源码
 
-[modules/array/index.ts:35](https://github.com/hacxy/tianjie/blob/ab406b252bd727d89583a2bd8e45e8529cb4dbc5/src/modules/array/index.ts#L35)
+[modules/array/index.ts:35](https://github.com/hacxy/tianjie/blob/3a3f9f626d27cf04a1fdcea3cadef8bda0e494f2/src/modules/array/index.ts#L35)

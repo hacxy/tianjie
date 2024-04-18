@@ -29,4 +29,4 @@ getUUID() // => a0c356fa-0edb-48f3-a70d-9004a19a0930
 
 ## 查看源码
 
-[modules/string/index.ts:28](https://github.com/hacxy/tianjie/blob/ab406b252bd727d89583a2bd8e45e8529cb4dbc5/src/modules/string/index.ts#L28)
+[modules/string/index.ts:28](https://github.com/hacxy/tianjie/blob/3a3f9f626d27cf04a1fdcea3cadef8bda0e494f2/src/modules/string/index.ts#L28)

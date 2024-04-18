@@ -39,4 +39,4 @@ setInterval的同步版, 需要执行的函数可以是一个Promise, 循环执�
 
 ## 查看源码
 
-[modules/function/index.ts:135](https://github.com/hacxy/tianjie/blob/ab406b252bd727d89583a2bd8e45e8529cb4dbc5/src/modules/function/index.ts#L135)
+[modules/function/index.ts:135](https://github.com/hacxy/tianjie/blob/3a3f9f626d27cf04a1fdcea3cadef8bda0e494f2/src/modules/function/index.ts#L135)

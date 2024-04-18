@@ -28,4 +28,4 @@
 
 ## 查看源码
 
-[modules/function/types.ts:47](https://github.com/hacxy/tianjie/blob/ab406b252bd727d89583a2bd8e45e8529cb4dbc5/src/modules/function/types.ts#L47)
+[modules/function/types.ts:47](https://github.com/hacxy/tianjie/blob/3a3f9f626d27cf04a1fdcea3cadef8bda0e494f2/src/modules/function/types.ts#L47)

@@ -33,4 +33,4 @@ objectToQuery({name: 'loclink', age: 18}) // => name=loclink&age18
 
 ## 查看源码
 
-[modules/object/index.ts:44](https://github.com/hacxy/tianjie/blob/ab406b252bd727d89583a2bd8e45e8529cb4dbc5/src/modules/object/index.ts#L44)
+[modules/object/index.ts:44](https://github.com/hacxy/tianjie/blob/3a3f9f626d27cf04a1fdcea3cadef8bda0e494f2/src/modules/object/index.ts#L44)

@@ -1,5 +1,17 @@
 # Changelog
 
+### [0.4.1](https://github.com/hacxy/tianjie/compare/v0.4.0...v0.4.1) (2024-04-20)
+
+
+### 📝 Documentation | 文档
+
+* update docs ([2f4184c](https://github.com/hacxy/tianjie/commit/2f4184ca8b87f3162f5a1d7a205dfc2b54d9b9ae))
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* 修复打包格式缺少cjs ([f82bf89](https://github.com/hacxy/tianjie/commit/f82bf89aafa176e3e212bb8dd2229960ac1073d0))
+
 ## [0.4.0](https://github.com/hacxy/tianjie/compare/v0.3.1...v0.4.0) (2024-04-17)
 
 

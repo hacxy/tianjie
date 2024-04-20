@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.4.2](https://github.com/hacxy/tianjie/compare/v0.4.1...v0.4.2) (2024-04-20)
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* 修复构建 ([7dd5528](https://github.com/hacxy/tianjie/commit/7dd5528c794bb22e32a881969be7858971cd3d7d))
+
 ### [0.4.1](https://github.com/hacxy/tianjie/compare/v0.4.0...v0.4.1) (2024-04-20)
 
 

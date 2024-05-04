@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.0](https://github.com/hacxy/tianjie/compare/v0.4.2...v0.5.0) (2024-05-04)
+
+
+### ✨ Features | 新功能
+
+* 新增若干字符串方法 ([e8359fc](https://github.com/hacxy/tianjie/commit/e8359fc12ba21f23bc1fde42a7dd4a359931aefc))
+
 ### [0.4.2](https://github.com/hacxy/tianjie/compare/v0.4.1...v0.4.2) (2024-04-20)
 
 

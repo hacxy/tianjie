@@ -101,6 +101,7 @@ export const formatPascalCase = (str: string): string => {
 export const formatUpperCaseWithUnderscore = (str: string): string => {
   return str
     .split(' ')
+    .filter((word) => word)
     .map((word) => word.toUpperCase())
     .join('_');
 };
@@ -114,6 +115,7 @@ export const formatUpperCaseWithUnderscore = (str: string): string => {
 export const formatLowerCaseWithUnderscore = (str: string): string => {
   return str
     .split(' ')
+    .filter((word) => word)
     .map((word) => word.toLowerCase())
     .join('_');
 };

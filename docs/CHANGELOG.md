@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.5.1](https://github.com/hacxy/tianjie/compare/v0.5.0...v0.5.1) (2024-05-04)
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* 修复字符串格式化方法 ([959e04a](https://github.com/hacxy/tianjie/commit/959e04a072a87fe71305195f51f0e1aeb110be40))
+
 ## [0.5.0](https://github.com/hacxy/tianjie/compare/v0.4.2...v0.5.0) (2024-05-04)
 
 

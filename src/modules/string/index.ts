@@ -38,22 +38,6 @@ export const getUUID = () => {
 };
 
 /**
- *
- * @name 示例方法,说hello
- * @group 字符串
- * @param name 名称
- * @returns
- * @example
- * ``` ts
- * import { sayHello } from 'tianjie'
- * sayHello('Hacxy') // => Hello, Hacxy!
- * ```
- */
-export const sayHello = (name: string) => {
-  return `Hello, ${name}!`;
-};
-
-/**
  * @name 将空格分割的英文字符串转换为小驼峰
  * @group 字符串
  * @param str
@@ -67,4 +51,69 @@ export const formatSmallHump = (str: string) => {
   camelCaseStr = camelCaseStr.charAt(0).toLowerCase() + camelCaseStr.slice(1);
 
   return camelCaseStr;
+};
+
+/**
+ * @name 判断字符串是否包含英文字符
+ * @group 字符串
+ * @param str 任意字符串
+ * @returns
+ * @example
+ * ``` ts
+ * import { containsEnglish } from 'tianjie'
+ * containsEnglish('Hello World') // => true
+ * containsEnglish('你好，世界！') // => false
+ * ```
+ */
+export const containsEnglish = (str: string) => {
+  return /[a-zA-Z]/.test(str);
+};
+
+/**
+ * @name 判断字符串是否只有英文
+ * @group 字符串
+ * @param str
+ * @returns
+ */
+export const isOnlyEnglish = (str: string): boolean => {
+  return /^[a-zA-Z]*$/.test(str);
+};
+
+/**
+ * @name 英文字符串转为大驼峰
+ * @group 字符串
+ * @param str
+ * @returns
+ */
+export const formatPascalCase = (str: string): string => {
+  return str
+    .split(' ')
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+    .join('');
+};
+
+/**
+ * @name 将字符串格式化为全部大写并用下划线连接
+ * @group 字符串
+ * @param str
+ * @returns
+ */
+export const formatUpperCaseWithUnderscore = (str: string): string => {
+  return str
+    .split(' ')
+    .map((word) => word.toUpperCase())
+    .join('_');
+};
+
+/**
+ * @name 将字符串格式化为全部小写并用下划线连接
+ * @group 字符串
+ * @param str
+ * @returns
+ */
+export const formatLowerCaseWithUnderscore = (str: string): string => {
+  return str
+    .split(' ')
+    .map((word) => word.toLowerCase())
+    .join('_');
 };

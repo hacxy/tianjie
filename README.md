@@ -10,7 +10,7 @@ My javascript library
 
 [查阅文档](https://tianjie.hacxy.cn)
 
-## Install & Update
+## Install
 
 ```sh
 npm install tianjie@latest
